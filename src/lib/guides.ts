@@ -185,6 +185,42 @@ export const GUIDES: GuideMeta[] = [
     img: "https://images.unsplash.com/photo-1572358707000-39729872feba?q=80&w=1000&auto=format&fit=crop",
     updated: "September 2026",
   },
+  {
+    href: "/guides/united-airlines-baggage-allowance",
+    title: "United Airlines baggage allowance",
+    blurb: "Fare class sets the checked-bag fee -- but elite status and some credit cards can waive it.",
+    chip: "Airline guide",
+    chipColor: "sun",
+    img: "https://images.unsplash.com/photo-1714235058886-a0b38ad5066c?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/air-canada-baggage-allowance",
+    title: "Air Canada baggage allowance",
+    blurb: "The cheapest fare shrinks your carry-on too, not just checked bags, on Canada-U.S. routes.",
+    chip: "Airline guide",
+    chipColor: "sky",
+    img: "https://images.unsplash.com/photo-1714235058817-af16a662fe1d?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/singapore-airlines-baggage-allowance",
+    title: "Singapore Airlines baggage allowance",
+    blurb: "Even the cheapest fare includes a checked bag -- rare among full-service carriers today.",
+    chip: "Airline guide",
+    chipColor: "coral",
+    img: "https://images.unsplash.com/photo-1564209906116-fb6887675069?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/easyjet-baggage-allowance",
+    title: "easyJet baggage allowance",
+    blurb: "The free bag is smaller than you think, and a gate mistake costs a flat GBP 50.",
+    chip: "Airline guide",
+    chipColor: "sun",
+    img: "https://images.unsplash.com/photo-1569512850669-7baa648e82d8?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
 ];
 
 export const CHIP_BG: Record<GuideChip, string> = {
