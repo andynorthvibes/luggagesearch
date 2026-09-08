@@ -77,6 +77,42 @@ export const GUIDES: GuideMeta[] = [
     img: "https://images.unsplash.com/photo-1762965119363-af950b523dca?q=80&w=1000&auto=format&fit=crop",
     updated: "September 2026",
   },
+  {
+    href: "/guides/lufthansa-baggage-rules",
+    title: "Lufthansa baggage rules, by fare class",
+    blurb: "The cabin bag is fixed at 8 kg — the checked bag depends entirely on your fare.",
+    chip: "Airline guide",
+    chipColor: "coral",
+    img: "https://images.unsplash.com/photo-1706967930742-9d6c5238e7e4?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/emirates-baggage-rules",
+    title: "Emirates baggage rules, explained",
+    blurb: "Piece-based or weight-based checked baggage — it depends entirely on your route.",
+    chip: "Airline guide",
+    chipColor: "sky",
+    img: "https://images.unsplash.com/photo-1591632175697-f07e2d75dacb?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/carry-on-vs-personal-item",
+    title: "Carry-on vs personal item, what's the difference",
+    blurb: "We compared the free personal-item size across our own dataset — it varies by over 50%.",
+    chip: "Explainer",
+    chipColor: "sun",
+    img: "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/best-luggage-for-business-travel",
+    title: "Best luggage for business travel",
+    blurb: "Laptop access, garment protection and a weight budget that survives Lufthansa or Emirates.",
+    chip: "Buying guide",
+    chipColor: "coral",
+    img: "https://images.unsplash.com/photo-1574202141112-c3a90e1a3ce2?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
 ];
 
 export const CHIP_BG: Record<GuideChip, string> = {
