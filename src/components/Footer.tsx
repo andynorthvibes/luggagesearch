@@ -4,7 +4,7 @@ import { SITE } from "@/lib/site";
 export default function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-slate-50 mt-24">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 py-12 grid grid-cols-1 sm:grid-cols-3 gap-8 text-sm">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 py-12 grid grid-cols-1 sm:grid-cols-2 gap-8 text-sm">
         <div>
           <div className="font-bold text-slate-900 mb-2">{SITE.name}</div>
           <p className="text-slate-600">{SITE.tagline}</p>
@@ -18,19 +18,6 @@ export default function Footer() {
             <li><Link href="/glossary" className="hover:text-brand-700">Glossary</Link></li>
             <li><Link href="/about" className="hover:text-brand-700">About</Link></li>
             <li><Link href="/affiliate-disclosure" className="hover:text-brand-700">Affiliate Disclosure</Link></li>
-          </ul>
-        </div>
-        <div>
-          <div className="font-semibold text-slate-900 mb-2">More from us</div>
-          <ul className="space-y-1 text-slate-600">
-            {SITE.sisterSites.map((s) => (
-              <li key={s.url}>
-                <a href={s.url} target="_blank" rel="noopener noreferrer" className="hover:text-brand-700">
-                  {s.name}
-                </a>{" "}
-                <span className="text-slate-400">— {s.note}</span>
-              </li>
-            ))}
           </ul>
         </div>
       </div>
