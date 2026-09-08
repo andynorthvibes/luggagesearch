@@ -24,6 +24,7 @@ const routes = [
   "/glossary",
   "/about",
   "/affiliate-disclosure",
+  "/privacy-policy",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
