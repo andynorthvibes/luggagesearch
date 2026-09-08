@@ -54,7 +54,7 @@ export default function VirginAustraliaBaggageAllowance() {
       <ul className="text-sm">
         <li>
           <a href="https://www.corporatetraveller.com.au/en-au/resources/news/virgin-australias-carry-baggage-allowance" target="_blank" rel="noopener noreferrer nofollow">
-            Corporate Traveller — Virgin Australia's Updated Carry-On Baggage Allowance
+            Corporate Traveller — Virgin Australia&apos;s Updated Carry-On Baggage Allowance
           </a>
         </li>
       </ul>
