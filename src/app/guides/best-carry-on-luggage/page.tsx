@@ -106,11 +106,13 @@ export default function BestCarryOnLuggage() {
             name: "Amazon Basics Hardside Spinner Carry-On Luggage",
             note: "A budget hardside pick with 4 spinner wheels — a reasonable starting point if you just need something durable that meets most size limits.",
             query: "Amazon Basics Hardside Spinner Luggage Carry-On",
+            url: "https://amzn.to/4xg6q0z",
           },
           {
             name: "Travelpro Maxlite 5 Softside Carry-On Spinner",
             note: "One of the lightest carry-ons you can buy, which matters most on weight-limited international carriers — see point 2 above.",
             query: "Travelpro Maxlite 5 Softside Carry-On Spinner",
+            url: "https://amzn.to/469Odqz",
           },
         ]}
       />

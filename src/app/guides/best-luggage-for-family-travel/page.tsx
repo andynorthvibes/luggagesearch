@@ -70,6 +70,7 @@ export default function BestLuggageForFamilyTravel() {
             name: "Samsonite Omni PC 3-Piece Luggage Set (20/24/28-Inch)",
             note: "Matches the 3-piece sizing recommendation above — one large, one mid-size, one carry-on, all with a hard shell and spinner wheels.",
             query: "Samsonite Omni PC 3 Piece Luggage Set",
+            url: "https://amzn.to/4cD1rQe",
           },
         ]}
       />

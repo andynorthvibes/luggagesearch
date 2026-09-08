@@ -106,11 +106,13 @@ export default function SamsoniteVsDelsey() {
             name: "Samsonite Omni PC Hardside Expandable Luggage",
             note: "The Samsonite line referenced in the table above — more interior organization, variable shell material by size and color.",
             query: "Samsonite Omni PC Hardside Expandable Luggage",
+            url: "https://amzn.to/4qZ3i7I",
           },
           {
             name: "DELSEY Paris Turenne Hardside Expandable Luggage",
             note: "The Delsey line referenced in the table above — consistent polycarbonate shell and double-layer zippers across sizes.",
             query: "DELSEY Paris Turenne Hardside Expandable Luggage",
+            url: "https://amzn.to/4gUgQwB",
           },
         ]}
       />

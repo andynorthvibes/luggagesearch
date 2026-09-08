@@ -70,11 +70,13 @@ export default function BestCheckedLuggage() {
             name: "Samsonite Omni PC Hardside Expandable Luggage, Checked-Large 28-Inch",
             note: "Reinforced corners and recessed spinner wheels — built for the rougher handling checked bags take. Also sold in 20\" and 24\" sizes.",
             query: "Samsonite Omni PC Hardside Expandable Luggage Checked-Large 28-Inch",
+            url: "https://amzn.to/4d2dHd6",
           },
           {
             name: "Travelpro Maxlite Air Hardside Expandable Checked Luggage",
             note: "A lighter-weight hardshell option, useful if empty weight is what's eating into your allowance (see point 1 above).",
             query: "Travelpro Maxlite Air Hardside Expandable Checked Luggage",
+            url: "https://amzn.to/4r23TFT",
           },
         ]}
       />

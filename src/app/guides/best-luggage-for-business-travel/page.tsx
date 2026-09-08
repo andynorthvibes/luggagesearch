@@ -70,6 +70,7 @@ export default function BestLuggageForBusinessTravel() {
             name: "Travelpro Platinum Elite Hardside Carry-On with Laptop Pocket",
             note: "Built around the exterior laptop compartment described above, with the organization pockets a rushed repack needs.",
             query: "Travelpro Platinum Elite Hardside Carry-On Laptop Pocket",
+            url: "https://amzn.to/4xMF8QB",
           },
         ]}
       />
