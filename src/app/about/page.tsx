@@ -27,7 +27,7 @@ export default function AboutPage() {
       <h2>Corrections</h2>
       <p>
         Airline policies and product specifications change. If you spot something outdated, we want to fix it —
-        contact details will be added here shortly.
+        email us at <a href="mailto:hello@luggagesearch.com">hello@luggagesearch.com</a>.
       </p>
       </div>
     </article>

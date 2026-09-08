@@ -100,7 +100,7 @@ export default function PrivacyPolicyPage() {
 
         <h2>Contact</h2>
         <p>
-          Questions about this policy — contact details will be added here shortly.
+          Questions about this policy — email us at <a href="mailto:hello@luggagesearch.com">hello@luggagesearch.com</a>.
         </p>
       </div>
     </article>
