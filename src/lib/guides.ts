@@ -113,6 +113,42 @@ export const GUIDES: GuideMeta[] = [
     img: "https://images.unsplash.com/photo-1574202141112-c3a90e1a3ce2?q=80&w=1000&auto=format&fit=crop",
     updated: "September 2026",
   },
+  {
+    href: "/guides/british-airways-baggage-allowance",
+    title: "British Airways baggage allowance, by fare",
+    blurb: "Checked bags scale from zero to three depending on cabin and fare — here's the full breakdown.",
+    chip: "Airline guide",
+    chipColor: "sky",
+    img: "https://images.unsplash.com/photo-1698584109673-12d97bc70d08?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/what-not-to-pack-in-carry-on",
+    title: "What not to pack in your carry-on",
+    blurb: "Liquids, sharp objects, sporting goods, and the one item that must go in the cabin, not checked.",
+    chip: "Explainer",
+    chipColor: "coral",
+    img: "https://images.unsplash.com/photo-1673505705715-8deb093d39e8?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/best-luggage-for-family-travel",
+    title: "Best luggage for family travel",
+    blurb: "Hard-shell durability, wheel quality, and why a 3-piece set beats one bag per traveler.",
+    chip: "Buying guide",
+    chipColor: "sun",
+    img: "https://images.unsplash.com/photo-1673505705677-93516a00ca06?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/wizz-air-baggage-rules",
+    title: "Wizz Air baggage rules, explained",
+    blurb: "One free personal item, a paid Priority cabin bag, and four checked-bag weight tiers.",
+    chip: "Airline guide",
+    chipColor: "sky",
+    img: "https://images.unsplash.com/photo-1602191595949-1b1e5fb5634a?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
 ];
 
 export const CHIP_BG: Record<GuideChip, string> = {
