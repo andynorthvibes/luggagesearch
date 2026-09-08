@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PageIntro from "@/components/PageIntro";
 
 export const metadata: Metadata = {
   title: "Luggage & Travel Glossary",
@@ -34,14 +35,13 @@ const terms = [
 
 export default function GlossaryPage() {
   return (
-    <article className="mx-auto max-w-3xl px-4 sm:px-6 py-16">
-      <h1 className="text-3xl font-extrabold text-slate-900 mb-3">Luggage & Travel Glossary</h1>
-      <p className="text-slate-600 mb-10">Plain-language definitions of terms used across our guides and tools.</p>
-      <dl className="space-y-6">
-        {terms.map((t) => (
-          <div key={t.term} className="border-b border-slate-100 pb-6">
-            <dt className="font-bold text-slate-900">{t.term}</dt>
-            <dd className="text-slate-600 mt-1">{t.def}</dd>
+    <article className="mx-auto max-w-[80rem] px-5 sm:px-6 py-16 lg:py-20">
+      <PageIntro chip="Glossary" title="Luggage words, in plain language." lede="Definitions of the terms used across our guides and tools — no jargon left unexplained." />
+      <dl className="mt-14 grid sm:grid-cols-2 gap-6 max-w-[64rem]">
+        {terms.map((t, i) => (
+          <div key={t.term} className={`rounded-[24px] border-3 border-ink p-6 shadow-hard-sm ${["bg-white", "bg-sun", "bg-white", "bg-coral", "bg-white", "bg-sky text-cream"][i % 6]}`}>
+            <dt className="font-display text-[22px] font-extrabold tracking-[-0.02em]">{t.term}</dt>
+            <dd className="mt-2 text-[16px] leading-relaxed font-medium opacity-90">{t.def}</dd>
           </div>
         ))}
       </dl>

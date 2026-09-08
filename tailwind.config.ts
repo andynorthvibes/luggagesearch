@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+// LuggageSearch design system — "Boarding": bold flat colour blocks, thick ink
+// outlines, hard offset shadows, characterful grotesque type.
 const config: Config = {
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,29 +10,24 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        brand: {
-          50: "#f0fdfa",
-          100: "#ccfbf1",
-          200: "#99f6e4",
-          300: "#5eead4",
-          400: "#2dd4bf",
-          500: "#14b8a6",
-          600: "#0d9488",
-          700: "#0f766e",
-          800: "#115e59",
-          900: "#134e4a",
-        },
-        accent: {
-          50: "#fff7ed",
-          200: "#fed7aa",
-          400: "#fb923c",
-          500: "#f97316",
-          600: "#ea580c",
-          700: "#c2410c",
-        },
+        cream: "#fbf6ec",
+        ink: "#15161a",
+        sun: "#f6c945",
+        sky: "#2b5ce6",
+        coral: "#f0634a",
       },
       fontFamily: {
-        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        sans: ["var(--font-body)", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "system-ui", "sans-serif"],
+      },
+      borderWidth: {
+        3: "3px",
+      },
+      boxShadow: {
+        "hard-sm": "4px 4px 0 #15161a",
+        hard: "8px 8px 0 #15161a",
+        "hard-lg": "12px 12px 0 #15161a",
+        "hard-coral": "6px 6px 0 #f0634a",
       },
     },
   },

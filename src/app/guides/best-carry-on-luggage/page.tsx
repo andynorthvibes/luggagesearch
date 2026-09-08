@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { SITE } from "@/lib/site";
+import GuideArticle from "@/components/GuideArticle";
 
 export const metadata: Metadata = {
   title: "Best Carry-On Luggage: How to Actually Choose One (2026)",
@@ -33,14 +33,8 @@ export default function BestCarryOnLuggage() {
   };
 
   return (
-    <article className="mx-auto max-w-3xl px-4 sm:px-6 py-16 prose-content">
+    <GuideArticle href="/guides/best-carry-on-luggage" title="Best carry-on luggage: how to actually choose one">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <p className="text-sm text-brand-700 font-semibold mb-2">Guides</p>
-      <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">
-        Best Carry-On Luggage: How to Actually Choose One
-      </h1>
-      <p className="text-slate-500 text-sm mb-8">Updated September 2026</p>
-
       <p>
         Most &quot;best carry-on&quot; lists are ranked opinion, not criteria. This guide flips that: here&apos;s
         what actually determines whether a carry-on works for you, in order of how often it causes problems at the
@@ -112,20 +106,7 @@ export default function BestCarryOnLuggage() {
         question with no universally right answer.
       </p>
 
-      <div className="not-prose mt-10 rounded-xl border border-brand-200 bg-brand-50 p-6">
-        <h3 className="font-bold text-slate-900 mb-1">Have a bag already?</h3>
-        <p className="text-sm text-slate-600 mb-4">
-          Check its exact dimensions and weight against 16 major airlines in one go.
-        </p>
-        <Link
-          href="/tools/carry-on-checker"
-          className="inline-block rounded-lg bg-brand-600 px-5 py-2.5 text-white text-sm font-semibold hover:bg-brand-700"
-        >
-          Open the carry-on checker →
-        </Link>
-      </div>
-
-      <h2 className="mt-12">Sources</h2>
+      <h2>Sources</h2>
       <ul className="text-sm">
         <li>
           <a href="https://upgradedpoints.com/travel/airlines/carry-on-luggage-size-chart/" target="_blank" rel="noopener noreferrer nofollow">
@@ -136,9 +117,6 @@ export default function BestCarryOnLuggage() {
           <Link href="/tools/carry-on-checker">carry-on checker</Link> for the full list and per-airline notes).
         </li>
       </ul>
-      <p className="text-xs text-slate-400 mt-6">{SITE.name} is reader-supported. This page may contain affiliate links — see our{" "}
-        <Link href="/affiliate-disclosure">disclosure</Link>.
-      </p>
-    </article>
+    </GuideArticle>
   );
 }

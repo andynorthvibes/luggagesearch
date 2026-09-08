@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PackingListClient from "@/components/PackingListClient";
+import PageIntro from "@/components/PageIntro";
 
 export const metadata: Metadata = {
   title: "Packing List Generator — Free & Customizable",
@@ -9,14 +10,16 @@ export const metadata: Metadata = {
 
 export default function PackingListPage() {
   return (
-    <div className="mx-auto max-w-6xl px-4 sm:px-6 py-16">
-      <p className="text-sm text-brand-700 font-semibold mb-2">Tools</p>
-      <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-3">Packing List Generator</h1>
-      <p className="text-slate-600 max-w-2xl mb-10">
-        Tell us how long your trip is, the climate, and the type of trip — we&apos;ll build a checklist scaled to
-        match, so you don&apos;t over- or under-pack.
-      </p>
-      <PackingListClient />
+    <div className="mx-auto max-w-[80rem] px-5 sm:px-6 py-16 lg:py-20">
+      <PageIntro
+        chip="Free tool"
+        chipColor="coral"
+        title="Pack smarter. Packing list generator."
+        lede="Tell us how long the trip is, the climate and what kind of trip it is — you get a checklist scaled to match, so you neither over- nor under-pack."
+      />
+      <div className="mt-12">
+        <PackingListClient />
+      </div>
     </div>
   );
 }

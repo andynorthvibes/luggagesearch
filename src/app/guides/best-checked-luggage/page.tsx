@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { SITE } from "@/lib/site";
+import GuideArticle from "@/components/GuideArticle";
 
 export const metadata: Metadata = {
   title: "Best Checked Luggage: What Actually Matters (2026)",
@@ -10,12 +10,7 @@ export const metadata: Metadata = {
 
 export default function BestCheckedLuggage() {
   return (
-    <article className="mx-auto max-w-3xl px-4 sm:px-6 py-16 prose-content">
-      <p className="text-sm text-brand-700 font-semibold mb-2">Guides</p>
-      <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">
-        Best Checked Luggage: What Actually Matters
-      </h1>
-      <p className="text-slate-500 text-sm mb-8">Updated September 2026</p>
+    <GuideArticle href="/guides/best-checked-luggage" title="Best checked luggage: what actually matters">
 
       <p>
         A checked bag has one job the carry-on doesn&apos;t: survive baggage handling. That changes what to prioritize
@@ -74,7 +69,7 @@ export default function BestCheckedLuggage() {
         far more roughly than a carry-on, and every kilogram of shell weight is a kilogram you can&apos;t pack.
       </p>
 
-      <h2 className="mt-12">Sources</h2>
+      <h2>Sources</h2>
       <ul className="text-sm">
         <li>Published baggage policies from major international carriers (checked-bag weight and linear-dimension limits, cross-referenced across United, Delta, American, British Airways, Lufthansa, and Emirates).</li>
         <li>
@@ -82,10 +77,6 @@ export default function BestCheckedLuggage() {
           brand-specific build-quality and warranty differences.
         </li>
       </ul>
-      <p className="text-xs text-slate-400 mt-6">
-        {SITE.name} is reader-supported. This page may contain affiliate links — see our{" "}
-        <Link href="/affiliate-disclosure">disclosure</Link>.
-      </p>
-    </article>
+    </GuideArticle>
   );
 }

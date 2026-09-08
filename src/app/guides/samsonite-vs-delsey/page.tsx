@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { SITE } from "@/lib/site";
+import GuideArticle from "@/components/GuideArticle";
 
 export const metadata: Metadata = {
   title: "Samsonite vs Delsey: Which Luggage Brand Is Actually Better? (2026)",
@@ -48,12 +48,7 @@ const rows: { label: string; samsonite: string; delsey: string }[] = [
 
 export default function SamsoniteVsDelsey() {
   return (
-    <article className="mx-auto max-w-3xl px-4 sm:px-6 py-16 prose-content">
-      <p className="text-sm text-brand-700 font-semibold mb-2">Guides</p>
-      <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">
-        Samsonite vs Delsey: Which Is Actually Better?
-      </h1>
-      <p className="text-slate-500 text-sm mb-8">Updated September 2026</p>
+    <GuideArticle href="/guides/samsonite-vs-delsey" title="Samsonite vs Delsey: which is actually better?">
 
       <p>
         Samsonite and Delsey are two of the largest luggage brands in the world, and both span everything from
@@ -117,7 +112,7 @@ export default function SamsoniteVsDelsey() {
         will actually determine whether a specific bag works for your airline.
       </p>
 
-      <h2 className="mt-12">Sources</h2>
+      <h2>Sources</h2>
       <ul className="text-sm">
         <li>
           <a href="https://travelfreak.com/delsey-vs-samsonite/" target="_blank" rel="noopener noreferrer nofollow">
@@ -126,10 +121,6 @@ export default function SamsoniteVsDelsey() {
         </li>
         <li>Manufacturer warranty terms as published by Samsonite and Delsey.</li>
       </ul>
-      <p className="text-xs text-slate-400 mt-6">
-        {SITE.name} is reader-supported. This page may contain affiliate links — see our{" "}
-        <Link href="/affiliate-disclosure">disclosure</Link>.
-      </p>
-    </article>
+    </GuideArticle>
   );
 }

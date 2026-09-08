@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/site";
+import PageIntro from "@/components/PageIntro";
 
 export const metadata: Metadata = {
   title: "About",
@@ -8,8 +9,9 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <article className="mx-auto max-w-3xl px-4 sm:px-6 py-16 prose-content">
-      <h1 className="text-3xl font-extrabold text-slate-900 mb-6">About {SITE.name}</h1>
+    <article className="mx-auto max-w-[80rem] px-5 sm:px-6 py-16 lg:py-20">
+      <PageIntro chip="About" title={`About ${SITE.name}`} lede="An independent site about luggage, packing and travel gear — built on published policies, manufacturer specs and tools that actually calculate." narrow />
+      <div className="prose-content mt-12 max-w-[46rem]">
       <p>
         {SITE.name} is an independent site about luggage, packing, and travel gear. We publish guides based on
         published airline policies and manufacturer specifications, and build free tools — like our carry-on size
@@ -26,6 +28,7 @@ export default function AboutPage() {
         Airline policies and product specifications change. If you spot something outdated, we want to fix it —
         contact details will be added here shortly.
       </p>
+      </div>
     </article>
   );
 }

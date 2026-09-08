@@ -1,30 +1,33 @@
 import Link from "next/link";
 import { LuggageIcon } from "./icons";
+import MobileNav from "./MobileNav";
 
-const nav = [
+export const NAV = [
+  { href: "/tools/carry-on-checker", label: "Carry-on checker" },
+  { href: "/tools/packing-list", label: "Packing list" },
   { href: "/guides", label: "Guides" },
-  { href: "/tools/carry-on-checker", label: "Carry-On Checker" },
-  { href: "/tools/packing-list", label: "Packing List" },
+  { href: "/glossary", label: "Glossary" },
   { href: "/about", label: "About" },
 ];
 
 export default function Header() {
   return (
-    <header className="border-b border-slate-200 bg-white/90 backdrop-blur sticky top-0 z-40">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2.5 font-extrabold text-lg text-slate-900">
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-brand-400 via-brand-600 to-accent-500 text-white shadow-md shadow-brand-900/20">
-            <LuggageIcon className="h-[18px] w-[18px]" />
+    <header className="sticky top-0 z-40 border-b-3 border-ink bg-cream">
+      <div className="mx-auto max-w-[80rem] px-5 sm:px-6 h-[72px] flex items-center justify-between">
+        <Link href="/" className="font-display flex items-center gap-3 text-[22px] sm:text-[24px] font-extrabold tracking-tight">
+          <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl border-3 border-ink bg-sun">
+            <LuggageIcon className="h-5 w-5" />
           </span>
           LuggageSearch
         </Link>
-        <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
-          {nav.map((item) => (
-            <Link key={item.href} href={item.href} className="hover:text-brand-700 transition-colors">
-              {item.label}
+        <nav className="font-display hidden md:flex items-center gap-1 text-[15px] font-semibold">
+          {NAV.map((n) => (
+            <Link key={n.href} href={n.href} className="px-4 py-2 rounded-full hover:bg-ink hover:text-cream transition-colors">
+              {n.label}
             </Link>
           ))}
         </nav>
+        <MobileNav items={NAV} />
       </div>
     </header>
   );

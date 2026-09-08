@@ -15,7 +15,15 @@ npm run dev
 
 ## Stack
 
-Next.js 15 (App Router) + TypeScript + Tailwind CSS, deploy på Vercel. Samme stack som bynavn.no og hotellpris.no.
+Next.js 15 (App Router) + TypeScript + Tailwind CSS, deploy på Vercel.
+
+## Design ("Boarding")
+
+Fete, flate fargeblokker med tykke konturer og harde skygger. Tokens ligger i `tailwind.config.ts`:
+`cream` (bakgrunn), `ink` (tekst/konturer), `sun` (gul), `sky` (koboltblå), `coral` (oransje-rød).
+Skrift: Bricolage Grotesque (`font-display`) + Hanken Grotesk (`font-sans`), lastet via `next/font/google`.
+Gjenbrukbare byggeklosser: `PageIntro`, `GuideCard`, `GuideArticle`, `MobileNav`, ikoner i `components/icons.tsx`.
+Bilder hentes fra Unsplash (fri lisens) og listes i `lib/guides.ts`.
 
 ## Status (Fase 1 — Fundament)
 

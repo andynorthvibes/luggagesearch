@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/site";
+import PageIntro from "@/components/PageIntro";
 
 export const metadata: Metadata = {
   title: "Affiliate Disclosure",
@@ -8,8 +9,9 @@ export const metadata: Metadata = {
 
 export default function AffiliateDisclosurePage() {
   return (
-    <article className="mx-auto max-w-3xl px-4 sm:px-6 py-16 prose-content">
-      <h1 className="text-3xl font-extrabold text-slate-900 mb-6">Affiliate Disclosure</h1>
+    <article className="mx-auto max-w-[80rem] px-5 sm:px-6 py-16 lg:py-20">
+      <PageIntro chip="Disclosure" chipColor="coral" title="How this site makes money." narrow />
+      <div className="prose-content mt-12 max-w-[46rem]">
       <p>
         {SITE.name} is reader-supported. Some links on this site — particularly in product guides and comparisons —
         are affiliate links. If you click one and make a purchase, we may earn a commission at no additional cost to
@@ -30,6 +32,7 @@ export default function AffiliateDisclosurePage() {
         specifications and airline policies are sourced from manufacturers and airlines directly, and we link to
         those sources at the bottom of each guide.
       </p>
+      </div>
     </article>
   );
 }

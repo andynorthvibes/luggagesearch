@@ -10,28 +10,18 @@ export default function Icon() {
         style={{
           width: "100%",
           height: "100%",
-          background: "linear-gradient(135deg, #2dd4bf 0%, #0d9488 55%, #f97316 100%)",
-          borderRadius: 7,
+          background: "#f6c945",
+          border: "3px solid #15161a",
+          borderRadius: 8,
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
         }}
       >
-        <svg
-          width="23"
-          height="23"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="white"
-          strokeWidth="2.1"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <rect x="2" y="10" width="14" height="11" rx="2" />
-          <path d="M6.5 10V8.2a1.8 1.8 0 0 1 1.8-1.8h1.4a1.8 1.8 0 0 1 1.8 1.8V10" />
-          <line x1="2" y1="15" x2="16" y2="15" />
-          <circle cx="18" cy="7" r="4" />
-          <line x1="20.8" y1="9.8" x2="22.5" y2="11.5" />
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#15161a" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round">
+          <rect x="3" y="8" width="18" height="12" rx="2.5" />
+          <path d="M8 8V5.5A1.5 1.5 0 0 1 9.5 4h5A1.5 1.5 0 0 1 16 5.5V8" />
+          <path d="M3 14h18" />
         </svg>
       </div>
     ),
