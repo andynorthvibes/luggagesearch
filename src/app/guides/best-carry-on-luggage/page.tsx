@@ -52,7 +52,7 @@ export default function BestCarryOnLuggage() {
       <p>
         Use our{" "}
         <Link href="/tools/carry-on-checker">carry-on checker</Link> to test a specific bag&apos;s dimensions and
-        weight against 16 major airlines at once, rather than looking each one up manually.
+        weight against 53 major airlines at once, rather than looking each one up manually.
       </p>
 
       <h2>2. Empty weight of the bag itself</h2>

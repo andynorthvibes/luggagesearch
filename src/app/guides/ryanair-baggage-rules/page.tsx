@@ -55,7 +55,7 @@ export default function RyanairBaggageRules() {
         the overhead locker, on top of the free personal item. This is the allowance most people picture when they
         think of a normal carry-on — but on Ryanair it&apos;s an upgrade, not a default. Check your bag against this
         exact limit with our{" "}
-        <Link href="/tools/carry-on-checker">carry-on checker</Link>, which includes Ryanair alongside 15 other
+        <Link href="/tools/carry-on-checker">carry-on checker</Link>, which includes Ryanair alongside 52 other
         airlines.
       </p>
 

@@ -61,7 +61,7 @@ export default function BestLightweightCarryOn() {
         suitcase leaves you under 4 kg for clothes, shoes and a laptop on those airlines — a 2.5 kg bag nearly
         doubles that. Run your own numbers with our{" "}
         <Link href="/tools/carry-on-checker">carry-on checker</Link>, which covers both size and weight limits
-        across 16 airlines.
+        across 53 airlines.
       </p>
 
       <h2>The tradeoff: weight vs. durability</h2>

@@ -23,7 +23,9 @@ const tools = [
 ];
 
 export default function Home() {
-  const airlineNames = AIRLINES.map((a) => a.name.replace(" (Scandinavian Airlines)", ""));
+  const airlineNames = AIRLINES.map((a) =>
+    a.name.replace(" (Scandinavian Airlines)", "").replace(" (All Nippon Airways)", "")
+  );
   const marquee = [...airlineNames, ...airlineNames];
 
   return (
@@ -118,10 +120,10 @@ export default function Home() {
             <p className="font-display text-[14px] font-bold uppercase tracking-[0.14em] text-sky">Why it matters</p>
             <h2 className="font-display mt-4 text-[30px] sm:text-[46px] font-extrabold tracking-[-0.03em] leading-[1.0]">
               A &ldquo;standard&rdquo; 55 × 40 × 20 cm carry-on clears only{" "}
-              <span className="inline-block rounded-2xl bg-coral px-3 -mx-1">8 of {AIRLINES.length}</span> airlines we track.
+              <span className="inline-block rounded-2xl bg-coral px-3 -mx-1">36 of {AIRLINES.length}</span> airlines we track.
             </h2>
             <p className="mt-6 max-w-[34rem] text-[17px] leading-[1.55] font-medium">
-              Five centimetres narrower — 55 × 35 × 20 — and it clears 15. That is the difference between boarding
+              Five centimetres narrower — 55 × 35 × 20 — and it clears 52. That is the difference between boarding
               and a gate-check fee. Our checker shows you before you buy.
             </p>
             <Link href="/tools/carry-on-checker" className="font-display mt-6 inline-flex items-center gap-2 text-[16px] font-bold underline decoration-2 underline-offset-4 hover:text-sky">
@@ -130,8 +132,8 @@ export default function Home() {
           </div>
           <div className="lg:col-span-5 grid grid-cols-2 gap-4">
             {[
-              { size: "55 × 40 × 20", n: 8, bg: "bg-coral" },
-              { size: "55 × 35 × 20", n: 15, bg: "bg-sun" },
+              { size: "55 × 40 × 20", n: 36, bg: "bg-coral" },
+              { size: "55 × 35 × 20", n: 52, bg: "bg-sun" },
             ].map((s) => (
               <div key={s.size} className={`rounded-[24px] border-3 border-ink p-5 sm:p-6 text-center ${s.bg}`}>
                 <div className="font-display text-[56px] sm:text-[64px] font-extrabold leading-none tracking-[-0.04em]">{s.n}</div>

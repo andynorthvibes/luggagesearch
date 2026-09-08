@@ -35,7 +35,7 @@ export default function GuideArticle({
           <div className="lg:sticky lg:top-28 rounded-[28px] border-3 border-ink bg-sun p-7 shadow-hard">
             <p className="font-display text-[13px] font-bold uppercase tracking-[0.12em]">Have a bag already?</p>
             <h3 className="font-display mt-2 text-[26px] font-extrabold tracking-[-0.02em] leading-tight">
-              Check it against 16 airlines in one go.
+              Check it against 53 airlines in one go.
             </h3>
             <Link
               href="/tools/carry-on-checker"
