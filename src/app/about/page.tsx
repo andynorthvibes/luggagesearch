@@ -15,12 +15,6 @@ export default function AboutPage() {
         published airline policies and manufacturer specifications, and build free tools — like our carry-on size
         checker and packing list generator — instead of relying only on articles.
       </p>
-      <p>
-        The site is run alongside a small set of other independent travel and comparison sites, including{" "}
-        <a href="https://bynavn.no" target="_blank" rel="noopener noreferrer">bynavn.no</a> (city guides) and{" "}
-        <a href="https://hotellpris.no" target="_blank" rel="noopener noreferrer">hotellpris.no</a> (Norwegian hotel
-        price comparison).
-      </p>
       <h2>How we make money</h2>
       <p>
         {SITE.name} is supported by advertising (Google AdSense) and affiliate commissions on some product links —

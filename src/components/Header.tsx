@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { LuggageIcon } from "./icons";
 
 const nav = [
   { href: "/guides", label: "Guides" },
@@ -9,10 +10,12 @@ const nav = [
 
 export default function Header() {
   return (
-    <header className="border-b border-slate-200 bg-white sticky top-0 z-40">
+    <header className="border-b border-slate-200 bg-white/90 backdrop-blur sticky top-0 z-40">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 font-bold text-lg text-slate-900">
-          <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-brand-600 text-white text-sm">LS</span>
+        <Link href="/" className="flex items-center gap-2.5 font-extrabold text-lg text-slate-900">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-brand-400 via-brand-600 to-accent-500 text-white shadow-md shadow-brand-900/20">
+            <LuggageIcon className="h-[18px] w-[18px]" />
+          </span>
           LuggageSearch
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
