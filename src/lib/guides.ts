@@ -149,6 +149,42 @@ export const GUIDES: GuideMeta[] = [
     img: "https://images.unsplash.com/photo-1602191595949-1b1e5fb5634a?q=80&w=1000&auto=format&fit=crop",
     updated: "September 2026",
   },
+  {
+    href: "/guides/qantas-baggage-allowance",
+    title: "Qantas baggage allowance, explained",
+    blurb: "Weight-based on some routes, piece-based on others -- here's which applies to you.",
+    chip: "Airline guide",
+    chipColor: "coral",
+    img: "https://images.unsplash.com/photo-1503365194569-df4e1d04cec1?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/turkish-airlines-baggage-allowance",
+    title: "Turkish Airlines baggage allowance",
+    blurb: "Your checked allowance depends on the KG or PC concept -- and it's printed on your ticket.",
+    chip: "Airline guide",
+    chipColor: "sun",
+    img: "https://images.unsplash.com/photo-1527007622069-3a0241e1cd8c?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/icelandair-baggage-allowance",
+    title: "Icelandair baggage allowance",
+    blurb: "The cheapest fare includes zero checked bags -- and stopover fees apply per leg, not per trip.",
+    chip: "Airline guide",
+    chipColor: "sky",
+    img: "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/delta-baggage-allowance",
+    title: "Delta baggage allowance and fees",
+    blurb: "No cabin-bag weight limit, but checked fees swing hard between Basic Economy and Main Cabin.",
+    chip: "Airline guide",
+    chipColor: "coral",
+    img: "https://images.unsplash.com/photo-1572358707000-39729872feba?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
 ];
 
 export const CHIP_BG: Record<GuideChip, string> = {
