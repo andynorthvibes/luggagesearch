@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import AmazonPicks from "@/components/AmazonPicks";
 
 export const metadata: Metadata = {
   title: "Best Checked Luggage: What Actually Matters (2026)",
@@ -62,6 +63,21 @@ export default function BestCheckedLuggage() {
         (28–30 in / 71–76 cm) suit two weeks or more, or checked-baggage-only travelers. Going larger than you need
         just adds empty weight you&apos;re carrying (and often paying to check) for no benefit.
       </p>
+
+      <AmazonPicks
+        picks={[
+          {
+            name: "Samsonite Omni PC Hardside Expandable Luggage, Checked-Large 28-Inch",
+            note: "Reinforced corners and recessed spinner wheels — built for the rougher handling checked bags take. Also sold in 20\" and 24\" sizes.",
+            query: "Samsonite Omni PC Hardside Expandable Luggage Checked-Large 28-Inch",
+          },
+          {
+            name: "Travelpro Maxlite Air Hardside Expandable Checked Luggage",
+            note: "A lighter-weight hardshell option, useful if empty weight is what's eating into your allowance (see point 1 above).",
+            query: "Travelpro Maxlite Air Hardside Expandable Checked Luggage",
+          },
+        ]}
+      />
 
       <h2>The bottom line</h2>
       <p>

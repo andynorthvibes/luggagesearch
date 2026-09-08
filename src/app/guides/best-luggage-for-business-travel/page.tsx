@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import AmazonPicks from "@/components/AmazonPicks";
 
 export const metadata: Metadata = {
   title: "Best Luggage for Business Travel: What Actually Matters (2026)",
@@ -62,6 +63,16 @@ export default function BestLuggageForBusinessTravel() {
         your binding constraint. Run the numbers on any bag you&apos;re considering with our{" "}
         <Link href="/tools/carry-on-checker">carry-on checker</Link> before you buy.
       </p>
+
+      <AmazonPicks
+        picks={[
+          {
+            name: "Travelpro Platinum Elite Hardside Carry-On with Laptop Pocket",
+            note: "Built around the exterior laptop compartment described above, with the organization pockets a rushed repack needs.",
+            query: "Travelpro Platinum Elite Hardside Carry-On Laptop Pocket",
+          },
+        ]}
+      />
 
       <h2>Bottom line</h2>
       <p>

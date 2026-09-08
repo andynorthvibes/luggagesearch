@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import AmazonPicks from "@/components/AmazonPicks";
 
 export const metadata: Metadata = {
   title: "Samsonite vs Delsey: Which Luggage Brand Is Actually Better? (2026)",
@@ -97,6 +98,22 @@ export default function SamsoniteVsDelsey() {
           ))}
         </tbody>
       </table>
+
+      <AmazonPicks
+        title="See both lines on Amazon"
+        picks={[
+          {
+            name: "Samsonite Omni PC Hardside Expandable Luggage",
+            note: "The Samsonite line referenced in the table above — more interior organization, variable shell material by size and color.",
+            query: "Samsonite Omni PC Hardside Expandable Luggage",
+          },
+          {
+            name: "DELSEY Paris Turenne Hardside Expandable Luggage",
+            note: "The Delsey line referenced in the table above — consistent polycarbonate shell and double-layer zippers across sizes.",
+            query: "DELSEY Paris Turenne Hardside Expandable Luggage",
+          },
+        ]}
+      />
 
       <h2>Which should you buy?</h2>
       <p>

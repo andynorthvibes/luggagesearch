@@ -61,7 +61,7 @@ export default function PrivacyPolicyPage() {
 
         <h2>Affiliate links</h2>
         <p>
-          This site may include affiliate links, including through the Amazon Associates program. If you click one
+          This site includes affiliate links, including through the Amazon Associates program. If you click one
           and make a purchase, we may earn a commission at no additional cost to you — see our{" "}
           <a href="/affiliate-disclosure">affiliate disclosure</a> for details. Clicking an affiliate link may set a
           cookie on the destination site (e.g. Amazon) to track the referral; this site does not control those
@@ -94,8 +94,8 @@ export default function PrivacyPolicyPage() {
 
         <h2>Changes to this policy</h2>
         <p>
-          We may update this policy as the site changes — for example once advertising or affiliate programs are
-          actually active. Check back here for the current version.
+          We may update this policy as the site changes — for example once advertising through Google AdSense is
+          also active, alongside the affiliate links already on this site. Check back here for the current version.
         </p>
 
         <h2>Contact</h2>

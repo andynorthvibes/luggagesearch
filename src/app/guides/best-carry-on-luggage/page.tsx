@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import AmazonPicks from "@/components/AmazonPicks";
 
 export const metadata: Metadata = {
   title: "Best Carry-On Luggage: How to Actually Choose One (2026)",
@@ -98,6 +99,21 @@ export default function BestCarryOnLuggage() {
         secondary bag that fits under the seat) saves you from repacking at security. Not all carry-ons have this —
         it&apos;s worth checking before you buy if you fly for work.
       </p>
+
+      <AmazonPicks
+        picks={[
+          {
+            name: "Amazon Basics Hardside Spinner Carry-On Luggage",
+            note: "A budget hardside pick with 4 spinner wheels — a reasonable starting point if you just need something durable that meets most size limits.",
+            query: "Amazon Basics Hardside Spinner Luggage Carry-On",
+          },
+          {
+            name: "Travelpro Maxlite 5 Softside Carry-On Spinner",
+            note: "One of the lightest carry-ons you can buy, which matters most on weight-limited international carriers — see point 2 above.",
+            query: "Travelpro Maxlite 5 Softside Carry-On Spinner",
+          },
+        ]}
+      />
 
       <h2>The bottom line</h2>
       <p>

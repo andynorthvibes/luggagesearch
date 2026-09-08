@@ -41,8 +41,8 @@ export default function Footer() {
             {SITE.name}
           </div>
           <p className="mt-4 max-w-[26rem] text-[15px] leading-relaxed text-cream/70">
-            Independent luggage guides and free tools. Designed to be reader-supported through advertising and
-            affiliate links — which will never influence what we recommend.
+            Independent luggage guides and free tools. Reader-supported through affiliate links (and, in time,
+            advertising) — which will never influence what we recommend.
           </p>
         </div>
         {columns.map((c) => (
@@ -62,7 +62,7 @@ export default function Footer() {
       </div>
       <div className="border-t-3 border-cream/10">
         <div className="mx-auto max-w-[80rem] px-5 sm:px-6 py-5 text-[13px] text-cream/55 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between">
-          <span>© {new Date().getFullYear()} {SITE.name}. Some links may be affiliate links — see our <Link href="/affiliate-disclosure" className="underline underline-offset-2 hover:text-sun">disclosure</Link>.</span>
+          <span>© {new Date().getFullYear()} {SITE.name}. Some links are affiliate links — see our <Link href="/affiliate-disclosure" className="underline underline-offset-2 hover:text-sun">disclosure</Link>.</span>
           <span>Photos via Unsplash.</span>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import AmazonPicks from "@/components/AmazonPicks";
 
 export const metadata: Metadata = {
   title: "Best Luggage for Family Travel: What Actually Matters (2026)",
@@ -62,6 +63,16 @@ export default function BestLuggageForFamilyTravel() {
         your bag gets a physical inspection, which is more likely with the mix of items a family typically packs
         (electronics, toiletries, gifts, sporting equipment).
       </p>
+
+      <AmazonPicks
+        picks={[
+          {
+            name: "Samsonite Omni PC 3-Piece Luggage Set (20/24/28-Inch)",
+            note: "Matches the 3-piece sizing recommendation above — one large, one mid-size, one carry-on, all with a hard shell and spinner wheels.",
+            query: "Samsonite Omni PC 3 Piece Luggage Set",
+          },
+        ]}
+      />
 
       <h2>Bottom line</h2>
       <p>

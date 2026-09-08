@@ -19,10 +19,10 @@ export default function AboutPage() {
       </p>
       <h2>How we make money</h2>
       <p>
-        {SITE.name} is designed to be supported by advertising (Google AdSense) and affiliate commissions on some
-        product links — see our <a href="/affiliate-disclosure">affiliate disclosure</a> for details. Advertising
-        and affiliate relationships never influence which products we recommend or how we describe airline
-        policies.
+        {SITE.name} earns affiliate commissions on some product links, currently through the Amazon Associates
+        program, and is designed to also carry advertising through Google AdSense — see our{" "}
+        <a href="/affiliate-disclosure">affiliate disclosure</a> for details. Advertising and affiliate
+        relationships never influence which products we recommend or how we describe airline policies.
       </p>
       <h2>Corrections</h2>
       <p>

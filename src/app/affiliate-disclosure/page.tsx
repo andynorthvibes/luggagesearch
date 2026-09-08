@@ -14,13 +14,13 @@ export default function AffiliateDisclosurePage() {
       <div className="prose-content mt-12 max-w-[46rem]">
       <p>
         {SITE.name} is reader-supported. Some links on this site — particularly in product guides and comparisons —
-        may be affiliate links. If you click one and make a purchase, we may earn a commission at no additional cost
+        are affiliate links. If you click one and make a purchase, we may earn a commission at no additional cost
         to you.
       </p>
       <p>
-        This includes the Amazon Associates program, an affiliate advertising program designed to provide a means
-        for sites to earn advertising fees by linking to Amazon, as well as affiliate programs run directly by
-        luggage and travel-gear brands.
+        {SITE.name} is a participant in the Amazon Associates program, an affiliate advertising program designed to
+        provide a means for sites to earn advertising fees by linking to Amazon.com. We may also participate in
+        affiliate programs run directly by luggage and travel-gear brands.
       </p>
       <p>
         This site is also designed to display advertising through Google AdSense, which uses cookies to serve ads
