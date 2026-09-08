@@ -16,8 +16,16 @@ export default function PrivacyPolicyPage() {
         <p>
           {SITE.name} does not require an account, and none of the tools on this site — including the carry-on
           checker and packing list generator — send the information you enter to our servers or store it after you
-          close the page; it stays in your browser. This site does not currently run any analytics or tracking
-          scripts of its own.
+          close the page; it stays in your browser.
+        </p>
+
+        <h2>Analytics</h2>
+        <p>
+          This site uses Vercel Web Analytics to understand overall traffic — which pages get visited, roughly
+          where from, and on what kind of device. It does not use cookies, and Vercel does not collect information
+          that can identify you individually: visits are counted using an anonymous hash generated from the
+          request, not tied to your identity, and that hash is discarded after 24 hours. No data collected this way
+          is shared with advertisers or used to personalize ads.
         </p>
 
         <h2>Hosting and standard server logs</h2>
