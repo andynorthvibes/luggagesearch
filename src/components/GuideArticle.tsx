@@ -17,7 +17,7 @@ export default function GuideArticle({
   children: React.ReactNode;
 }) {
   const meta = GUIDES.find((g) => g.href === href);
-  const related = GUIDES.filter((g) => g.href !== href);
+  const related = GUIDES.filter((g) => g.href !== href).slice(0, 3);
 
   return (
     <article className="mx-auto max-w-[80rem] px-5 sm:px-6 py-16 lg:py-20">

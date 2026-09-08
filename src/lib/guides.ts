@@ -41,6 +41,42 @@ export const GUIDES: GuideMeta[] = [
     img: "https://images.unsplash.com/photo-1670888616427-764112453941?q=80&w=1000&auto=format&fit=crop",
     updated: "September 2026",
   },
+  {
+    href: "/guides/ryanair-baggage-rules",
+    title: "Ryanair baggage rules, explained",
+    blurb: "Free personal item, paid Priority bag, and where the 10 kg limit gets enforced.",
+    chip: "Airline guide",
+    chipColor: "sky",
+    img: "https://images.unsplash.com/photo-1673505379276-fd25416b6e55?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/southwest-baggage-policy",
+    title: "Southwest's baggage policy has changed",
+    blurb: "The two-free-bags era is over for most flyers — here's who still gets them free.",
+    chip: "Airline guide",
+    chipColor: "coral",
+    img: "https://images.unsplash.com/photo-1702411739431-0b6874405792?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/best-lightweight-carry-on-luggage",
+    title: "Best lightweight carry-on luggage",
+    blurb: "The lightest bags we could verify, ranked by actual empty weight — not marketing copy.",
+    chip: "Buying guide",
+    chipColor: "sun",
+    img: "https://images.unsplash.com/photo-1673505705824-e6abaa279c97?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
+  {
+    href: "/guides/avoid-checked-baggage-fees",
+    title: "How to avoid checked baggage fees",
+    blurb: "Credit cards, elite status and packing choices, ranked by how much they actually save.",
+    chip: "Money-saving",
+    chipColor: "sky",
+    img: "https://images.unsplash.com/photo-1762965119363-af950b523dca?q=80&w=1000&auto=format&fit=crop",
+    updated: "September 2026",
+  },
 ];
 
 export const CHIP_BG: Record<GuideChip, string> = {

@@ -148,10 +148,18 @@ export default function Home() {
         <div className="mx-auto max-w-[80rem] px-5 sm:px-6 py-20 lg:py-24">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <h2 className="font-display text-[36px] sm:text-[56px] font-extrabold tracking-[-0.03em] leading-none">Guides worth the scroll.</h2>
-            <p className="text-[16px] font-medium max-w-[26rem]">Criteria and sources, not recycled top-10 lists.</p>
+            <div className="flex flex-wrap items-center gap-5">
+              <p className="text-[16px] font-medium max-w-[22rem]">Criteria and sources, not recycled top-10 lists.</p>
+              <Link
+                href="/guides"
+                className="font-display inline-flex items-center gap-2 rounded-full border-3 border-ink bg-cream px-5 py-2.5 text-[14px] font-bold transition-transform hover:-translate-y-0.5"
+              >
+                All {GUIDES.length} guides <ArrowIcon className="h-4 w-4" />
+              </Link>
+            </div>
           </div>
           <div className="mt-10 grid sm:grid-cols-3 gap-8">
-            {GUIDES.map((g) => (
+            {GUIDES.slice(0, 3).map((g) => (
               <GuideCard key={g.href} guide={g} />
             ))}
           </div>
