@@ -1,8 +1,8 @@
 import Link from "next/link";
-import Image from "next/image";
 import { AIRLINES } from "@/lib/airlines";
 import { GUIDES } from "@/lib/guides";
 import GuideCard from "@/components/GuideCard";
+import HeroSizer from "@/components/HeroSizer";
 import { ArrowIcon, PlaneIcon } from "@/components/icons";
 
 const tools = [
@@ -69,14 +69,7 @@ export default function Home() {
 
           <div className="lg:col-span-5">
             <div className="sticker-in relative mx-auto max-w-[340px] lg:max-w-[400px] aspect-[3/4] overflow-hidden rounded-[40px] border-3 border-ink shadow-hard-lg">
-              <Image
-                src="https://images.unsplash.com/photo-1632165061207-81a8a3baee47?q=80&w=1000&auto=format&fit=crop"
-                alt="A yellow carry-on covered in stickers, alone in an airport hall"
-                fill
-                priority
-                sizes="(min-width: 1024px) 400px, 340px"
-                className="object-cover"
-              />
+              <HeroSizer />
             </div>
           </div>
         </div>
