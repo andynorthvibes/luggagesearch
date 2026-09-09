@@ -562,5 +562,5 @@ export function checkBag(
         : weightKg <= airline.maxWeightKg;
 
     return { airline, dimensionsOk, weightOk };
-  });
+  }).sort((a, b) => a.airline.name.localeCompare(b.airline.name));
 }
