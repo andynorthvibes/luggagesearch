@@ -20,6 +20,15 @@ export default function AboutPage() {
         published airline policies and manufacturer specifications, and build free tools — like our carry-on size
         checker and packing list generator — instead of relying only on articles.
       </p>
+      <h2>How we research and verify</h2>
+      <p>
+        Every airline-specific guide links directly to that airline&apos;s own official baggage policy page and
+        shows the date it was last checked against that page. Policies change — fares, weight limits and fees are
+        set by the airline, not by us — so treat our guides as a starting point and confirm anything
+        booking-critical on the airline&apos;s own site before you fly. Our free tools (the carry-on checker and
+        packing list generator) calculate results directly from the same underlying data used in the guides,
+        rather than displaying pre-written answers.
+      </p>
       <h2>How we make money</h2>
       <p>
         {SITE.name} earns affiliate commissions on some product links, currently through the Amazon Associates
