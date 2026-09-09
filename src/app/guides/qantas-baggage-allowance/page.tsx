@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Qantas Baggage Allowance: Weight-Based vs Piece-Based, by Route (2026)",
+  title: "Qantas: Weight-Based vs Piece-Based, by Route",
   description:
     "Qantas switches between a weight-based and a piece-based checked baggage system depending on your route -- which one applies, and what it means for you.",
   alternates: {

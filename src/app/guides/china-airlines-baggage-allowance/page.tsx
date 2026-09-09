@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "China Airlines Baggage Allowance: Economy Swings From Zero to Two Bags by Route",
+  title: "China Airlines: Checked Bags Swing by Route",
   description:
     "China Airlines' Economy checked baggage ranges from zero to two pieces depending on route and booking class, while Premium Economy and Business stay flat.",
   alternates: {

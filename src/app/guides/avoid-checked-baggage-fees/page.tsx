@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
 
 export const metadata: Metadata = {
-  title: "How to Avoid Checked Baggage Fees (2026 Guide)",
+  title: "How to Avoid Checked Baggage Fees",
   description:
     "Credit cards, elite status, fare class, and packing choices that actually avoid checked baggage fees — ranked by how much they save.",
   alternates: {

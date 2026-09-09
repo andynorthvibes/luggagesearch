@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Jetstar Baggage Allowance: Carry-On Rules Are Changing February 2, 2027",
+  title: "Jetstar: Carry-On Rules Change Feb 2, 2027",
   description:
     "Jetstar's Starter fare currently includes just 7kg of carry-on across two items -- and its carry-on rules are already set to change from February 2, 2027.",
   alternates: {

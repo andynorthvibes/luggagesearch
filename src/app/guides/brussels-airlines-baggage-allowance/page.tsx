@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Brussels Airlines Baggage Allowance: Basic and Light Fares Include Zero Checked Bags",
+  title: "Brussels Airlines: No Checked Bag on Basic or Light",
   description:
     "Brussels Airlines' Economy Basic and Light fares carry no checked baggage -- Comfort steps up to one 23kg bag, Business includes two bags at 32kg each.",
   alternates: {

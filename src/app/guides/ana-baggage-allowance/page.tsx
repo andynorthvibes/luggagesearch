@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "ANA Baggage Allowance: Domestic Japan Switches Systems in 2026",
+  title: "ANA: Domestic Japan Switches Systems in 2026",
   description:
     "ANA's domestic Japan flights switch from weight-based to piece-based checked baggage on May 19, 2026 -- and only ever charges the higher of two possible fees.",
   alternates: {

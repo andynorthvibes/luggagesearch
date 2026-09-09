@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Ryanair Baggage Rules: Free Bag, Priority Bag & Fees Explained (2026)",
+  title: "Ryanair Baggage Rules: Free Bag, Priority & Fees",
   description:
     "What's actually free on Ryanair, what the paid Priority cabin bag gets you, and where the 10 kg weight limit gets enforced.",
   alternates: {

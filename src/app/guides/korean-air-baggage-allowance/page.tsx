@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Korean Air Baggage Allowance: A 2025 Change Quietly Cut the Free Bag Count (2026)",
+  title: "Korean Air: A 2025 Change Cut the Free Bag Count",
   description:
     "Tickets issued after June 2025 get only one free checked bag on Korean Air's Economy Saver fare, even to the US -- down from two -- gates weigh bags strictly.",
   alternates: {

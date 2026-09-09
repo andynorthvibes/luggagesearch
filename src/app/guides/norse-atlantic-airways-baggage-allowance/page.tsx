@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Norse Atlantic Airways Baggage Allowance: The Personal Item Has No Weight Limit",
+  title: "Norse Atlantic: Personal Item Has No Weight Limit",
   description:
     "Norse Atlantic Airways doesn't cap the weight of its personal item at all, since it's designed for under-seat placement -- unusual among long-haul carriers.",
   alternates: {

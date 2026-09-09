@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "JetBlue Baggage Allowance: Blue Basic vs Blue Plus vs Mint (2026)",
+  title: "JetBlue: Blue Basic vs Blue Plus vs Mint",
   description:
     "JetBlue's cheapest fare charges for a first checked bag domestically -- but the same fare gets one free on transatlantic routes. The full breakdown.",
   alternates: {

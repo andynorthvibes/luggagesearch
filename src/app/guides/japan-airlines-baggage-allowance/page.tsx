@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Japan Airlines Baggage Allowance: International Generosity, Domestic Reset (2026)",
+  title: "Japan Airlines: Generous Abroad, Tighter at Home",
   description:
     "JAL gives international Economy passengers two free 23kg bags -- one of the more generous allowances anywhere -- but a connecting domestic leg resets to less.",
   alternates: {

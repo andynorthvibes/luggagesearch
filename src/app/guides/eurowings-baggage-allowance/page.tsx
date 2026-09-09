@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Eurowings Baggage Allowance: BASIC, SMART and BIZclass Compared",
+  title: "Eurowings: BASIC, SMART and BIZclass Compared",
   description:
     "Eurowings' three-tier fare ladder decides everything about your bags -- BASIC charges extra for a full cabin bag, SMART includes one, BIZclass doubles both.",
   alternates: {

@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "TAP Air Portugal Baggage Allowance: How Status Rescues the Discount Fare (2026)",
+  title: "TAP Portugal: How Status Rescues a Cheap Fare",
   description:
     "TAP's cheapest Discount fare includes zero checked bags -- but Star Alliance Gold, Miles&Go Gold, Navigator status, or the TAP Platinum Visa add one back.",
   alternates: {

@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "easyJet Baggage Allowance: Under-Seat Bag vs Large Cabin Bag (2026)",
+  title: "easyJet: Under-Seat Bag vs Large Cabin Bag",
   description:
     "easyJet's free bag is smaller than it looks, and one that doesn't fit at the gate costs a flat GBP 50 -- the difference between the free and paid tiers.",
   alternates: {

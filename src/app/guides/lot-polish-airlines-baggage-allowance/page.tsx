@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "LOT Polish Airlines Baggage Allowance: The Same Fare Pays Differently by Route",
+  title: "LOT Polish: Same Fare, Different Bag Rules",
   description:
     "LOT's free baggage allowance depends on the specific route, not just the fare -- the same Economy Standard ticket can mean one bag or two, by origin.",
   alternates: {

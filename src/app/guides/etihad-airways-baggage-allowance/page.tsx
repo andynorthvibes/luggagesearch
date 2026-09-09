@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Etihad Airways Baggage Allowance: Why Basic Economy Skips Loyalty Perks (2026)",
+  title: "Etihad Airways: Basic Economy Skips Loyalty Perks",
   description:
     "Etihad's Basic Economy fare includes zero checked bags -- and Etihad Guest status, which rescues other fares, explicitly doesn't apply to it.",
   alternates: {

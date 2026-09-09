@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Lufthansa Baggage Rules: Cabin & Checked, by Fare Class (2026)",
+  title: "Lufthansa Baggage Rules: Cabin & Checked by Fare",
   description:
     "Lufthansa's cabin bag limit is fixed, but the checked bag depends entirely on your fare class — here's what each one actually includes.",
   alternates: {

@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "WestJet Baggage Allowance: UltraBasic Cuts the Carry-On, Not Just the Checked Bag (2026)",
+  title: "WestJet: UltraBasic Cuts the Carry-On Too",
   description:
     "WestJet's UltraBasic fare strips the carry-on bag on North American routes, not just checked baggage -- its credit card waives the first bag for up to 8 guests.",
   alternates: {

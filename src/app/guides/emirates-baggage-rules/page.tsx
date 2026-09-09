@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Emirates Baggage Rules: Cabin & Checked Allowance Explained (2026)",
+  title: "Emirates: Cabin & Checked Allowance Explained",
   description:
     "Emirates runs two different checked-baggage systems depending on your route — here's which one applies to you.",
   alternates: {

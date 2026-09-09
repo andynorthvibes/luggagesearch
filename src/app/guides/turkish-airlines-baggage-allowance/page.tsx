@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Turkish Airlines Baggage Allowance: Cabin, Checked & the KG/PC Split (2026)",
+  title: "Turkish Airlines: Cabin, Checked & the KG/PC Split",
   description:
     "Turkish Airlines' checked baggage runs on either a weight or a piece system depending on your route -- how to find out which applies, plus cabin limits.",
   alternates: {

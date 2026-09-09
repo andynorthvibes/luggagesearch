@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Icelandair Baggage Allowance: Economy Light's Checked-Bag Trap (2026)",
+  title: "Icelandair: Economy Light's Checked-Bag Trap",
   description:
     "Icelandair's cheapest fare includes no checked bag, and stopover itineraries get charged extra fees per leg, not per journey -- what each fare includes.",
   alternates: {

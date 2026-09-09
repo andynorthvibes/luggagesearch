@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Wideroe Baggage Allowance: Bags Over 23kg Fly Standby, Not Guaranteed",
+  title: "Wideroe: Over 23kg Flies Standby, Not Guaranteed",
   description:
     "Wideroe's small regional aircraft have limited cargo capacity -- checked baggage over 23kg is only accepted on a standby basis and can end up on a later flight.",
   alternates: {

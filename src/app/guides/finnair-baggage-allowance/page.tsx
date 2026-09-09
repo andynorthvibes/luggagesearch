@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Finnair Baggage Allowance: Your Checked Bags Depend on the Route, Not Just the Fare (2026)",
+  title: "Finnair Baggage Rules: Route Beats Fare",
   description:
     "Finnair's checked baggage allowance swings dramatically by region -- Asia routes can include far more free bags than flights within Europe on a comparable fare.",
   alternates: {

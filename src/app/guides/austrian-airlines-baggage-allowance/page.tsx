@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Austrian Airlines Baggage Allowance: Economy Basic Skips the Cabin Bag Entirely",
+  title: "Austrian Airlines: Economy Basic Skips Cabin Bag",
   description:
     "On short and medium-haul routes, Austrian Airlines' cheapest Basic fare includes no cabin bag at all -- just a personal item -- with a carry-on costing extra.",
   alternates: {

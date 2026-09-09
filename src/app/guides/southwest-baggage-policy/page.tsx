@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Southwest Airlines Baggage Policy 2026: Who Still Gets Free Bags",
+  title: "Southwest Baggage Policy: Who Still Gets Free Bags",
   description:
     "Southwest ended free checked bags for most passengers. Here's exactly who still gets them free, and what carry-on and checked limits actually are.",
   alternates: {

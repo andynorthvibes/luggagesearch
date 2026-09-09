@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import AmazonPicks from "@/components/AmazonPicks";
 
 export const metadata: Metadata = {
-  title: "Samsonite vs Delsey: Which Luggage Brand Is Actually Better? (2026)",
+  title: "Samsonite vs Delsey: Which Brand Is Better?",
   description:
     "A sourced comparison of Samsonite and Delsey on materials, warranty terms, and which specific lines to consider.",
   alternates: {

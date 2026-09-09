@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Thai Airways Baggage Allowance: The March 2026 Switch to Piece-Based (2026)",
+  title: "Thai Airways: The March 2026 Switch to Piece-Based",
   description:
     "Thai Airways moved from a weight-based to a piece-based checked baggage system in March 2026 -- the number of bags now matters, not just the total weight.",
   alternates: {

@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Delta Baggage Allowance: Basic Economy vs Main Cabin Fees (2026)",
+  title: "Delta: Basic Economy vs Main Cabin Fees",
   description:
     "Delta doesn't weigh cabin bags, but checked-bag fees depend heavily on fare class and route -- here's what Basic Economy actually costs versus standard fares.",
   alternates: {

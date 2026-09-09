@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Aegean Airlines Baggage Allowance: Cabin Bag Size Depends on the Plane, Not the Fare",
+  title: "Aegean Airlines: Cabin Size Depends on the Plane",
   description:
     "Aegean Airlines sets cabin bag dimensions by aircraft type, not fare class -- Airbus jets allow a larger bag than the turboprops on regional routes.",
   alternates: {

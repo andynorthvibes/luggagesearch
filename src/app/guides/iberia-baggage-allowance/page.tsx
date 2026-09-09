@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Iberia Baggage Allowance: Economy Basic Skips the Checked Bag Entirely (2026)",
+  title: "Iberia: Economy Basic Skips the Checked Bag",
   description:
     "Iberia's Economy Basic fare includes no checked bag -- add one from around EUR 13 online -- while cabin bag weight scales from 10kg to 14kg in Business.",
   alternates: {

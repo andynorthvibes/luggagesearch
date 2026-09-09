@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "airBaltic Baggage Allowance: Economy MINI Gets a Personal Item Only",
+  title: "airBaltic: Economy MINI Gets a Personal Item Only",
   description:
     "airBaltic's cheapest Economy MINI fare includes only a personal item, no cabin bag -- but the airline separately guarantees $1000 for a delayed bag.",
   alternates: {

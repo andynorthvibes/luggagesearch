@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import AmazonPicks from "@/components/AmazonPicks";
 
 export const metadata: Metadata = {
-  title: "Best Lightweight Carry-On Luggage: Ranked by Actual Weight (2026)",
+  title: "Best Lightweight Carry-On Luggage, by Weight",
   description:
     "Lightweight carry-on suitcases ranked by verified empty weight, not marketing copy — and why it matters on weight-limited airlines.",
   alternates: {

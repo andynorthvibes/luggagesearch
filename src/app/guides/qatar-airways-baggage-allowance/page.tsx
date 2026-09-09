@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
 
 export const metadata: Metadata = {
-  title: "Qatar Airways Baggage Allowance: The Tightest Carry-On Limit We Track (2026)",
+  title: "Qatar Airways: Our Tightest Carry-On Limit",
   description:
     "Qatar Airways caps cabin bags at 50 x 37 x 25 cm -- smaller than most airlines -- and splits checked baggage between a weight and a piece system by route.",
   alternates: {

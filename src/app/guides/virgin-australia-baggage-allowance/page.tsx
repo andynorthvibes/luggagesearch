@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Virgin Australia Baggage Allowance: Economy X Now Matches Business Class Cabin Bags (2026)",
+  title: "Virgin Australia: Economy X Matches Business Cabin",
   description:
     "Since February 2026, Virgin Australia's Economy carry-on rose from 7kg to 8kg, and Economy X now gets two cabin bags at 14kg -- the same as Business, for less.",
   alternates: {

@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Vueling Baggage Allowance: Even the Cheapest Fare Includes an Underseat Bag",
+  title: "Vueling: Cheapest Fare Still Gets an Underseat Bag",
   description:
     "Vueling's cheapest Fly Light fare still includes a free underseat bag -- but the standard overhead roller bag is paid, and gate sizers enforce it strictly.",
   alternates: {

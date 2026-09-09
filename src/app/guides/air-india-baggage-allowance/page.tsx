@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Air India Baggage Allowance: One of the Tightest Cabin Bag Limits We Track (2026)",
+  title: "Air India: One of the Tightest Limits We Track",
   description:
     "Air India's Economy cabin bag caps out at just 8kg -- tighter than most full-service carriers -- and domestic vs international run different baggage systems.",
   alternates: {

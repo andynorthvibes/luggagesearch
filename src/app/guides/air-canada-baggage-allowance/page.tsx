@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Air Canada Baggage Allowance: Fare Tiers and Fees (2026)",
+  title: "Air Canada: Fare Tiers and Fees",
   description:
     "Air Canada's carry-on shrinks to a personal item only on its cheapest fare, and checked bag fees change again in April 2026 -- here's the breakdown.",
   alternates: {

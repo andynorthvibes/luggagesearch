@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Aer Lingus Baggage Allowance: When the Cabin Bag Isn't Actually Free (2026)",
+  title: "Aer Lingus: When the Cabin Bag Isn't Actually Free",
   description:
     "Aer Lingus's personal item is always free, but the 10kg cabin bag only comes included on some fares -- on transatlantic Saver tickets, it's a paid add-on.",
   alternates: {

@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import AmazonPicks from "@/components/AmazonPicks";
 
 export const metadata: Metadata = {
-  title: "Best Carry-On Luggage: How to Actually Choose One (2026)",
+  title: "Best Carry-On Luggage: How to Actually Choose One",
   description:
     "A criteria-based guide to picking carry-on luggage — size, weight, material, and wheels — plus a free tool to check your bag against airline limits.",
   alternates: {

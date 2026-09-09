@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "KLM Baggage Allowance: What 'Economy Basic' Actually Means (2026)",
+  title: "KLM: What 'Economy Basic' Actually Means",
   description:
     "KLM's Economy Basic sounds like a standard fare but includes only an under-seat bag -- no cabin bag, no checked bag. The naming trap and full breakdown.",
   alternates: {

@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "EVA Air Baggage Allowance: A Different Rule on the US-Taiwan Route",
+  title: "EVA Air: A Different Rule on the US-Taiwan Route",
   description:
     "EVA Air's checked baggage switches from weight-based to two-piece on US-Taiwan routes specifically, while the 7kg cabin bag limit applies everywhere.",
   alternates: {

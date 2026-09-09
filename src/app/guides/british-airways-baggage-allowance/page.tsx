@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "British Airways Baggage Allowance: Cabin & Checked, by Fare (2026)",
+  title: "British Airways: Cabin & Checked, by Fare",
   description:
     "British Airways' checked allowance scales from 1 to 3 bags depending on cabin and fare — here's exactly what each one includes.",
   alternates: {

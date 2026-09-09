@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import AmazonPicks from "@/components/AmazonPicks";
 
 export const metadata: Metadata = {
-  title: "Best Luggage for Family Travel: What Actually Matters (2026)",
+  title: "Best Luggage for Family Travel: What Matters",
   description:
     "What to look for in luggage for family trips — durability, wheels, weight, and how many bags to actually bring — based on what holds up on real family travel.",
   alternates: {

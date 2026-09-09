@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import AmazonPicks from "@/components/AmazonPicks";
 
 export const metadata: Metadata = {
-  title: "Best Checked Luggage: What Actually Matters (2026)",
+  title: "Best Checked Luggage: What Actually Matters",
   description:
     "A practical guide to choosing checked luggage — weight limits, durability, expandability, and how to avoid overweight-bag fees.",
   alternates: {

@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Alaska Airlines Baggage Allowance: Fees, Perks & the 20-Minute Guarantee (2026)",
+  title: "Alaska Airlines: Fees, Perks & 20-Minute Guarantee",
   description:
     "Alaska charges the same checked bag fee online or at the airport since April 2026, and backs baggage delivery with a 20-minute guarantee.",
   alternates: {
