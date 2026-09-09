@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Air France Baggage Allowance: What Economy Light Actually Includes (2026)",
@@ -21,7 +22,7 @@ const fareRows: { fare: string; checkedBags: string; weight: string }[] = [
 
 export default function AirFranceBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/air-france-baggage-allowance" title="Air France baggage allowance, by fare">
+    <GuideArticle href="/guides/air-france-baggage-allowance" title="Air France baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Air France&apos;s cheapest fare, Economy Light, still includes cabin baggage on long-haul routes — but no
         checked bag at any price point built into the fare. Worth knowing before you assume &quot;Light&quot;

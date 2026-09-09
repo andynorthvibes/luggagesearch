@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Wideroe Baggage Allowance: Bags Over 23kg Fly Standby, Not Guaranteed",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function WideroeBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/wideroe-baggage-allowance" title="Wideroe baggage allowance">
+    <GuideArticle href="/guides/wideroe-baggage-allowance" title="Wideroe baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Wideroe&apos;s regional Norwegian network is flown largely on smaller aircraft with genuinely limited
         cargo hold space, and the airline is upfront about what that means: checked baggage over 23 kg is only

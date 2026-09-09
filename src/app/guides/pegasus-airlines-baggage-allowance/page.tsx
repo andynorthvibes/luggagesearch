@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Pegasus Airlines Baggage Allowance: Light Package Means a 3kg Underseat Bag, Nothing More",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function PegasusAirlinesBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/pegasus-airlines-baggage-allowance" title="Pegasus Airlines baggage allowance">
+    <GuideArticle href="/guides/pegasus-airlines-baggage-allowance" title="Pegasus Airlines baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         On international and North Cyprus flights, Pegasus Airlines&apos; entry-level Light Package strips
         baggage down further than most low-cost carriers do: no cabin bag, no checked bag, just one underseat

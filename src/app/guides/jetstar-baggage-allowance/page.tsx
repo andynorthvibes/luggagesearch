@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Jetstar Baggage Allowance: Carry-On Rules Are Changing February 2, 2027",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function JetstarBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/jetstar-baggage-allowance" title="Jetstar baggage allowance">
+    <GuideArticle href="/guides/jetstar-baggage-allowance" title="Jetstar baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Jetstar&apos;s cheapest Starter fare includes 7 kg of carry-on shared across two items -- no separate
         full-size cabin bag, just that combined weight split between a personal item and a small bag. It can be

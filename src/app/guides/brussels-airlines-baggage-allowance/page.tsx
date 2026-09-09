@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Brussels Airlines Baggage Allowance: Basic and Light Fares Include Zero Checked Bags",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function BrusselsAirlinesBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/brussels-airlines-baggage-allowance" title="Brussels Airlines baggage allowance">
+    <GuideArticle href="/guides/brussels-airlines-baggage-allowance" title="Brussels Airlines baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Brussels Airlines splits its Economy cabin cleanly in two on checked baggage: Basic and Light include
         none at all, while Comfort, Comfort Green and Flex all step up to one bag at 23 kg. Business Class,

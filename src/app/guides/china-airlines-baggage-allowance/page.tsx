@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "China Airlines Baggage Allowance: Economy Swings From Zero to Two Bags by Route",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function ChinaAirlinesBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/china-airlines-baggage-allowance" title="China Airlines baggage allowance">
+    <GuideArticle href="/guides/china-airlines-baggage-allowance" title="China Airlines baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Premium Economy and Business passengers get a flat, predictable checked baggage allowance on China
         Airlines no matter which route they fly. Economy passengers don&apos;t: the allowance ranges from zero to

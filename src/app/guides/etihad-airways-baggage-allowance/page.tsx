@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Etihad Airways Baggage Allowance: Why Basic Economy Skips Loyalty Perks (2026)",
@@ -21,7 +22,7 @@ const fareRows: { fare: string; checkedBags: string }[] = [
 
 export default function EtihadAirwaysBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/etihad-airways-baggage-allowance" title="Etihad Airways baggage allowance, by fare">
+    <GuideArticle href="/guides/etihad-airways-baggage-allowance" title="Etihad Airways baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         On most airlines, elite loyalty status is the safety net that rescues a cheap ticket from a stingy
         baggage allowance. Etihad draws a harder line: Basic Economy includes no checked bags at all, and the

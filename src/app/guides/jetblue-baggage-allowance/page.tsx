@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "JetBlue Baggage Allowance: Blue Basic vs Blue Plus vs Mint (2026)",
@@ -20,7 +21,7 @@ const fareRows: { fare: string; firstBag: string; secondBag: string; weight: str
 
 export default function JetBlueBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/jetblue-baggage-allowance" title="JetBlue baggage allowance, by fare">
+    <GuideArticle href="/guides/jetblue-baggage-allowance" title="JetBlue baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         JetBlue&apos;s checked bag fee depends on fare class — except on one specific set of routes, where even
         the cheapest fare gets a free bag that it wouldn&apos;t get flying domestically.

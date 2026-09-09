@@ -5,16 +5,19 @@ import { SITE } from "@/lib/site";
 import PageIntro from "./PageIntro";
 import GuideCard from "./GuideCard";
 import { ArrowIcon } from "./icons";
+import AmazonPicks, { type AmazonPick } from "./AmazonPicks";
 
 // Wrapper for long-form guides: intro, photo, body, tool call-to-action, related guides, disclosure.
 export default function GuideArticle({
   href,
   title,
   children,
+  amazonPicks,
 }: {
   href: string;
   title: string;
   children: React.ReactNode;
+  amazonPicks?: AmazonPick[];
 }) {
   const meta = GUIDES.find((g) => g.href === href);
   const related = GUIDES.filter((g) => g.href !== href).slice(0, 3);
@@ -30,7 +33,10 @@ export default function GuideArticle({
       )}
 
       <div className="mt-14 grid lg:grid-cols-12 gap-12">
-        <div className="prose-content lg:col-span-8">{children}</div>
+        <div className="prose-content lg:col-span-8">
+          {children}
+          {amazonPicks && <AmazonPicks picks={amazonPicks} />}
+        </div>
         <aside className="lg:col-span-4">
           <div className="lg:sticky lg:top-28 rounded-[28px] border-3 border-ink bg-sun p-7 shadow-hard">
             <p className="font-display text-[13px] font-bold uppercase tracking-[0.12em]">Have a bag already?</p>

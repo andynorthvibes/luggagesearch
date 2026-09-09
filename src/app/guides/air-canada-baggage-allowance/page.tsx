@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Air Canada Baggage Allowance: Fare Tiers and Fees (2026)",
@@ -21,7 +22,7 @@ const fareRows: { fare: string; freeBags: string; notes: string }[] = [
 
 export default function AirCanadaBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/air-canada-baggage-allowance" title="Air Canada baggage allowance, by fare">
+    <GuideArticle href="/guides/air-canada-baggage-allowance" title="Air Canada baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Air Canada&apos;s cheapest fare doesn&apos;t just skip the checked bag — on Canada-U.S. routes, it can
         restrict you to a personal item only, no full-size carry-on at all. Worth knowing before you pack.

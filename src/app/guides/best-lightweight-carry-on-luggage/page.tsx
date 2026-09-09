@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import AmazonPicks from "@/components/AmazonPicks";
 
 export const metadata: Metadata = {
   title: "Best Lightweight Carry-On Luggage: Ranked by Actual Weight (2026)",
@@ -66,6 +67,24 @@ export default function BestLightweightCarryOn() {
         <Link href="/tools/carry-on-checker">carry-on checker</Link>, which covers both size and weight limits
         across 53 airlines.
       </p>
+
+      <AmazonPicks
+        title="The two lightest bags on this list, linked"
+        picks={[
+          {
+            name: "Travelpro Maxlite 5 Softside Carry-On Spinner",
+            note: "The lightest bag in the table above at 2.5 kg empty — the pick if you regularly fly a weight-limited airline like Emirates or SAS.",
+            query: "Travelpro Maxlite 5 Softside Carry-On Spinner",
+            url: "https://amzn.to/469Odqz",
+          },
+          {
+            name: "Amazon Basics Hardside Spinner Carry-On Luggage",
+            note: "A heavier hardside alternative from the table (3.0 kg empty) if you'd rather trade some weight budget for crush resistance.",
+            query: "Amazon Basics Hardside Spinner Luggage Carry-On",
+            url: "https://amzn.to/4xg6q0z",
+          },
+        ]}
+      />
 
       <h2>The tradeoff: weight vs. durability</h2>
       <p>

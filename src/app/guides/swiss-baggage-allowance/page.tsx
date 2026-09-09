@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Swiss Baggage Allowance: Economy Light Is Hand Luggage Only, Every Route (2026)",
@@ -21,7 +22,7 @@ const fareRows: { fare: string; checkedBags: string; weight: string }[] = [
 
 export default function SwissBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/swiss-baggage-allowance" title="Swiss baggage allowance, by fare">
+    <GuideArticle href="/guides/swiss-baggage-allowance" title="Swiss baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Swiss International Air Lines makes its cheapest fare&apos;s restriction consistent, at least: Economy
         Light is hand-luggage-only on every single route, with no regional exceptions to catch you out.

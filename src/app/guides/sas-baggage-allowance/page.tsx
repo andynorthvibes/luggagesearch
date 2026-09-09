@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "SAS Baggage Allowance: Economy Light Depends on Where You're Flying (2026)",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function SasBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/sas-baggage-allowance" title="SAS baggage allowance, explained">
+    <GuideArticle href="/guides/sas-baggage-allowance" title="SAS baggage allowance, explained" amazonPicks={CARRY_ON_PICKS}>
       <p>
         SAS&apos;s cheapest fare, Economy Light, doesn&apos;t mean the same thing on every route — what you get
         depends on whether you&apos;re flying within Europe or to the US and Asia, under the same fare name.

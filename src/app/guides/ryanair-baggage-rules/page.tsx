@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Ryanair Baggage Rules: Free Bag, Priority Bag & Fees Explained (2026)",
@@ -36,7 +37,7 @@ export default function RyanairBaggageRules() {
   };
 
   return (
-    <GuideArticle href="/guides/ryanair-baggage-rules" title="Ryanair baggage rules, explained">
+    <GuideArticle href="/guides/ryanair-baggage-rules" title="Ryanair baggage rules, explained" amazonPicks={CARRY_ON_PICKS}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <p>
         Ryanair&apos;s baggage rules are simple once you separate them by what you&apos;ve paid for — the confusion

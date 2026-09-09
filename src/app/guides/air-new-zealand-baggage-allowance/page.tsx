@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Air New Zealand Baggage Allowance: The Domestic Connection Trap (2026)",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function AirNewZealandBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/air-new-zealand-baggage-allowance" title="Air New Zealand baggage allowance">
+    <GuideArticle href="/guides/air-new-zealand-baggage-allowance" title="Air New Zealand baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         If you&apos;ve just landed in Auckland on a long-haul flight that included checked baggage and you&apos;re
         connecting onward on a domestic Air New Zealand Seat fare, don&apos;t assume that allowance carries

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Cathay Pacific Baggage Allowance: Cabin Weight Scales With Your Cabin (2026)",
@@ -21,7 +22,7 @@ const fareRows: { fare: string; checkedBags: string }[] = [
 
 export default function CathayPacificBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/cathay-pacific-baggage-allowance" title="Cathay Pacific baggage allowance, by fare">
+    <GuideArticle href="/guides/cathay-pacific-baggage-allowance" title="Cathay Pacific baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Most airlines cap cabin bag weight at a flat number regardless of cabin -- usually around 7-10 kg for
         everyone. Cathay Pacific instead scales the limit with what you paid: 7 kg in Economy and Premium

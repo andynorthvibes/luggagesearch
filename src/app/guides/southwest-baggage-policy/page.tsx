@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Southwest Airlines Baggage Policy 2026: Who Still Gets Free Bags",
@@ -21,7 +22,7 @@ export default function SouthwestBaggagePolicy() {
   ];
 
   return (
-    <GuideArticle href="/guides/southwest-baggage-policy" title="Southwest's baggage policy has changed">
+    <GuideArticle href="/guides/southwest-baggage-policy" title="Southwest's baggage policy has changed" amazonPicks={CARRY_ON_PICKS}>
       <p>
         For years, &quot;two bags fly free&quot; was the reason people picked Southwest. That&apos;s no longer the
         default — most passengers now pay for checked bags, and it&apos;s worth knowing exactly which group you fall

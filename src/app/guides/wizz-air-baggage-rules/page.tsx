@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Wizz Air Baggage Rules: Free Allowance, Priority & Checked Bag Prices (2026)",
@@ -43,7 +44,7 @@ export default function WizzAirBaggageRules() {
   };
 
   return (
-    <GuideArticle href="/guides/wizz-air-baggage-rules" title="Wizz Air baggage rules, explained">
+    <GuideArticle href="/guides/wizz-air-baggage-rules" title="Wizz Air baggage rules, explained" amazonPicks={CARRY_ON_PICKS}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <p>
         Wizz Air is a low-cost carrier, and like other budget airlines its base fare includes almost no baggage —

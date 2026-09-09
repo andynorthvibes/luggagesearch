@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "ANA Baggage Allowance: Domestic Japan Switches Systems in 2026",
@@ -21,7 +22,7 @@ const fareRows: { fare: string; checkedBags: string }[] = [
 
 export default function AnaBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/ana-baggage-allowance" title="ANA baggage allowance, by fare">
+    <GuideArticle href="/guides/ana-baggage-allowance" title="ANA baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Starting May 19, 2026, ANA is switching its domestic Japan flights from a weight-based checked baggage
         system to the same piece-based system it already uses internationally -- effectively raising the standard

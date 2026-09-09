@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "easyJet Baggage Allowance: Under-Seat Bag vs Large Cabin Bag (2026)",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function EasyJetBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/easyjet-baggage-allowance" title="easyJet baggage allowance, explained">
+    <GuideArticle href="/guides/easyjet-baggage-allowance" title="easyJet baggage allowance, explained" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Like other European budget carriers, easyJet&apos;s free allowance is smaller than most travelers expect —
         and getting caught out at the gate with an oversized bag costs a flat fee regardless of how small the

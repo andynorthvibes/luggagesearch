@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Norse Atlantic Airways Baggage Allowance: The Personal Item Has No Weight Limit",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function NorseAtlanticAirwaysBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/norse-atlantic-airways-baggage-allowance" title="Norse Atlantic Airways baggage allowance">
+    <GuideArticle href="/guides/norse-atlantic-airways-baggage-allowance" title="Norse Atlantic Airways baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Every Norse Atlantic Airways fare includes the same two cabin items: a piece of hand luggage up to 56 x
         45 x 25 cm and 10 kg, plus a personal item up to 40 x 30 x 15 cm -- with officially no weight limit on

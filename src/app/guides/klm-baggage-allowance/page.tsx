@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "KLM Baggage Allowance: What 'Economy Basic' Actually Means (2026)",
@@ -21,7 +22,7 @@ const fareRows: { fare: string; checkedBags: string }[] = [
 
 export default function KlmBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/klm-baggage-allowance" title="KLM baggage allowance, by fare">
+    <GuideArticle href="/guides/klm-baggage-allowance" title="KLM baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         KLM&apos;s cheapest fare has a naming problem: &quot;Economy Basic&quot; sounds like a standard economy
         ticket with the usual cabin bag included, minus a checked bag. It isn&apos;t — it&apos;s a genuinely

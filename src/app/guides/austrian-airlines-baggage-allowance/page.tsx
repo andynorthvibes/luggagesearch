@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Austrian Airlines Baggage Allowance: Economy Basic Skips the Cabin Bag Entirely",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function AustrianAirlinesBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/austrian-airlines-baggage-allowance" title="Austrian Airlines baggage allowance">
+    <GuideArticle href="/guides/austrian-airlines-baggage-allowance" title="Austrian Airlines baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Most airlines that skimp on the cheapest fare cut the checked bag first and leave the cabin bag alone.
         Austrian Airlines goes a step further on short and medium-haul routes: book Economy Basic and you get no

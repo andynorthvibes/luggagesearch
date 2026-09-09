@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Eurowings Baggage Allowance: BASIC, SMART and BIZclass Compared",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function EurowingsBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/eurowings-baggage-allowance" title="Eurowings baggage allowance">
+    <GuideArticle href="/guides/eurowings-baggage-allowance" title="Eurowings baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Eurowings ties nearly every part of your baggage allowance to which of its three fares you book. A small
         underseat bag (40 x 30 x 25 cm) is included regardless, but the full-size cabin bag most travelers

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Emirates Baggage Rules: Cabin & Checked Allowance Explained (2026)",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function EmiratesBaggageRules() {
   return (
-    <GuideArticle href="/guides/emirates-baggage-rules" title="Emirates baggage rules, explained">
+    <GuideArticle href="/guides/emirates-baggage-rules" title="Emirates baggage rules, explained" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Emirates is unusual among the big three Gulf carriers in that its checked-bag allowance isn&apos;t one
         system — it&apos;s two, and which one applies depends on where you&apos;re flying.

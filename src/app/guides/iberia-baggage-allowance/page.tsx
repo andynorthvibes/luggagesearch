@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Iberia Baggage Allowance: Economy Basic Skips the Checked Bag Entirely (2026)",
@@ -20,7 +21,7 @@ const fareRows: { fare: string; checkedBags: string }[] = [
 
 export default function IberiaBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/iberia-baggage-allowance" title="Iberia baggage allowance, by fare">
+    <GuideArticle href="/guides/iberia-baggage-allowance" title="Iberia baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Iberia&apos;s Economy Basic is the one fare tier here that skips a complimentary checked bag entirely --
         every other economy tier above it, from Classic up to Flexible, includes at least one. Add a bag to

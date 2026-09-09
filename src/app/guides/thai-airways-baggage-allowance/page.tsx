@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Thai Airways Baggage Allowance: The March 2026 Switch to Piece-Based (2026)",
@@ -20,7 +21,7 @@ const fareRows: { fare: string; checkedBags: string }[] = [
 
 export default function ThaiAirwaysBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/thai-airways-baggage-allowance" title="Thai Airways baggage allowance, by fare">
+    <GuideArticle href="/guides/thai-airways-baggage-allowance" title="Thai Airways baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         In March 2026, Thai Airways switched its checked baggage system from weight-based to piece-based. Under
         the old system, your fare came with a total kilogram budget you could split across bags however you

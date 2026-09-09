@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "ITA Airways Baggage Allowance: Cabin Bags Stay at 8kg in Every Class",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function ItaAirwaysBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/ita-airways-baggage-allowance" title="ITA Airways baggage allowance">
+    <GuideArticle href="/guides/ita-airways-baggage-allowance" title="ITA Airways baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Plenty of airlines reward a pricier cabin with a heavier carry-on allowance. ITA Airways doesn&apos;t:
         every hand luggage piece is capped at 8 kg regardless of class, sized to a maximum of 158 cm total

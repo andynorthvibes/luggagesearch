@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "American Airlines Baggage Allowance: Basic Economy Still Gets a Carry-On (2026)",
@@ -21,7 +22,7 @@ export default function AmericanAirlinesBaggageAllowance() {
   return (
     <GuideArticle
       href="/guides/american-airlines-baggage-allowance"
-      title="American Airlines baggage allowance and fees"
+      title="American Airlines baggage allowance and fees" amazonPicks={CARRY_ON_PICKS}
     >
       <p>
         American does one thing differently from several US competitors: a full carry-on bag is included on{" "}

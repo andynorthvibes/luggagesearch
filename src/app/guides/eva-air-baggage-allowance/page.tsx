@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "EVA Air Baggage Allowance: A Different Rule on the US-Taiwan Route",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function EvaAirBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/eva-air-baggage-allowance" title="EVA Air baggage allowance">
+    <GuideArticle href="/guides/eva-air-baggage-allowance" title="EVA Air baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         EVA Air runs two different checked baggage systems depending on where you&apos;re flying. Most
         international routes use the weight-based standard: one complimentary checked bag up to 23 kg and 158 cm

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Korean Air Baggage Allowance: A 2025 Change Quietly Cut the Free Bag Count (2026)",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function KoreanAirBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/korean-air-baggage-allowance" title="Korean Air baggage allowance">
+    <GuideArticle href="/guides/korean-air-baggage-allowance" title="Korean Air baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         If you&apos;re relying on older reviews or a previous trip&apos;s experience, Korean Air&apos;s Economy
         Saver allowance may have quietly gotten smaller. For tickets issued after June 2025, Economy Saver

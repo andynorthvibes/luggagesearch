@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Singapore Airlines Baggage Allowance: Even the Cheapest Fare Includes a Checked Bag (2026)",
@@ -23,7 +24,7 @@ export default function SingaporeAirlinesBaggageAllowance() {
   return (
     <GuideArticle
       href="/guides/singapore-airlines-baggage-allowance"
-      title="Singapore Airlines baggage allowance, explained"
+      title="Singapore Airlines baggage allowance, explained" amazonPicks={CARRY_ON_PICKS}
     >
       <p>
         Singapore Airlines does something most full-service carriers don&apos;t anymore: even its cheapest Economy

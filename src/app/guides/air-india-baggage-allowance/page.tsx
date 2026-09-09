@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Air India Baggage Allowance: One of the Tightest Cabin Bag Limits We Track (2026)",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function AirIndiaBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/air-india-baggage-allowance" title="Air India baggage allowance">
+    <GuideArticle href="/guides/air-india-baggage-allowance" title="Air India baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Most full-service carriers cap Economy cabin bags at 7-10 kg. Air India sits at the tight end of that
         range: 8 kg, with bags over 10 kg checked into the hold rather than allowed onboard. Business and First

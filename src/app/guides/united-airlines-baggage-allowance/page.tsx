@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "United Airlines Baggage Allowance: Fare Class vs Elite Status (2026)",
@@ -15,7 +16,7 @@ export default function UnitedAirlinesBaggageAllowance() {
   return (
     <GuideArticle
       href="/guides/united-airlines-baggage-allowance"
-      title="United Airlines baggage allowance and fees"
+      title="United Airlines baggage allowance and fees" amazonPicks={CARRY_ON_PICKS}
     >
       <p>
         United&apos;s checked bag fee looks like a simple fare-class question, but two other factors — MileagePlus

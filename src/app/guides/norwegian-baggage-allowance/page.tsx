@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Norwegian Baggage Allowance: Personal-Item-Only, Even on Long-Haul (2026)",
@@ -21,7 +22,7 @@ const fareRows: { fare: string; checkedBags: string }[] = [
 
 export default function NorwegianBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/norwegian-baggage-allowance" title="Norwegian baggage allowance, by fare">
+    <GuideArticle href="/guides/norwegian-baggage-allowance" title="Norwegian baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Personal-item-only fares are common on short-haul budget carriers like Ryanair and easyJet. Norwegian
         applies the same restriction to its cheapest LowFare ticket regardless of route length: no overhead

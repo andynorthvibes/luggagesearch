@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Jet2 Baggage Allowance: No Under-Seat-Only Option Like Ryanair or easyJet (2026)",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function Jet2BaggageAllowance() {
   return (
-    <GuideArticle href="/guides/jet2-baggage-allowance" title="Jet2 baggage allowance">
+    <GuideArticle href="/guides/jet2-baggage-allowance" title="Jet2 baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Ryanair and easyJet built their business around a personal-item-only base fare, charging extra for
         anything bigger. Jet2, built around package holidays rather than one-way city hops, doesn&apos;t offer

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Transavia Baggage Allowance: Smart Gets a Cabin Bag, Plus Gets Checked Bags -- Not Both",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function TransaviaBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/transavia-baggage-allowance" title="Transavia baggage allowance">
+    <GuideArticle href="/guides/transavia-baggage-allowance" title="Transavia baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Transavia&apos;s four fares don&apos;t simply stack more baggage on top of each other as you pay more.
         Basic and Plus both cap you at a single small underseat bag; Smart and Max both add a full-size cabin

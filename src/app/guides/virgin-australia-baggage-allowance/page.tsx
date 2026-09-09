@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Virgin Australia Baggage Allowance: Economy X Now Matches Business Class Cabin Bags (2026)",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function VirginAustraliaBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/virgin-australia-baggage-allowance" title="Virgin Australia baggage allowance">
+    <GuideArticle href="/guides/virgin-australia-baggage-allowance" title="Virgin Australia baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Since February 2, 2026, Virgin Australia&apos;s carry-on allowance quietly got more generous across the
         board. Standard Economy&apos;s single cabin bag went from 7 kg to 8 kg, and Economy X -- a mid-tier fare,

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "airBaltic Baggage Allowance: Economy MINI Gets a Personal Item Only",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function AirbalticBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/airbaltic-baggage-allowance" title="airBaltic baggage allowance">
+    <GuideArticle href="/guides/airbaltic-baggage-allowance" title="airBaltic baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Economy MINI, airBaltic&apos;s entry-level fare, includes only a personal item -- no cabin bag at all.
         Every other Economy fare steps up to one cabin bag plus a personal item, and Business Class includes two

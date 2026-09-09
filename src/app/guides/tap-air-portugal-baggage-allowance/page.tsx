@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "TAP Air Portugal Baggage Allowance: How Status Rescues the Discount Fare (2026)",
@@ -19,7 +20,7 @@ const fareRows: { fare: string; checkedBags: string }[] = [
 
 export default function TapAirPortugalBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/tap-air-portugal-baggage-allowance" title="TAP Air Portugal baggage allowance, by fare">
+    <GuideArticle href="/guides/tap-air-portugal-baggage-allowance" title="TAP Air Portugal baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         TAP&apos;s cheapest Discount fare comes with zero checked baggage -- &quot;the most common TAP
         surprise,&quot; since budget-fare passengers often expect at least one bag. But there&apos;s a genuine

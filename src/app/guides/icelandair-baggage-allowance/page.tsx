@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Icelandair Baggage Allowance: Economy Light's Checked-Bag Trap (2026)",
@@ -21,7 +22,7 @@ const fareRows: { fare: string; checkedBags: string; weight: string }[] = [
 
 export default function IcelandairBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/icelandair-baggage-allowance" title="Icelandair baggage allowance, by fare">
+    <GuideArticle href="/guides/icelandair-baggage-allowance" title="Icelandair baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Icelandair is a popular way to add an Iceland stopover to a transatlantic trip, which makes its baggage
         rules worth understanding before you book — especially the cheapest fare, which includes far less than

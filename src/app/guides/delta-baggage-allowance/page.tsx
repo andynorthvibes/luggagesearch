@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Delta Baggage Allowance: Basic Economy vs Main Cabin Fees (2026)",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function DeltaBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/delta-baggage-allowance" title="Delta baggage allowance and fees">
+    <GuideArticle href="/guides/delta-baggage-allowance" title="Delta baggage allowance and fees" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Delta&apos;s cabin bag policy is simple and consistent. The checked bag is where it gets complicated — the
         fee depends on your fare class, your route, and how many bags you&apos;re checking, and Basic Economy

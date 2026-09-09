@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Finnair Baggage Allowance: Your Checked Bags Depend on the Route, Not Just the Fare (2026)",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function FinnairBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/finnair-baggage-allowance" title="Finnair baggage allowance, by route and fare">
+    <GuideArticle href="/guides/finnair-baggage-allowance" title="Finnair baggage allowance, by route and fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Finnair&apos;s position as a Nordic hub for Asia connections shows up directly in its baggage rules — the
         checked allowance on a comparable fare can be very different depending on which region you&apos;re flying

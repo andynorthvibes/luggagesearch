@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Qantas Baggage Allowance: Weight-Based vs Piece-Based, by Route (2026)",
@@ -20,7 +21,7 @@ const checkedRows: { cabin: string; domestic: string; international: string; ame
 
 export default function QantasBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/qantas-baggage-allowance" title="Qantas baggage allowance: weight-based vs piece-based">
+    <GuideArticle href="/guides/qantas-baggage-allowance" title="Qantas baggage allowance: weight-based vs piece-based" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Qantas runs two different checked-baggage systems side by side, and which one applies to you depends on
         your route, not your fare. Get this wrong and you&apos;ll either underpack or get an unpleasant surprise at

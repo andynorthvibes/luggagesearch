@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Vueling Baggage Allowance: Even the Cheapest Fare Includes an Underseat Bag",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function VuelingBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/vueling-baggage-allowance" title="Vueling baggage allowance">
+    <GuideArticle href="/guides/vueling-baggage-allowance" title="Vueling baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Vueling structures its cabin allowance around two bags, not one: a small underseat bag included on every
         fare including the cheapest, and a larger overhead roller bag that&apos;s only free from the Fly bundle

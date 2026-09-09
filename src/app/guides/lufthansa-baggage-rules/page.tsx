@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Lufthansa Baggage Rules: Cabin & Checked, by Fare Class (2026)",
@@ -19,7 +20,7 @@ export default function LufthansaBaggageRules() {
   ];
 
   return (
-    <GuideArticle href="/guides/lufthansa-baggage-rules" title="Lufthansa baggage rules, by fare class">
+    <GuideArticle href="/guides/lufthansa-baggage-rules" title="Lufthansa baggage rules, by fare class" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Lufthansa&apos;s cabin bag allowance is the same for everyone. The checked bag isn&apos;t — it depends
         entirely on which Economy fare you booked, and the cheapest one doesn&apos;t include a checked bag at all.

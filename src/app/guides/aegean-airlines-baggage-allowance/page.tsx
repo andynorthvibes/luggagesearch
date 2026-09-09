@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Aegean Airlines Baggage Allowance: Cabin Bag Size Depends on the Plane, Not the Fare",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function AegeanAirlinesBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/aegean-airlines-baggage-allowance" title="Aegean Airlines baggage allowance">
+    <GuideArticle href="/guides/aegean-airlines-baggage-allowance" title="Aegean Airlines baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Most airlines size the cabin bag around the fare you booked. Aegean Airlines sizes it around the plane
         instead: a cabin bag can be up to 56 x 45 x 25 cm on the airline&apos;s Airbus jets, but shrinks to 55 x

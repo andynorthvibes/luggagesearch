@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "WestJet Baggage Allowance: UltraBasic Cuts the Carry-On, Not Just the Checked Bag (2026)",
@@ -21,7 +22,7 @@ const fareRows: { fare: string; checkedBags: string }[] = [
 
 export default function WestJetBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/westjet-baggage-allowance" title="WestJet baggage allowance, by fare">
+    <GuideArticle href="/guides/westjet-baggage-allowance" title="WestJet baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Most airlines&apos; cheapest fare restricts the <em>checked</em> bag and leaves the cabin bag alone.
         WestJet&apos;s UltraBasic fare goes further on North American routes: it strips out the full-size carry-on

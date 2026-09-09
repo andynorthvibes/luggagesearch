@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Japan Airlines Baggage Allowance: International Generosity, Domestic Reset (2026)",
@@ -20,7 +21,7 @@ const fareRows: { fare: string; checkedBags: string }[] = [
 
 export default function JapanAirlinesBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/japan-airlines-baggage-allowance" title="Japan Airlines baggage allowance, by fare">
+    <GuideArticle href="/guides/japan-airlines-baggage-allowance" title="Japan Airlines baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         On JAL&apos;s international flights, even standard Economy includes two free checked bags at 23 kg each
         -- more generous than most competitors&apos; base Economy fare. The catch is the connection: book a

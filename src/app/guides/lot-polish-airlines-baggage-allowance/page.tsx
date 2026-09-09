@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "LOT Polish Airlines Baggage Allowance: The Same Fare Pays Differently by Route",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function LotPolishAirlinesBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/lot-polish-airlines-baggage-allowance" title="LOT Polish Airlines baggage allowance">
+    <GuideArticle href="/guides/lot-polish-airlines-baggage-allowance" title="LOT Polish Airlines baggage allowance" amazonPicks={CARRY_ON_PICKS}>
       <p>
         With most airlines, the fare name tells you the whole story. LOT Polish Airlines adds a second variable:
         route. The same Economy Standard fare can include one checked bag on a Europe-to-North-America itinerary

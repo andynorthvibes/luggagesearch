@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Turkish Airlines Baggage Allowance: Cabin, Checked & the KG/PC Split (2026)",
@@ -15,7 +16,7 @@ export default function TurkishAirlinesBaggageAllowance() {
   return (
     <GuideArticle
       href="/guides/turkish-airlines-baggage-allowance"
-      title="Turkish Airlines baggage allowance, explained"
+      title="Turkish Airlines baggage allowance, explained" amazonPicks={CARRY_ON_PICKS}
     >
       <p>
         Turkish Airlines&apos; checked baggage allowance isn&apos;t one fixed number — it depends on which of two

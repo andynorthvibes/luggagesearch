@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Alaska Airlines Baggage Allowance: Fees, Perks & the 20-Minute Guarantee (2026)",
@@ -15,7 +16,7 @@ export default function AlaskaAirlinesBaggageAllowance() {
   return (
     <GuideArticle
       href="/guides/alaska-airlines-baggage-allowance"
-      title="Alaska Airlines baggage allowance and fees"
+      title="Alaska Airlines baggage allowance and fees" amazonPicks={CARRY_ON_PICKS}
     >
       <p>
         Alaska includes a full carry-on and personal item on every fare, even its cheapest Saver tickets — and

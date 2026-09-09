@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "British Airways Baggage Allowance: Cabin & Checked, by Fare (2026)",
@@ -21,7 +22,7 @@ export default function BritishAirwaysBaggageAllowance() {
   ];
 
   return (
-    <GuideArticle href="/guides/british-airways-baggage-allowance" title="British Airways baggage allowance, by fare">
+    <GuideArticle href="/guides/british-airways-baggage-allowance" title="British Airways baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         British Airways&apos; checked baggage allowance scales cleanly with cabin and fare — the exception is its
         cheapest Economy fare, which includes no checked bag at all.

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
+import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
   title: "Aer Lingus Baggage Allowance: When the Cabin Bag Isn't Actually Free (2026)",
@@ -21,7 +22,7 @@ const fareRows: { fare: string; checkedBags: string }[] = [
 
 export default function AerLingusBaggageAllowance() {
   return (
-    <GuideArticle href="/guides/aer-lingus-baggage-allowance" title="Aer Lingus baggage allowance, by fare">
+    <GuideArticle href="/guides/aer-lingus-baggage-allowance" title="Aer Lingus baggage allowance, by fare" amazonPicks={CARRY_ON_PICKS}>
       <p>
         Aer Lingus always includes a small personal item free of charge -- but the larger 10 kg overhead cabin
         bag is a different story. It comes included on Transatlantic, Plus, and Advantage fares and for AerClub
