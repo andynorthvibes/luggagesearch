@@ -20,7 +20,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Size, weight, shell, wheels — the four decisions that matter, in order.",
     chip: "Carry-on",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1670888616036-ed6e723c07e6?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/best-carry-on-luggage.jpg",
     updated: "September 2026",
   },
   {
@@ -29,7 +29,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Durability, expansion and how airline weight limits really work.",
     chip: "Checked",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1670888664952-efff442ec0d2?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/best-checked-luggage.jpg",
     updated: "September 2026",
   },
   {
@@ -38,7 +38,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Two giants compared on materials, warranty and real-world wear.",
     chip: "Brand duel",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1670888616427-764112453941?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/samsonite-vs-delsey.jpg",
     updated: "September 2026",
   },
   {
@@ -47,7 +47,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Free personal item, paid Priority bag, and where the 10 kg limit gets enforced.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1673505379276-fd25416b6e55?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/ryanair-baggage-rules.jpg",
     updated: "September 2026",
   },
   {
@@ -56,7 +56,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The two-free-bags era is over for most flyers — here's who still gets them free.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1702411739431-0b6874405792?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/southwest-baggage-policy.jpg",
     updated: "September 2026",
   },
   {
@@ -65,7 +65,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The lightest bags we could verify, ranked by actual empty weight — not marketing copy.",
     chip: "Buying guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1673505705824-e6abaa279c97?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/best-lightweight-carry-on-luggage.jpg",
     updated: "September 2026",
   },
   {
@@ -74,7 +74,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Credit cards, elite status and packing choices, ranked by how much they actually save.",
     chip: "Money-saving",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1762965119363-af950b523dca?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/avoid-checked-baggage-fees.jpg",
     updated: "September 2026",
   },
   {
@@ -83,7 +83,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The cabin bag is fixed at 8 kg — the checked bag depends entirely on your fare.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1706967930742-9d6c5238e7e4?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/lufthansa-baggage-rules.jpg",
     updated: "September 2026",
   },
   {
@@ -92,7 +92,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Piece-based or weight-based checked baggage — it depends entirely on your route.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1591632175697-f07e2d75dacb?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/emirates-baggage-rules.jpg",
     updated: "September 2026",
   },
   {
@@ -101,7 +101,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "We compared the free personal-item size across our own dataset — it varies by over 50%.",
     chip: "Explainer",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/carry-on-vs-personal-item.jpg",
     updated: "September 2026",
   },
   {
@@ -110,7 +110,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Laptop access, garment protection and a weight budget that survives Lufthansa or Emirates.",
     chip: "Buying guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1574202141112-c3a90e1a3ce2?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/best-luggage-for-business-travel.jpg",
     updated: "September 2026",
   },
   {
@@ -119,7 +119,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Checked bags scale from zero to three depending on cabin and fare — here's the full breakdown.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1698584109673-12d97bc70d08?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/british-airways-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -128,7 +128,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Liquids, sharp objects, sporting goods, and the one item that must go in the cabin, not checked.",
     chip: "Explainer",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1673505705715-8deb093d39e8?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/what-not-to-pack-in-carry-on.jpg",
     updated: "September 2026",
   },
   {
@@ -137,7 +137,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Hard-shell durability, wheel quality, and why a 3-piece set beats one bag per traveler.",
     chip: "Buying guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1673505705677-93516a00ca06?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/best-luggage-for-family-travel.jpg",
     updated: "September 2026",
   },
   {
@@ -146,7 +146,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "One free personal item, a paid Priority cabin bag, and four checked-bag weight tiers.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1602191595949-1b1e5fb5634a?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/wizz-air-baggage-rules.jpg",
     updated: "September 2026",
   },
   {
@@ -155,7 +155,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Weight-based on some routes, piece-based on others -- here's which applies to you.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1503365194569-df4e1d04cec1?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/qantas-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -164,7 +164,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Your checked allowance depends on the KG or PC concept -- and it's printed on your ticket.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1527007622069-3a0241e1cd8c?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/turkish-airlines-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -173,7 +173,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The cheapest fare includes zero checked bags -- and stopover fees apply per leg, not per trip.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/icelandair-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -182,7 +182,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "No cabin-bag weight limit, but checked fees swing hard between Basic Economy and Main Cabin.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1572358707000-39729872feba?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/delta-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -191,7 +191,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Fare class sets the checked-bag fee -- but elite status and some credit cards can waive it.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1714235058886-a0b38ad5066c?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/united-airlines-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -200,7 +200,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The cheapest fare shrinks your carry-on too, not just checked bags, on Canada-U.S. routes.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1714235058817-af16a662fe1d?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/air-canada-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -209,7 +209,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Even the cheapest fare includes a checked bag -- rare among full-service carriers today.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1564209906116-fb6887675069?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/singapore-airlines-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -218,7 +218,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The free bag is smaller than you think, and a gate mistake costs a flat GBP 50.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1569512850669-7baa648e82d8?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/easyjet-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -227,7 +227,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Basic Economy still includes a full carry-on -- the one thing several rivals don't offer.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1603792835233-f4f7c2497d4f?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/american-airlines-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -236,7 +236,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The same Blue Basic fare charges for a first bag at home and gives one away free to Europe.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1663030083159-5a58ca80c4ef?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/jetblue-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -245,7 +245,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Same price online or at the airport, plus a 20-minute bag guarantee most US carriers don't match.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1773228972271-41d02886869b?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/alaska-airlines-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -254,7 +254,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Economy Light means zero checked bags -- but status bonuses carry over from sister airline KLM.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1708403120467-1715bb6840df?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/air-france-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -263,7 +263,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Economy Light means something different depending on where you're flying -- and a 2026 update now gives Silver members a free bag.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1549894595-4698795b38ee?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/sas-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -272,7 +272,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Light means hand-luggage-only everywhere Swiss flies, and the 32kg weight cap has no pay-your-way-out option.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1654686473683-79cef3d57db6?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/swiss-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -281,7 +281,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "How many bags you get depends more on the route than the fare -- Asia flights can beat Europe by two full bags.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1558413203-528a11565bf4?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/finnair-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -290,7 +290,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Despite the name, Economy Basic doesn't even include a full-size carry-on -- just an under-seat bag.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1629308993023-bb7ca078abdc?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/klm-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -299,7 +299,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The one airline in our checker that a standard 55x35x20 carry-on doesn't clear.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1581553680321-4fffae59fccd?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/qatar-airways-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -308,7 +308,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Basic Economy includes zero checked bags -- and even elite status doesn't rescue it.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1568571959361-3bffbad07499?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/etihad-airways-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -317,7 +317,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "One of the few airlines where your cabin bag's weight limit rises with your cabin class.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1670888616597-53457e54b61b?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/cathay-pacific-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -326,7 +326,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The cheapest fare is personal-item-only -- even on Norwegian's longer routes.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1632165061207-81a8a3baee47?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/norwegian-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -335,7 +335,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The personal item is always free -- the 10kg cabin bag depends entirely on your fare.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1502301197179-65228ab57f78?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/aer-lingus-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -344,7 +344,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "A generous international allowance that resets to a smaller one on a connecting domestic leg.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1531938716357-224c16b5ace3?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/japan-airlines-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -353,7 +353,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Domestic Japan flights switch to a more generous system on May 19, 2026.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1525103504173-8dc1582c7430?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/ana-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -362,7 +362,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "No personal-item-only fare like Ryanair or easyJet -- every ticket includes a 10kg cabin bag.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1448582649076-3981753123b5?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/jet2-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -371,7 +371,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "UltraBasic strips out the full carry-on itself, not just the checked bag, on North American routes.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1532968899863-5b52ef155913?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/westjet-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -380,7 +380,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Even basic Star Alliance Gold status rescues the otherwise bagless Discount fare.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1660082120861-952dc7ad9652?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/tap-air-portugal-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -389,7 +389,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Economy Basic is the one fare tier that skips a complimentary checked bag entirely.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1636491059289-faf59c5b3e56?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/iberia-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -398,7 +398,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "A 2025 policy change quietly cut Economy Saver's free bag count to the US from two down to one.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1623011096060-2cfeab2928d1?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/korean-air-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -407,7 +407,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "A March 2026 switch to a piece-based system means bag count now matters more than total weight.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1588525720553-b98866715961?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/thai-airways-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -416,7 +416,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "An 8kg Economy cabin bag limit -- tighter than most -- and two totally different systems by route.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1768668054692-41fa548a9f5e?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/air-india-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -425,7 +425,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The domestic Seat fare is carry-on only -- a trap after a long-haul flight that included checked bags.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1494274782939-268883e8903f?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/air-new-zealand-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -434,7 +434,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Since February 2026, Economy X gets the same two-bag cabin allowance as Business class.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1563820510191-3b4a20c78568?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/virgin-australia-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -443,7 +443,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "On short and medium-haul routes, Economy Basic skips the cabin bag entirely.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1782804176647-b726116b6839?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/austrian-airlines-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -452,7 +452,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Economy Basic and Light include zero checked bags -- Comfort steps up to one at 23kg.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1653795163859-9ee39ecc6d62?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/brussels-airlines-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -461,7 +461,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Cabin bags stay capped at 8kg in every class, even Business.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1762883691346-0bf3da20c4b7?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/ita-airways-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -470,7 +470,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The same fare can include one bag or two, depending entirely on the route.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1635343167210-637ee0a60acc?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/lot-polish-airlines-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -479,7 +479,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Cabin bag size depends on the aircraft type flying your route, not your fare.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1515622472995-1a06094d2224?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/aegean-airlines-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -488,7 +488,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Even the cheapest fare includes a free underseat bag -- the overhead bag is the paid part.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1642979876496-7fd6bce1c80b?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/vueling-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -497,7 +497,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "BASIC charges extra for a full-size cabin bag that SMART and BIZclass include for free.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1700223797363-eac22c5a10ed?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/eurowings-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -506,7 +506,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Checked baggage switches from one weight-based bag to two pieces on the US-Taiwan route.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1680781349533-318a712fa41f?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/eva-air-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -515,7 +515,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Smart adds a cabin bag but no checked baggage -- Plus does the opposite.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1639597784674-431b34cec7a8?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/transavia-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -524,7 +524,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Economy MINI includes a personal item only -- no cabin bag at all.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1714235058849-a9fe1088b16d?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/airbaltic-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -533,7 +533,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Light Package means a single 3kg underseat bag -- nothing more.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1774560745344-78667b3594a7?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/pegasus-airlines-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -542,7 +542,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Bags over 23kg fly standby on Wideroe's smaller regional aircraft, not guaranteed.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1781514041306-489a8d346265?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/wideroe-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -551,7 +551,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "The personal item has officially no weight limit at all -- unusual for a long-haul carrier.",
     chip: "Airline guide",
     chipColor: "sky",
-    img: "https://images.unsplash.com/photo-1763569799665-485826a970f6?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/norse-atlantic-airways-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -560,7 +560,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Economy checked baggage swings from zero to two bags depending on the route.",
     chip: "Airline guide",
     chipColor: "coral",
-    img: "https://images.unsplash.com/photo-1776018276499-3140bd1582aa?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/china-airlines-baggage-allowance.jpg",
     updated: "September 2026",
   },
   {
@@ -569,7 +569,7 @@ export const GUIDES: GuideMeta[] = [
     blurb: "Carry-on rules on Jetstar Airways flights are changing from February 2, 2027.",
     chip: "Airline guide",
     chipColor: "sun",
-    img: "https://images.unsplash.com/photo-1728939862876-1c7e36d9cdfa?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/guides/jetstar-baggage-allowance.jpg",
     updated: "September 2026",
   },
 ];
