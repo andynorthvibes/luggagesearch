@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "How to Avoid Checked Baggage Fees (2026 Guide)",
   description:
     "Credit cards, elite status, fare class, and packing choices that actually avoid checked baggage fees — ranked by how much they save.",
+  alternates: {
+    canonical: "/guides/avoid-checked-baggage-fees",
+  },
 };
 
 export default function AvoidCheckedBaggageFees() {

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "WestJet Baggage Allowance: UltraBasic Cuts the Carry-On, Not Just the Checked Bag (2026)",
   description:
     "WestJet's UltraBasic fare strips out the full carry-on bag itself on North American routes, not just checked baggage -- while its co-branded credit card waives the first bag for up to 8 guests on one booking.",
+  alternates: {
+    canonical: "/guides/westjet-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string }[] = [
@@ -78,6 +81,11 @@ export default function WestJetBaggageAllowance() {
           <a href="https://deeparrival.com/airlines/westjet/baggage-fees/" target="_blank" rel="noopener noreferrer nofollow">
             Deep Arrival — WestJet Baggage Fees 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.westjet.com" target="_blank" rel="noopener noreferrer nofollow">westjet.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

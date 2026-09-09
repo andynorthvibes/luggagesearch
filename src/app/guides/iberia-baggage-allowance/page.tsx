@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Iberia Baggage Allowance: Economy Basic Skips the Checked Bag Entirely (2026)",
   description:
     "Iberia's Economy Basic fare includes no checked bag at all -- add one from around EUR 13 online -- while cabin bag weight limits scale from 10kg in Economy to 14kg in Business.",
+  alternates: {
+    canonical: "/guides/iberia-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string }[] = [
@@ -76,6 +79,11 @@ export default function IberiaBaggageAllowance() {
           <a href="https://deeparrival.com/airlines/iberia/baggage-fees/" target="_blank" rel="noopener noreferrer nofollow">
             Deep Arrival — Iberia Baggage Fees and Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.iberia.com" target="_blank" rel="noopener noreferrer nofollow">iberia.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

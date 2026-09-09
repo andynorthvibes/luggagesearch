@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Turkish Airlines Baggage Allowance: Cabin, Checked & the KG/PC Split (2026)",
   description:
     "Turkish Airlines' checked baggage runs on either a weight or a piece system depending on your specific route -- here's how to find out which applies to you, plus cabin bag limits.",
+  alternates: {
+    canonical: "/guides/turkish-airlines-baggage-allowance",
+  },
 };
 
 export default function TurkishAirlinesBaggageAllowance() {
@@ -70,6 +73,11 @@ export default function TurkishAirlinesBaggageAllowance() {
           <a href="https://thetraveltinker.com/transport/turkish-airlines-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — Turkish Airlines Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.turkishairlines.com" target="_blank" rel="noopener noreferrer nofollow">turkishairlines.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "KLM Baggage Allowance: What 'Economy Basic' Actually Means (2026)",
   description:
     "KLM's Economy Basic sounds like a standard fare but includes only an under-seat bag -- no cabin bag, no checked bag. Here's the naming trap and the full fare breakdown.",
+  alternates: {
+    canonical: "/guides/klm-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string }[] = [
@@ -86,6 +89,11 @@ export default function KlmBaggageAllowance() {
           <a href="https://thetraveltinker.com/transport/klm-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — KLM Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.klm.com" target="_blank" rel="noopener noreferrer nofollow">klm.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Best Lightweight Carry-On Luggage: Ranked by Actual Weight (2026)",
   description:
     "Lightweight carry-on suitcases ranked by verified empty weight, not marketing copy — and why it matters on weight-limited airlines.",
+  alternates: {
+    canonical: "/guides/best-lightweight-carry-on-luggage",
+  },
 };
 
 export default function BestLightweightCarryOn() {

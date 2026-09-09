@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Pegasus Airlines Baggage Allowance: Light Package Means a 3kg Underseat Bag, Nothing More",
   description:
     "Pegasus Airlines' Light Package on international flights includes no cabin bag and no checked bag -- just a single underseat item capped at 3kg, tighter than most airlines' personal-item limit.",
+  alternates: {
+    canonical: "/guides/pegasus-airlines-baggage-allowance",
+  },
 };
 
 export default function PegasusAirlinesBaggageAllowance() {
@@ -38,7 +41,7 @@ export default function PegasusAirlinesBaggageAllowance() {
         <li>
           <a href="https://www.flypgs.com/en/pegasus-baggage-allowance" target="_blank" rel="noopener noreferrer nofollow">
             Pegasus Airlines — Pegasus Baggage Allowance
-          </a>
+          </a> Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

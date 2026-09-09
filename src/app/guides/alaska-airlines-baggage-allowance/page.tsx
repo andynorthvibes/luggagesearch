@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Alaska Airlines Baggage Allowance: Fees, Perks & the 20-Minute Guarantee (2026)",
   description:
     "Alaska charges the same checked bag fee online or at the airport since April 2026 -- and backs its baggage delivery with a 20-minute guarantee. Here's the full breakdown.",
+  alternates: {
+    canonical: "/guides/alaska-airlines-baggage-allowance",
+  },
 };
 
 export default function AlaskaAirlinesBaggageAllowance() {
@@ -67,6 +70,11 @@ export default function AlaskaAirlinesBaggageAllowance() {
           <a href="https://deeparrival.com/airlines/alaska-airlines/baggage-fees/" target="_blank" rel="noopener noreferrer nofollow">
             Deep Arrival — Alaska Airlines Baggage Fees 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.alaskaair.com" target="_blank" rel="noopener noreferrer nofollow">alaskaair.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Air France Baggage Allowance: What Economy Light Actually Includes (2026)",
   description:
     "Air France's Economy Light includes cabin baggage on long-haul routes but zero checked bags at any price point on the cheapest fare -- here's the full fare-by-fare breakdown.",
+  alternates: {
+    canonical: "/guides/air-france-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string; weight: string }[] = [
@@ -78,6 +81,11 @@ export default function AirFranceBaggageAllowance() {
           <a href="https://deeparrival.com/airlines/air-france/baggage-fees/" target="_blank" rel="noopener noreferrer nofollow">
             Deep Arrival — Air France Baggage Fees & Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.airfrance.com" target="_blank" rel="noopener noreferrer nofollow">airfrance.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

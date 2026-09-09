@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "China Airlines Baggage Allowance: Economy Swings From Zero to Two Bags by Route",
   description:
     "China Airlines' Economy checked baggage ranges from zero to two pieces depending on the specific route and booking class, while Premium Economy and Business stay flat regardless of route.",
+  alternates: {
+    canonical: "/guides/china-airlines-baggage-allowance",
+  },
 };
 
 export default function ChinaAirlinesBaggageAllowance() {
@@ -52,7 +55,7 @@ export default function ChinaAirlinesBaggageAllowance() {
         <li>
           <a href="https://www.china-airlines.com/us/en/fly/prepare-for-the-fly/baggage/baggage-rules" target="_blank" rel="noopener noreferrer nofollow">
             China Airlines — Baggage Rules
-          </a>
+          </a> Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

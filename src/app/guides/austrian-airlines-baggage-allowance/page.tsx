@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Austrian Airlines Baggage Allowance: Economy Basic Skips the Cabin Bag Entirely",
   description:
     "On short and medium-haul routes, Austrian Airlines' cheapest Economy Basic fare includes no cabin bag at all -- only a small personal item -- with a full carry-on costing extra.",
+  alternates: {
+    canonical: "/guides/austrian-airlines-baggage-allowance",
+  },
 };
 
 export default function AustrianAirlinesBaggageAllowance() {
@@ -52,7 +55,7 @@ export default function AustrianAirlinesBaggageAllowance() {
         <li>
           <a href="https://www.austrian.com/us/en/faq-baggage" target="_blank" rel="noopener noreferrer nofollow">
             Austrian Airlines — FAQs about baggage
-          </a>
+          </a> Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

@@ -5,6 +5,9 @@ import PageIntro from "@/components/PageIntro";
 export const metadata: Metadata = {
   title: "Affiliate Disclosure",
   description: "How LuggageSearch.com uses affiliate links and advertising.",
+  alternates: {
+    canonical: "/affiliate-disclosure",
+  },
 };
 
 export default function AffiliateDisclosurePage() {

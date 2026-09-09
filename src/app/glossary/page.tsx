@@ -4,6 +4,9 @@ import PageIntro from "@/components/PageIntro";
 export const metadata: Metadata = {
   title: "Luggage & Travel Glossary",
   description: "Plain-language definitions of common luggage and airline baggage terms.",
+  alternates: {
+    canonical: "/glossary",
+  },
 };
 
 const terms = [

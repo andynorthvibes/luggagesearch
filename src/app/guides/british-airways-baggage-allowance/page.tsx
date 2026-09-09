@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "British Airways Baggage Allowance: Cabin & Checked, by Fare (2026)",
   description:
     "British Airways' checked allowance scales from 1 to 3 bags depending on cabin and fare — here's exactly what each one includes.",
+  alternates: {
+    canonical: "/guides/british-airways-baggage-allowance",
+  },
 };
 
 export default function BritishAirwaysBaggageAllowance() {
@@ -72,7 +75,7 @@ export default function BritishAirwaysBaggageAllowance() {
         </li>
         <li>
           British Airways&apos; own published baggage terms — fares, weight limits and fees change, so confirm on{" "}
-          <a href="https://www.britishairways.com" target="_blank" rel="noopener noreferrer nofollow">britishairways.com</a> before flying.
+          <a href="https://www.britishairways.com" target="_blank" rel="noopener noreferrer nofollow">britishairways.com</a> before flying. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

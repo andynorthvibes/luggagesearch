@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "JetBlue Baggage Allowance: Blue Basic vs Blue Plus vs Mint (2026)",
   description:
     "JetBlue's cheapest fare charges for a first checked bag domestically -- but the same fare gets one free on transatlantic routes. Here's the full fare-by-fare breakdown.",
+  alternates: {
+    canonical: "/guides/jetblue-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; firstBag: string; secondBag: string; weight: string }[] = [
@@ -85,6 +88,11 @@ export default function JetBlueBaggageAllowance() {
           <a href="https://thetraveltinker.com/transport/jetblue-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — JetBlue Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.jetblue.com" target="_blank" rel="noopener noreferrer nofollow">jetblue.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

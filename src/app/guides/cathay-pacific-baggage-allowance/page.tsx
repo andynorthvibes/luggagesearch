@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Cathay Pacific Baggage Allowance: Cabin Weight Scales With Your Cabin (2026)",
   description:
     "Cathay Pacific is one of the few airlines where your cabin bag weight limit rises with your cabin class -- 7 kg in Economy, 10 kg in Business, 15 kg in First -- plus a separate personal item at every tier.",
+  alternates: {
+    canonical: "/guides/cathay-pacific-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string }[] = [
@@ -78,6 +81,11 @@ export default function CathayPacificBaggageAllowance() {
           <a href="https://www.sendmybag.com/airlines/cathay-pacific-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             Send My Bag — Cathay Pacific Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.cathaypacific.com" target="_blank" rel="noopener noreferrer nofollow">cathaypacific.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

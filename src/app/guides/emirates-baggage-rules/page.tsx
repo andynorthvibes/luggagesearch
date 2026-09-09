@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Emirates Baggage Rules: Cabin & Checked Allowance Explained (2026)",
   description:
     "Emirates runs two different checked-baggage systems depending on your route — here's which one applies to you.",
+  alternates: {
+    canonical: "/guides/emirates-baggage-rules",
+  },
 };
 
 export default function EmiratesBaggageRules() {
@@ -55,7 +58,7 @@ export default function EmiratesBaggageRules() {
         <li>
           Emirates&apos; own published baggage terms — allowances vary by route and fare and change over time, so
           confirm on{" "}
-          <a href="https://www.emirates.com" target="_blank" rel="noopener noreferrer nofollow">emirates.com</a> before flying.
+          <a href="https://www.emirates.com" target="_blank" rel="noopener noreferrer nofollow">emirates.com</a> before flying. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

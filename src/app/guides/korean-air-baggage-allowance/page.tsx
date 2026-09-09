@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Korean Air Baggage Allowance: A 2025 Change Quietly Cut the Free Bag Count (2026)",
   description:
     "Tickets issued after June 2025 get only one free checked bag on Korean Air's Economy Saver fare, even to the US -- down from two -- and cabin bags are weighed strictly at the gate.",
+  alternates: {
+    canonical: "/guides/korean-air-baggage-allowance",
+  },
 };
 
 export default function KoreanAirBaggageAllowance() {
@@ -53,6 +56,11 @@ export default function KoreanAirBaggageAllowance() {
           <a href="https://travellote.com/baggage/koreanair/" target="_blank" rel="noopener noreferrer nofollow">
             Travel Lote — Korean Air Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.koreanair.com" target="_blank" rel="noopener noreferrer nofollow">koreanair.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

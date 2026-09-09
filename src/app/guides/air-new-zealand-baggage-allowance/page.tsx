@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Air New Zealand Baggage Allowance: The Domestic Connection Trap (2026)",
   description:
     "Air New Zealand's domestic Seat fare is carry-on only, with zero checked baggage included -- a trap for travelers connecting off a long-haul international flight that included a checked bag.",
+  alternates: {
+    canonical: "/guides/air-new-zealand-baggage-allowance",
+  },
 };
 
 export default function AirNewZealandBaggageAllowance() {
@@ -61,6 +64,11 @@ export default function AirNewZealandBaggageAllowance() {
           <a href="https://thetraveltinker.com/transport/air-new-zealand-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — Air New Zealand Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.airnewzealand.co.nz" target="_blank" rel="noopener noreferrer nofollow">airnewzealand.co.nz</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

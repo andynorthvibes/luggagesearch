@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Jet2 Baggage Allowance: No Under-Seat-Only Option Like Ryanair or easyJet (2026)",
   description:
     "Jet2, the UK package-holiday carrier, doesn't sell a personal-item-only fare -- every ticket includes a 10kg cabin bag, and hold bags left unbooked cost more regardless of when you arrive.",
+  alternates: {
+    canonical: "/guides/jet2-baggage-allowance",
+  },
 };
 
 export default function Jet2BaggageAllowance() {
@@ -63,6 +66,11 @@ export default function Jet2BaggageAllowance() {
           <a href="https://www.sendmybag.com/airlines/jet2-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             Send My Bag — Jet2 Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.jet2.com" target="_blank" rel="noopener noreferrer nofollow">jet2.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

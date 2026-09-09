@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "SAS Baggage Allowance: Economy Light Depends on Where You're Flying (2026)",
   description:
     "SAS's cheapest fare gets you a full carry-on to the US or Asia, but only a personal item within Europe -- the same fare name means different things by region.",
+  alternates: {
+    canonical: "/guides/sas-baggage-allowance",
+  },
 };
 
 export default function SasBaggageAllowance() {
@@ -63,6 +66,11 @@ export default function SasBaggageAllowance() {
           <a href="https://thetraveltinker.com/transport/sas-scandinavian-airlines-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — SAS Scandinavian Airlines Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.flysas.com" target="_blank" rel="noopener noreferrer nofollow">flysas.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

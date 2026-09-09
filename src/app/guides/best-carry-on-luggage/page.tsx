@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Best Carry-On Luggage: How to Actually Choose One (2026)",
   description:
     "A criteria-based guide to picking carry-on luggage — size, weight, material, and wheels — plus a free tool to check your bag against airline limits.",
+  alternates: {
+    canonical: "/guides/best-carry-on-luggage",
+  },
 };
 
 export default function BestCarryOnLuggage() {
@@ -123,6 +126,18 @@ export default function BestCarryOnLuggage() {
         one. Everything else — hardside vs. softside, spinner vs. inline, expandable or not — is a preference
         question with no universally right answer.
       </p>
+
+      <h2>Frequently asked questions</h2>
+      <div className="space-y-2">
+        <div>
+          <h3>What is the standard carry-on size limit?</h3>
+          <p>Most US airlines (United, Delta, American, JetBlue, Alaska) cap carry-ons at around 22 x 14 x 9 inches (56 x 35 x 23 cm). European and low-cost carriers vary more — some allow larger bags, others (like Ryanair&apos;s free allowance) are much smaller. There is no single global standard, which is why checking your specific airline matters.</p>
+        </div>
+        <div>
+          <h3>Should I buy a hardside or softside carry-on?</h3>
+          <p>Hardside (polycarbonate or ABS) protects contents better and resists crushing in an overhead bin, but has fixed capacity. Softside bags flex to fit tight spaces and often have more exterior pockets, but offer less protection for fragile items.</p>
+        </div>
+      </div>
 
       <h2>Sources</h2>
       <ul className="text-sm">

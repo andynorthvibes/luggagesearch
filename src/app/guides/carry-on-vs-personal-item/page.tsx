@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Carry-On vs Personal Item: What's the Actual Difference? (2026)",
   description:
     "A personal item is not one standard size — we compared it across our own 53-airline dataset and found it varies by over 50% in volume.",
+  alternates: {
+    canonical: "/guides/carry-on-vs-personal-item",
+  },
 };
 
 export default function CarryOnVsPersonalItem() {

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Eurowings Baggage Allowance: BASIC, SMART and BIZclass Compared",
   description:
     "Eurowings' three-tier fare ladder decides everything about your bags -- BASIC charges extra for a full-size cabin bag, SMART includes one, and BIZclass doubles both cabin and checked allowances.",
+  alternates: {
+    canonical: "/guides/eurowings-baggage-allowance",
+  },
 };
 
 export default function EurowingsBaggageAllowance() {
@@ -63,7 +66,7 @@ export default function EurowingsBaggageAllowance() {
         <li>
           <a href="https://www.eurowings.com/en/information/baggage.html" target="_blank" rel="noopener noreferrer nofollow">
             Eurowings — Baggage regulations
-          </a>
+          </a> Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

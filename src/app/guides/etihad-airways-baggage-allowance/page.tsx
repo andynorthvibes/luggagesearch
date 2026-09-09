@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Etihad Airways Baggage Allowance: Why Basic Economy Skips Loyalty Perks (2026)",
   description:
     "Etihad's Basic Economy fare includes zero checked bags -- and Etihad Guest status, which rescues other fares, explicitly doesn't apply to it.",
+  alternates: {
+    canonical: "/guides/etihad-airways-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string }[] = [
@@ -82,6 +85,11 @@ export default function EtihadAirwaysBaggageAllowance() {
           <a href="https://thetraveltinker.com/transport/etihad-airways-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — Etihad Airways Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.etihad.com" target="_blank" rel="noopener noreferrer nofollow">etihad.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

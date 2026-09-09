@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Aegean Airlines Baggage Allowance: Cabin Bag Size Depends on the Plane, Not the Fare",
   description:
     "Aegean Airlines sets cabin baggage dimensions by aircraft type rather than fare class -- Airbus jets allow a larger bag than the turboprops flying Greece's regional routes.",
+  alternates: {
+    canonical: "/guides/aegean-airlines-baggage-allowance",
+  },
 };
 
 export default function AegeanAirlinesBaggageAllowance() {
@@ -53,7 +56,7 @@ export default function AegeanAirlinesBaggageAllowance() {
         <li>
           <a href="https://en.aegeanair.com/travel-info/travelling-with-aegean/baggage/baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             Aegean Airlines — Baggage allowance
-          </a>
+          </a> Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

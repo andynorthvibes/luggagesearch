@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Packing List Generator — Free & Customizable",
   description:
     "Answer three questions about your trip — length, climate, and type — and get a complete, checkable packing list.",
+  alternates: {
+    canonical: "/tools/packing-list",
+  },
 };
 
 export default function PackingListPage() {

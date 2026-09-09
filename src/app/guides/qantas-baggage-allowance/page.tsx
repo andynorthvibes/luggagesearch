@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Qantas Baggage Allowance: Weight-Based vs Piece-Based, by Route (2026)",
   description:
     "Qantas switches between a weight-based and a piece-based checked baggage system depending on your route -- here's which one applies, and what it means for how much you can pack.",
+  alternates: {
+    canonical: "/guides/qantas-baggage-allowance",
+  },
 };
 
 const checkedRows: { cabin: string; domestic: string; international: string; americas: string }[] = [
@@ -94,6 +97,11 @@ export default function QantasBaggageAllowance() {
           <a href="https://thetraveltinker.com/transport/qantas-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — Qantas Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.qantas.com" target="_blank" rel="noopener noreferrer nofollow">qantas.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

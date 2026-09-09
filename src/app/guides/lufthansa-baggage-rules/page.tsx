@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Lufthansa Baggage Rules: Cabin & Checked, by Fare Class (2026)",
   description:
     "Lufthansa's cabin bag limit is fixed, but the checked bag depends entirely on your fare class — here's what each one actually includes.",
+  alternates: {
+    canonical: "/guides/lufthansa-baggage-rules",
+  },
 };
 
 export default function LufthansaBaggageRules() {
@@ -79,7 +82,7 @@ export default function LufthansaBaggageRules() {
         </li>
         <li>
           Lufthansa&apos;s own published baggage terms — fares, weight limits and fees change, so confirm on{" "}
-          <a href="https://www.lufthansa.com" target="_blank" rel="noopener noreferrer nofollow">lufthansa.com</a> before flying.
+          <a href="https://www.lufthansa.com" target="_blank" rel="noopener noreferrer nofollow">lufthansa.com</a> before flying. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

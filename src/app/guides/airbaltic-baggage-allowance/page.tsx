@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "airBaltic Baggage Allowance: Economy MINI Gets a Personal Item Only",
   description:
     "airBaltic's cheapest Economy MINI fare includes only a personal item -- no cabin bag at all -- while airBaltic separately guarantees $1000 compensation for a delayed bag.",
+  alternates: {
+    canonical: "/guides/airbaltic-baggage-allowance",
+  },
 };
 
 export default function AirbalticBaggageAllowance() {
@@ -51,7 +54,7 @@ export default function AirbalticBaggageAllowance() {
         <li>
           <a href="https://www.airbaltic.com/en/baggage/" target="_blank" rel="noopener noreferrer nofollow">
             airBaltic — Baggage allowance on airBaltic flights
-          </a>
+          </a> Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

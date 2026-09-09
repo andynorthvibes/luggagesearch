@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Japan Airlines Baggage Allowance: International Generosity, Domestic Reset (2026)",
   description:
     "JAL gives international Economy passengers two free 23kg bags -- one of the more generous allowances anywhere -- but a connecting domestic Japan leg resets to a smaller, differently-measured allowance.",
+  alternates: {
+    canonical: "/guides/japan-airlines-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string }[] = [
@@ -84,6 +87,11 @@ export default function JapanAirlinesBaggageAllowance() {
           <a href="https://www.sendmybag.com/airlines/japan-airlines-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             Send My Bag — Japan Airlines Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.jal.co.jp" target="_blank" rel="noopener noreferrer nofollow">jal.co.jp</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

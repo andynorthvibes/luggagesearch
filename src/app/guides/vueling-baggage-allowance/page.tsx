@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Vueling Baggage Allowance: Even the Cheapest Fare Includes an Underseat Bag",
   description:
     "Vueling's cheapest Fly Light fare still includes a free underseat cabin bag -- but the standard overhead roller bag is a paid add-on, and gate sizers enforce it strictly.",
+  alternates: {
+    canonical: "/guides/vueling-baggage-allowance",
+  },
 };
 
 export default function VuelingBaggageAllowance() {
@@ -66,7 +69,7 @@ export default function VuelingBaggageAllowance() {
         <li>
           <a href="https://help.vueling.com/hc/en-gb/articles/19798835176081-Hand-Luggage-Allowance-Cabin-bags-allowance" target="_blank" rel="noopener noreferrer nofollow">
             Vueling Help — Hand Luggage Allowance (Cabin bags allowance)
-          </a>
+          </a> Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

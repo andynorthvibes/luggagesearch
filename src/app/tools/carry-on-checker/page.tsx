@@ -6,6 +6,9 @@ import { AIRLINES } from "@/lib/airlines";
 export const metadata: Metadata = {
   title: `Carry-On Size Checker — Will Your Bag Fit? (${AIRLINES.length} Airlines)`,
   description: `Enter your bag's dimensions and weight to instantly check it against ${AIRLINES.length} major airlines' carry-on size and weight limits.`,
+  alternates: {
+    canonical: "/tools/carry-on-checker",
+  },
 };
 
 export default function CarryOnCheckerPage() {

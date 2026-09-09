@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Wizz Air Baggage Rules: Free Allowance, Priority & Checked Bag Prices (2026)",
   description:
     "Wizz Air's free personal item, the paid Priority cabin bag, and checked bag tiers and prices — plus how the WIZZ Go and WIZZ Plus bundles change what's included.",
+  alternates: {
+    canonical: "/guides/wizz-air-baggage-rules",
+  },
 };
 
 const checkedTiers = [
@@ -110,12 +113,29 @@ export default function WizzAirBaggageRules() {
         Go/Plus bundle), and book it in advance — airport prices are consistently higher.
       </p>
 
+      <h2>Frequently asked questions</h2>
+      <div className="space-y-2">
+        <div>
+          <h3>What is included in Wizz Air&apos;s free baggage allowance?</h3>
+          <p>One free personal item per passenger, up to 40 x 30 x 20 cm and 10 kg, that fits under the seat in front of you. A larger cabin bag or any checked bag requires a paid add-on.</p>
+        </div>
+        <div>
+          <h3>How much does a Wizz Air checked bag cost?</h3>
+          <p>Checked bag prices depend on the weight tier (10, 20, 26, or 32 kg) and vary by route and season, roughly from about €8.50 for the smallest tier up to around €104 for the largest when booked online. Buying at the airport costs more than booking in advance.</p>
+        </div>
+      </div>
+
       <h2>Sources</h2>
       <ul className="text-sm">
         <li>
           <a href="https://thetraveltinker.com/transport/wizz-air-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — Wizz Air Baggage Allowance
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.wizzair.com" target="_blank" rel="noopener noreferrer nofollow">wizzair.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

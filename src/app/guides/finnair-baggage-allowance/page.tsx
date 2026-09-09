@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Finnair Baggage Allowance: Your Checked Bags Depend on the Route, Not Just the Fare (2026)",
   description:
     "Finnair's checked baggage allowance swings dramatically by region -- Asia routes can include far more free bags than flights within Europe on a comparable fare.",
+  alternates: {
+    canonical: "/guides/finnair-baggage-allowance",
+  },
 };
 
 export default function FinnairBaggageAllowance() {
@@ -66,6 +69,11 @@ export default function FinnairBaggageAllowance() {
           <a href="https://upgradedpoints.com/travel/airlines/finnair-baggage-fees-and-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             Upgraded Points — Finnair Baggage Fees, Allowance, and Policy 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.finnair.com" target="_blank" rel="noopener noreferrer nofollow">finnair.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

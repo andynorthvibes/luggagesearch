@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Delta Baggage Allowance: Basic Economy vs Main Cabin Fees (2026)",
   description:
     "Delta doesn't weigh cabin bags, but checked-bag fees depend heavily on fare class and route -- here's what Basic Economy actually costs versus standard fares.",
+  alternates: {
+    canonical: "/guides/delta-baggage-allowance",
+  },
 };
 
 export default function DeltaBaggageAllowance() {
@@ -61,6 +64,11 @@ export default function DeltaBaggageAllowance() {
           <a href="https://www.sendmybag.com/airlines/delta-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             Send My Bag — Delta Baggage Allowance and Fees 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.delta.com" target="_blank" rel="noopener noreferrer nofollow">delta.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

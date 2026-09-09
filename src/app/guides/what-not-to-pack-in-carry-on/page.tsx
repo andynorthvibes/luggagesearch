@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "What Not to Pack in Your Carry-On (2026 Security Rules)",
   description:
     "The TSA and airport-security rules that actually get bags pulled aside — liquids, sharp objects, batteries, and the surprising everyday items that get confiscated.",
+  alternates: {
+    canonical: "/guides/what-not-to-pack-in-carry-on",
+  },
 };
 
 export default function WhatNotToPackInCarryOn() {
@@ -85,6 +88,18 @@ export default function WhatNotToPackInCarryOn() {
         <Link href="/tools/packing-list">packing list generator</Link> to build the rest of the list, and our{" "}
         <Link href="/tools/carry-on-checker">carry-on checker</Link> to confirm the bag itself fits your airline.
       </p>
+
+      <h2>Frequently asked questions</h2>
+      <div className="space-y-2">
+        <div>
+          <h3>How big can liquids be in a carry-on?</h3>
+          <p>Under the standard 3-1-1 rule, each liquid, gel, or aerosol container must be 3.4 oz (100 ml) or smaller, and all containers must fit in one clear, quart-size bag per passenger. Medically necessary liquids like baby formula and medication are exempt in reasonable quantities.</p>
+        </div>
+        <div>
+          <h3>Can I bring a power bank in my carry-on?</h3>
+          <p>Yes — lithium battery power banks and spare batteries must go in carry-on baggage, not checked luggage, because of fire risk. Most airlines cap them around 100Wh without airline approval.</p>
+        </div>
+      </div>
 
       <h2>Sources</h2>
       <ul className="text-sm">

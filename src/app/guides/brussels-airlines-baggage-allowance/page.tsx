@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Brussels Airlines Baggage Allowance: Basic and Light Fares Include Zero Checked Bags",
   description:
     "Brussels Airlines' Economy Basic and Light fares carry no checked baggage at all -- Comfort steps up to one 23kg bag, and Business includes two bags at 32kg each.",
+  alternates: {
+    canonical: "/guides/brussels-airlines-baggage-allowance",
+  },
 };
 
 export default function BrusselsAirlinesBaggageAllowance() {
@@ -65,7 +68,7 @@ export default function BrusselsAirlinesBaggageAllowance() {
         <li>
           <a href="https://www.brusselsairlines.com/us/en/extra-services/baggage/checked-baggage" target="_blank" rel="noopener noreferrer nofollow">
             Brussels Airlines — Checked baggage
-          </a>
+          </a> Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

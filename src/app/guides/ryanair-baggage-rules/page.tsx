@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Ryanair Baggage Rules: Free Bag, Priority Bag & Fees Explained (2026)",
   description:
     "What's actually free on Ryanair, what the paid Priority cabin bag gets you, and where the 10 kg weight limit gets enforced.",
+  alternates: {
+    canonical: "/guides/ryanair-baggage-rules",
+  },
 };
 
 export default function RyanairBaggageRules() {
@@ -83,6 +86,18 @@ export default function RyanairBaggageRules() {
         that fits Ryanair&apos;s Priority allowance without going over.
       </p>
 
+      <h2>Frequently asked questions</h2>
+      <div className="space-y-2">
+        <div>
+          <h3>Is a carry-on bag free on Ryanair?</h3>
+          <p>Only a small personal item is free on Ryanair — it must fit under the seat in front of you. A full-size cabin bag for the overhead locker (55 x 40 x 20 cm, up to 10 kg) requires a paid Priority fare or add-on.</p>
+        </div>
+        <div>
+          <h3>What happens if my Ryanair bag is too big or heavy at the gate?</h3>
+          <p>Gate agents size bags against a sizer frame. An oversized or overweight bag caught at the gate is charged at Ryanair&apos;s higher airport rate, plus per-kilogram excess fees — both far more expensive than paying for the right allowance when you book.</p>
+        </div>
+      </div>
+
       <h2>Sources</h2>
       <ul className="text-sm">
         <li>
@@ -92,7 +107,7 @@ export default function RyanairBaggageRules() {
         </li>
         <li>
           Ryanair&apos;s own published cabin and checked-baggage terms — sizes, tiers and fees change, so confirm on{" "}
-          <a href="https://www.ryanair.com" target="_blank" rel="noopener noreferrer nofollow">ryanair.com</a> before flying.
+          <a href="https://www.ryanair.com" target="_blank" rel="noopener noreferrer nofollow">ryanair.com</a> before flying. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

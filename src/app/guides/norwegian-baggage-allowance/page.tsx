@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Norwegian Baggage Allowance: Personal-Item-Only, Even on Long-Haul (2026)",
   description:
     "Norwegian's cheapest LowFare ticket includes only a small personal item -- no overhead cabin bag at all -- a budget-carrier restriction that also applies on its longer routes.",
+  alternates: {
+    canonical: "/guides/norwegian-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string }[] = [
@@ -79,6 +82,11 @@ export default function NorwegianBaggageAllowance() {
           <a href="https://www.sendmybag.com/airlines/norwegian-air-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             Send My Bag — Norwegian Air Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.flynorwegian.com" target="_blank" rel="noopener noreferrer nofollow">flynorwegian.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

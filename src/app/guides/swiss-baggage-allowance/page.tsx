@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Swiss Baggage Allowance: Economy Light Is Hand Luggage Only, Every Route (2026)",
   description:
     "Unlike some competitors, Swiss International Air Lines' Economy Light excludes checked baggage on every single route -- no regional exceptions. Here's the full breakdown by fare.",
+  alternates: {
+    canonical: "/guides/swiss-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string; weight: string }[] = [
@@ -78,6 +81,11 @@ export default function SwissBaggageAllowance() {
           <a href="https://thetraveltinker.com/transport/swiss-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — Swiss International Air Lines Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.swiss.com" target="_blank" rel="noopener noreferrer nofollow">swiss.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

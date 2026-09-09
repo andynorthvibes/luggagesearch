@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Transavia Baggage Allowance: Smart Gets a Cabin Bag, Plus Gets Checked Bags -- Not Both",
   description:
     "Transavia's two middle fares split in opposite directions: Smart adds a full cabin bag but no checked baggage, while Plus adds checked baggage but no upgraded cabin bag.",
+  alternates: {
+    canonical: "/guides/transavia-baggage-allowance",
+  },
 };
 
 export default function TransaviaBaggageAllowance() {
@@ -69,7 +72,7 @@ export default function TransaviaBaggageAllowance() {
         <li>
           <a href="https://www.transavia.com/help/en-eu/search-and-book/basic-smart-plus-max-fare" target="_blank" rel="noopener noreferrer nofollow">
             Transavia — Fares: Basic, Smart, Plus, Max
-          </a>
+          </a> Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

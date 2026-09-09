@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "United Airlines Baggage Allowance: Fare Class vs Elite Status (2026)",
   description:
     "United's checked bag fee depends on fare class first, but MileagePlus elite status and some credit cards can waive it entirely -- here's how the pieces fit together.",
+  alternates: {
+    canonical: "/guides/united-airlines-baggage-allowance",
+  },
 };
 
 export default function UnitedAirlinesBaggageAllowance() {
@@ -64,6 +67,11 @@ export default function UnitedAirlinesBaggageAllowance() {
           <a href="https://thetraveltinker.com/transport/united-airlines-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — United Airlines Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.united.com" target="_blank" rel="noopener noreferrer nofollow">united.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

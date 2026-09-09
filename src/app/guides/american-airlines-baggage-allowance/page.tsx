@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "American Airlines Baggage Allowance: Basic Economy Still Gets a Carry-On (2026)",
   description:
     "American includes a full carry-on on every fare, including Basic Economy -- unlike several US competitors. Here's the checked bag fee structure and how AAdvantage status changes it.",
+  alternates: {
+    canonical: "/guides/american-airlines-baggage-allowance",
+  },
 };
 
 const eliteRows: { tier: string; freeBags: string }[] = [
@@ -83,6 +86,11 @@ export default function AmericanAirlinesBaggageAllowance() {
           <a href="https://deeparrival.com/airlines/american-airlines/baggage-fees/" target="_blank" rel="noopener noreferrer nofollow">
             Deep Arrival — American Airlines Baggage Fees 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.aa.com" target="_blank" rel="noopener noreferrer nofollow">aa.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

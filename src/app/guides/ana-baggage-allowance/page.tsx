@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "ANA Baggage Allowance: Domestic Japan Switches Systems in 2026",
   description:
     "ANA's domestic Japan flights move from a weight-based to a piece-based checked baggage system on May 19, 2026 -- and ANA only ever charges the higher of an overweight or oversize fee, never both.",
+  alternates: {
+    canonical: "/guides/ana-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string }[] = [
@@ -79,6 +82,11 @@ export default function AnaBaggageAllowance() {
           <a href="https://deeparrival.com/airlines/ana/baggage-fees/" target="_blank" rel="noopener noreferrer nofollow">
             Deep Arrival — ANA Baggage Allowance and Fees 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.ana.co.jp" target="_blank" rel="noopener noreferrer nofollow">ana.co.jp</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

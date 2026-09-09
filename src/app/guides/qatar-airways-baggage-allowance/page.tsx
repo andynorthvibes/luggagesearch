@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Qatar Airways Baggage Allowance: The Tightest Carry-On Limit We Track (2026)",
   description:
     "Qatar Airways caps cabin bags at 50 x 37 x 25 cm -- smaller than most airlines -- and splits checked baggage between a weight system and a piece system depending on route.",
+  alternates: {
+    canonical: "/guides/qatar-airways-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string }[] = [
@@ -86,6 +89,11 @@ export default function QatarAirwaysBaggageAllowance() {
           <a href="https://thetraveltinker.com/transport/qatar-airways-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — Qatar Airways Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.qatarairways.com" target="_blank" rel="noopener noreferrer nofollow">qatarairways.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

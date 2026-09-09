@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Norse Atlantic Airways Baggage Allowance: The Personal Item Has No Weight Limit",
   description:
     "Norse Atlantic Airways doesn't cap the weight of its personal item at all, since it's designed for under-seat placement rather than the overhead bin -- unusual among long-haul carriers.",
+  alternates: {
+    canonical: "/guides/norse-atlantic-airways-baggage-allowance",
+  },
 };
 
 export default function NorseAtlanticAirwaysBaggageAllowance() {
@@ -44,6 +47,11 @@ export default function NorseAtlanticAirwaysBaggageAllowance() {
           <a href="https://www.cestee.com/airline/norse-atlantic-airways/luggage" target="_blank" rel="noopener noreferrer nofollow">
             Cestee — Norse Atlantic Airways baggage allowance (hand and checked)
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.flynorse.com" target="_blank" rel="noopener noreferrer nofollow">flynorse.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

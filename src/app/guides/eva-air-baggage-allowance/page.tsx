@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "EVA Air Baggage Allowance: A Different Rule on the US-Taiwan Route",
   description:
     "EVA Air's checked baggage switches from a single weight-based bag to a two-piece allowance specifically on US-Taiwan routes, while the 7kg cabin bag limit is enforced everywhere.",
+  alternates: {
+    canonical: "/guides/eva-air-baggage-allowance",
+  },
 };
 
 export default function EvaAirBaggageAllowance() {
@@ -47,6 +50,11 @@ export default function EvaAirBaggageAllowance() {
           <a href="https://travellote.com/baggage/evaair/" target="_blank" rel="noopener noreferrer nofollow">
             Travel Lote — EVA Air Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.evaair.com" target="_blank" rel="noopener noreferrer nofollow">evaair.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

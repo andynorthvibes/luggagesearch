@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "easyJet Baggage Allowance: Under-Seat Bag vs Large Cabin Bag (2026)",
   description:
     "easyJet's free bag is smaller than it looks, and a bag that doesn't fit at the gate costs a flat GBP 50 -- here's the difference between the free and paid cabin bag tiers.",
+  alternates: {
+    canonical: "/guides/easyjet-baggage-allowance",
+  },
 };
 
 export default function EasyJetBaggageAllowance() {
@@ -66,6 +69,11 @@ export default function EasyJetBaggageAllowance() {
           <a href="https://www.sendmybag.com/airlines/easyjet-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             Send My Bag — easyJet Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.easyjet.com" target="_blank" rel="noopener noreferrer nofollow">easyjet.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

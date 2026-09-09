@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Thai Airways Baggage Allowance: The March 2026 Switch to Piece-Based (2026)",
   description:
     "Thai Airways moved from a weight-based to a piece-based checked baggage system in March 2026 -- the number of bags now matters, not just the total weight.",
+  alternates: {
+    canonical: "/guides/thai-airways-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string }[] = [
@@ -77,6 +80,11 @@ export default function ThaiAirwaysBaggageAllowance() {
           <a href="https://thetraveltinker.com/transport/thai-airways-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — Thai Airways Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.thaiairways.com" target="_blank" rel="noopener noreferrer nofollow">thaiairways.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

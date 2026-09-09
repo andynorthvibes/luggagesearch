@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Samsonite vs Delsey: Which Luggage Brand Is Actually Better? (2026)",
   description:
     "A sourced comparison of Samsonite and Delsey on materials, warranty terms, and which specific lines to consider.",
+  alternates: {
+    canonical: "/guides/samsonite-vs-delsey",
+  },
 };
 
 const rows: { label: string; samsonite: string; delsey: string }[] = [

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "LOT Polish Airlines Baggage Allowance: The Same Fare Pays Differently by Route",
   description:
     "LOT Polish Airlines' free baggage allowance depends on the specific route, not just the fare booked -- the same Economy Standard ticket can mean one bag or two depending on where you're flying from.",
+  alternates: {
+    canonical: "/guides/lot-polish-airlines-baggage-allowance",
+  },
 };
 
 export default function LotPolishAirlinesBaggageAllowance() {
@@ -46,7 +49,7 @@ export default function LotPolishAirlinesBaggageAllowance() {
         <li>
           <a href="https://www.lot.com/us/en/help-center/baggage/baggage-allowance-according-to-travel-class" target="_blank" rel="noopener noreferrer nofollow">
             LOT.com — What is the checked baggage allowance?
-          </a>
+          </a> Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

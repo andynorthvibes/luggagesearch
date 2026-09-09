@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Air India Baggage Allowance: One of the Tightest Cabin Bag Limits We Track (2026)",
   description:
     "Air India's Economy cabin bag caps out at just 8kg -- tighter than most full-service carriers -- and domestic and international routes run on two completely different checked baggage systems.",
+  alternates: {
+    canonical: "/guides/air-india-baggage-allowance",
+  },
 };
 
 export default function AirIndiaBaggageAllowance() {
@@ -68,6 +71,11 @@ export default function AirIndiaBaggageAllowance() {
           <a href="https://www.myticketstoindia.com/blog/a-detailed-guideline-on-air-india-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             MyTicketsToIndia — Air India Baggage Allowance Guide 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.airindia.com" target="_blank" rel="noopener noreferrer nofollow">airindia.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

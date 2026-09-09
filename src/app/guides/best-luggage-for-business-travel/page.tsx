@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Best Luggage for Business Travel: What Actually Matters (2026)",
   description:
     "Business-trip luggage has different priorities than a normal carry-on — laptop access, garment protection, and weight budget on strict international carriers.",
+  alternates: {
+    canonical: "/guides/best-luggage-for-business-travel",
+  },
 };
 
 export default function BestLuggageForBusinessTravel() {

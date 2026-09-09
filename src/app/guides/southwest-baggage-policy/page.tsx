@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Southwest Airlines Baggage Policy 2026: Who Still Gets Free Bags",
   description:
     "Southwest ended free checked bags for most passengers. Here's exactly who still gets them free, and what carry-on and checked limits actually are.",
+  alternates: {
+    canonical: "/guides/southwest-baggage-policy",
+  },
 };
 
 export default function SouthwestBaggagePolicy() {
@@ -81,7 +84,7 @@ export default function SouthwestBaggagePolicy() {
         </li>
         <li>
           Southwest&apos;s own published baggage policy — fares, fees and qualifying tiers change, so confirm on{" "}
-          <a href="https://www.southwest.com" target="_blank" rel="noopener noreferrer nofollow">southwest.com</a> before flying.
+          <a href="https://www.southwest.com" target="_blank" rel="noopener noreferrer nofollow">southwest.com</a> before flying. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

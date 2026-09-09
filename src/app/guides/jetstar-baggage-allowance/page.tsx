@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Jetstar Baggage Allowance: Carry-On Rules Are Changing February 2, 2027",
   description:
     "Jetstar's Starter fare currently includes just 7kg of carry-on across two items -- and the airline has already announced its carry-on rules on Jetstar Airways flights are changing from February 2, 2027.",
+  alternates: {
+    canonical: "/guides/jetstar-baggage-allowance",
+  },
 };
 
 export default function JetstarBaggageAllowance() {
@@ -47,7 +50,7 @@ export default function JetstarBaggageAllowance() {
         <li>
           <a href="https://www.jetstar.com/us/en/flights/baggage/carry-on-baggage" target="_blank" rel="noopener noreferrer nofollow">
             Jetstar — Carry-on baggage
-          </a>
+          </a> Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

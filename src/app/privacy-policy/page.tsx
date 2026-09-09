@@ -5,6 +5,9 @@ import PageIntro from "@/components/PageIntro";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "How LuggageSearch.com handles data, cookies, and advertising.",
+  alternates: {
+    canonical: "/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Aer Lingus Baggage Allowance: When the Cabin Bag Isn't Actually Free (2026)",
   description:
     "Aer Lingus's personal item is always free, but the 10kg cabin bag only comes included on some fares -- on transatlantic Saver tickets, it's a paid add-on from around EUR 9.99.",
+  alternates: {
+    canonical: "/guides/aer-lingus-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string }[] = [
@@ -81,6 +84,11 @@ export default function AerLingusBaggageAllowance() {
           <a href="https://www.sendmybag.com/airlines/aer-lingus-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             Send My Bag — Aer Lingus Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.aerlingus.com" target="_blank" rel="noopener noreferrer nofollow">aerlingus.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

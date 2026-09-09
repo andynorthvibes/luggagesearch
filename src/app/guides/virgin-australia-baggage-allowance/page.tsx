@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Virgin Australia Baggage Allowance: Economy X Now Matches Business Class Cabin Bags (2026)",
   description:
     "Since February 2026, Virgin Australia's Economy carry-on weight rose from 7kg to 8kg, and Economy X now gets two cabin bags at 14kg combined -- the same cabin allowance Business class gets, at a fraction of the price.",
+  alternates: {
+    canonical: "/guides/virgin-australia-baggage-allowance",
+  },
 };
 
 export default function VirginAustraliaBaggageAllowance() {
@@ -56,6 +59,11 @@ export default function VirginAustraliaBaggageAllowance() {
           <a href="https://www.corporatetraveller.com.au/en-au/resources/news/virgin-australias-carry-baggage-allowance" target="_blank" rel="noopener noreferrer nofollow">
             Corporate Traveller — Virgin Australia&apos;s Updated Carry-On Baggage Allowance
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.virginaustralia.com" target="_blank" rel="noopener noreferrer nofollow">virginaustralia.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

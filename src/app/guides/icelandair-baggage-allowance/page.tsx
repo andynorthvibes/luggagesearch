@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Icelandair Baggage Allowance: Economy Light's Checked-Bag Trap (2026)",
   description:
     "Icelandair's cheapest fare includes no checked bag at all, and stopover itineraries get charged extra fees per leg, not per journey -- here's what each fare actually includes.",
+  alternates: {
+    canonical: "/guides/icelandair-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string; weight: string }[] = [
@@ -85,6 +88,11 @@ export default function IcelandairBaggageAllowance() {
           <a href="https://thetraveltinker.com/transport/icelandair-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             The Travel Tinker — Icelandair Baggage Allowance 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.icelandair.com" target="_blank" rel="noopener noreferrer nofollow">icelandair.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "TAP Air Portugal Baggage Allowance: How Status Rescues the Discount Fare (2026)",
   description:
     "TAP's cheapest Discount fare includes zero checked bags -- but Star Alliance Gold, Miles&Go Gold, Navigator status, or even just the TAP Platinum Visa each add one free bag back, even on Discount.",
+  alternates: {
+    canonical: "/guides/tap-air-portugal-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; checkedBags: string }[] = [
@@ -78,6 +81,11 @@ export default function TapAirPortugalBaggageAllowance() {
           <a href="https://deeparrival.com/airlines/tap-air-portugal/baggage-fees/" target="_blank" rel="noopener noreferrer nofollow">
             Deep Arrival — TAP Air Portugal Baggage Fees 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.flytap.com" target="_blank" rel="noopener noreferrer nofollow">flytap.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Air Canada Baggage Allowance: Fare Tiers and Fees (2026)",
   description:
     "Air Canada's carry-on shrinks to a personal item only on its cheapest fare, and checked bag fees change again in April 2026 -- here's the full breakdown by fare class.",
+  alternates: {
+    canonical: "/guides/air-canada-baggage-allowance",
+  },
 };
 
 const fareRows: { fare: string; freeBags: string; notes: string }[] = [
@@ -75,6 +78,11 @@ export default function AirCanadaBaggageAllowance() {
           <a href="https://deeparrival.com/airlines/air-canada/baggage-fees/" target="_blank" rel="noopener noreferrer nofollow">
             Deep Arrival — Air Canada Baggage Fees 2026
           </a>
+        </li>
+        <li>
+          Official baggage policy — check current rules directly on 
+          <a href="https://www.aircanada.com" target="_blank" rel="noopener noreferrer nofollow">aircanada.com</a> 
+          before flying, since fares and allowances change. Last verified: 9 September 2026.
         </li>
       </ul>
     </GuideArticle>

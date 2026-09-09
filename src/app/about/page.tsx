@@ -5,6 +5,9 @@ import PageIntro from "@/components/PageIntro";
 export const metadata: Metadata = {
   title: "About",
   description: "Who runs LuggageSearch.com and how the site is funded.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 export default function AboutPage() {
