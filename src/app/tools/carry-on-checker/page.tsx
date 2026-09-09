@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import CarryOnCheckerClient from "@/components/CarryOnCheckerClient";
 import PageIntro from "@/components/PageIntro";
 import { AIRLINES } from "@/lib/airlines";
@@ -35,6 +36,13 @@ export default function CarryOnCheckerPage() {
       <div className="mt-12">
         <CarryOnCheckerClient />
       </div>
+      <p className="mt-10 text-[15px] font-medium text-ink/60">
+        Choosing between specific airlines instead of checking one bag?{" "}
+        <Link href="/tools/compare-airlines" className="font-bold underline underline-offset-2 hover:text-ink">
+          Compare their carry-on rules side by side
+        </Link>
+        .
+      </p>
     </div>
   );
 }

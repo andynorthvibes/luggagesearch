@@ -26,6 +26,13 @@ export default function GuideArticle({
     <article className="mx-auto max-w-[80rem] px-5 sm:px-6 py-16 lg:py-20">
       <PageIntro chip="Guide" chipColor={meta?.chipColor ?? "sun"} title={title} meta={meta ? `Updated ${meta.updated}` : undefined} />
 
+      {meta?.quickAnswer && (
+        <div className="mt-8 max-w-[52rem] rounded-[24px] border-3 border-ink bg-sun/20 px-6 py-5">
+          <p className="font-display text-[12px] font-bold uppercase tracking-[0.14em] text-ink/60">Quick answer</p>
+          <p className="mt-2 text-[17px] leading-relaxed font-medium text-ink/90">{meta.quickAnswer}</p>
+        </div>
+      )}
+
       {meta && (
         <div className="relative mt-12 aspect-[16/7] overflow-hidden rounded-[32px] border-3 border-ink shadow-hard">
           <Image src={meta.img} alt={title} fill priority sizes="(min-width: 1280px) 1216px, 100vw" className="object-cover" />
