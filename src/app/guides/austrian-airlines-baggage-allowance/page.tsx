@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Austrian Airlines Baggage Allowance: Economy Basic Skips the Cabin Bag Entirely",
   description:
-    "On short and medium-haul routes, Austrian Airlines' cheapest Economy Basic fare includes no cabin bag at all -- only a small personal item -- with a full carry-on costing extra.",
+    "On short and medium-haul routes, Austrian Airlines' cheapest Basic fare includes no cabin bag at all -- just a personal item -- with a carry-on costing extra.",
   alternates: {
     canonical: "/guides/austrian-airlines-baggage-allowance",
   },

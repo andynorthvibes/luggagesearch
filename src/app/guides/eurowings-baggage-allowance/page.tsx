@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Eurowings Baggage Allowance: BASIC, SMART and BIZclass Compared",
   description:
-    "Eurowings' three-tier fare ladder decides everything about your bags -- BASIC charges extra for a full-size cabin bag, SMART includes one, and BIZclass doubles both cabin and checked allowances.",
+    "Eurowings' three-tier fare ladder decides everything about your bags -- BASIC charges extra for a full cabin bag, SMART includes one, BIZclass doubles both.",
   alternates: {
     canonical: "/guides/eurowings-baggage-allowance",
   },

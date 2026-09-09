@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "KLM Baggage Allowance: What 'Economy Basic' Actually Means (2026)",
   description:
-    "KLM's Economy Basic sounds like a standard fare but includes only an under-seat bag -- no cabin bag, no checked bag. Here's the naming trap and the full fare breakdown.",
+    "KLM's Economy Basic sounds like a standard fare but includes only an under-seat bag -- no cabin bag, no checked bag. The naming trap and full breakdown.",
   alternates: {
     canonical: "/guides/klm-baggage-allowance",
   },

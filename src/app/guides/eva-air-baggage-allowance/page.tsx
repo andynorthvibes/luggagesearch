@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "EVA Air Baggage Allowance: A Different Rule on the US-Taiwan Route",
   description:
-    "EVA Air's checked baggage switches from a single weight-based bag to a two-piece allowance specifically on US-Taiwan routes, while the 7kg cabin bag limit is enforced everywhere.",
+    "EVA Air's checked baggage switches from weight-based to two-piece on US-Taiwan routes specifically, while the 7kg cabin bag limit applies everywhere.",
   alternates: {
     canonical: "/guides/eva-air-baggage-allowance",
   },

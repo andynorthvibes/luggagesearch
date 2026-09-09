@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Turkish Airlines Baggage Allowance: Cabin, Checked & the KG/PC Split (2026)",
   description:
-    "Turkish Airlines' checked baggage runs on either a weight or a piece system depending on your specific route -- here's how to find out which applies to you, plus cabin bag limits.",
+    "Turkish Airlines' checked baggage runs on either a weight or a piece system depending on your route -- how to find out which applies, plus cabin limits.",
   alternates: {
     canonical: "/guides/turkish-airlines-baggage-allowance",
   },

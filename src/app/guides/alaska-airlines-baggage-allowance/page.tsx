@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Alaska Airlines Baggage Allowance: Fees, Perks & the 20-Minute Guarantee (2026)",
   description:
-    "Alaska charges the same checked bag fee online or at the airport since April 2026 -- and backs its baggage delivery with a 20-minute guarantee. Here's the full breakdown.",
+    "Alaska charges the same checked bag fee online or at the airport since April 2026, and backs baggage delivery with a 20-minute guarantee.",
   alternates: {
     canonical: "/guides/alaska-airlines-baggage-allowance",
   },

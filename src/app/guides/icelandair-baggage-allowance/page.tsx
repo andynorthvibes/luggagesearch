@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Icelandair Baggage Allowance: Economy Light's Checked-Bag Trap (2026)",
   description:
-    "Icelandair's cheapest fare includes no checked bag at all, and stopover itineraries get charged extra fees per leg, not per journey -- here's what each fare actually includes.",
+    "Icelandair's cheapest fare includes no checked bag, and stopover itineraries get charged extra fees per leg, not per journey -- what each fare includes.",
   alternates: {
     canonical: "/guides/icelandair-baggage-allowance",
   },

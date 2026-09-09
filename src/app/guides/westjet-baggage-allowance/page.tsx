@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "WestJet Baggage Allowance: UltraBasic Cuts the Carry-On, Not Just the Checked Bag (2026)",
   description:
-    "WestJet's UltraBasic fare strips out the full carry-on bag itself on North American routes, not just checked baggage -- while its co-branded credit card waives the first bag for up to 8 guests on one booking.",
+    "WestJet's UltraBasic fare strips the carry-on bag on North American routes, not just checked baggage -- its credit card waives the first bag for up to 8 guests.",
   alternates: {
     canonical: "/guides/westjet-baggage-allowance",
   },

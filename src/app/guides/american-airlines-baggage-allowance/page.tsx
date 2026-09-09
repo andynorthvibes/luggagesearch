@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "American Airlines Baggage Allowance: Basic Economy Still Gets a Carry-On (2026)",
   description:
-    "American includes a full carry-on on every fare, including Basic Economy -- unlike several US competitors. Here's the checked bag fee structure and how AAdvantage status changes it.",
+    "American includes a full carry-on on every fare, including Basic Economy -- unlike several US rivals. Here's the checked bag fees and how status changes them.",
   alternates: {
     canonical: "/guides/american-airlines-baggage-allowance",
   },

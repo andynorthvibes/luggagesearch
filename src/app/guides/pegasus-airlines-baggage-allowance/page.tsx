@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Pegasus Airlines Baggage Allowance: Light Package Means a 3kg Underseat Bag, Nothing More",
   description:
-    "Pegasus Airlines' Light Package on international flights includes no cabin bag and no checked bag -- just a single underseat item capped at 3kg, tighter than most airlines' personal-item limit.",
+    "Pegasus Airlines' Light Package on international flights includes no cabin bag and no checked bag -- just a single underseat item capped at 3kg.",
   alternates: {
     canonical: "/guides/pegasus-airlines-baggage-allowance",
   },

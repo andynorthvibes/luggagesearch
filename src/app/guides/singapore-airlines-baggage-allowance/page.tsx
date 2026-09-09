@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Singapore Airlines Baggage Allowance: Even the Cheapest Fare Includes a Checked Bag (2026)",
   description:
-    "Singapore Airlines runs a weight-concept system on most routes and a piece-concept on flights to the US and Canada -- and KrisFlyer status stacks extra allowance on top of either.",
+    "Singapore Airlines runs a weight-concept system on most routes and a piece-concept to the US and Canada -- and KrisFlyer status stacks extra on either.",
   alternates: {
     canonical: "/guides/singapore-airlines-baggage-allowance",
   },

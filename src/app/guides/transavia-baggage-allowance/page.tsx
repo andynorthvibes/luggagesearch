@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Transavia Baggage Allowance: Smart Gets a Cabin Bag, Plus Gets Checked Bags -- Not Both",
   description:
-    "Transavia's two middle fares split in opposite directions: Smart adds a full cabin bag but no checked baggage, while Plus adds checked baggage but no upgraded cabin bag.",
+    "Transavia's two middle fares split in opposite directions: Smart adds a full cabin bag but no checked baggage, Plus adds checked baggage but no upgraded bag.",
   alternates: {
     canonical: "/guides/transavia-baggage-allowance",
   },

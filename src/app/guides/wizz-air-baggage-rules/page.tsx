@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Wizz Air Baggage Rules: Free Allowance, Priority & Checked Bag Prices (2026)",
   description:
-    "Wizz Air's free personal item, the paid Priority cabin bag, and checked bag tiers and prices — plus how the WIZZ Go and WIZZ Plus bundles change what's included.",
+    "Wizz Air's free personal item, the paid Priority cabin bag, and checked bag tiers and prices -- plus how the WIZZ Go and WIZZ Plus bundles change things.",
   alternates: {
     canonical: "/guides/wizz-air-baggage-rules",
   },

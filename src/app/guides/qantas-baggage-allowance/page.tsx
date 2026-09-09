@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Qantas Baggage Allowance: Weight-Based vs Piece-Based, by Route (2026)",
   description:
-    "Qantas switches between a weight-based and a piece-based checked baggage system depending on your route -- here's which one applies, and what it means for how much you can pack.",
+    "Qantas switches between a weight-based and a piece-based checked baggage system depending on your route -- which one applies, and what it means for you.",
   alternates: {
     canonical: "/guides/qantas-baggage-allowance",
   },

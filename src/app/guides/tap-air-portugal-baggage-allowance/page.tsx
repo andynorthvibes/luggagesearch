@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "TAP Air Portugal Baggage Allowance: How Status Rescues the Discount Fare (2026)",
   description:
-    "TAP's cheapest Discount fare includes zero checked bags -- but Star Alliance Gold, Miles&Go Gold, Navigator status, or even just the TAP Platinum Visa each add one free bag back, even on Discount.",
+    "TAP's cheapest Discount fare includes zero checked bags -- but Star Alliance Gold, Miles&Go Gold, Navigator status, or the TAP Platinum Visa add one back.",
   alternates: {
     canonical: "/guides/tap-air-portugal-baggage-allowance",
   },

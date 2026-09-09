@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Japan Airlines Baggage Allowance: International Generosity, Domestic Reset (2026)",
   description:
-    "JAL gives international Economy passengers two free 23kg bags -- one of the more generous allowances anywhere -- but a connecting domestic Japan leg resets to a smaller, differently-measured allowance.",
+    "JAL gives international Economy passengers two free 23kg bags -- one of the more generous allowances anywhere -- but a connecting domestic leg resets to less.",
   alternates: {
     canonical: "/guides/japan-airlines-baggage-allowance",
   },

@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Aegean Airlines Baggage Allowance: Cabin Bag Size Depends on the Plane, Not the Fare",
   description:
-    "Aegean Airlines sets cabin baggage dimensions by aircraft type rather than fare class -- Airbus jets allow a larger bag than the turboprops flying Greece's regional routes.",
+    "Aegean Airlines sets cabin bag dimensions by aircraft type, not fare class -- Airbus jets allow a larger bag than the turboprops on regional routes.",
   alternates: {
     canonical: "/guides/aegean-airlines-baggage-allowance",
   },

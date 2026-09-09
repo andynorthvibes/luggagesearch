@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Swiss Baggage Allowance: Economy Light Is Hand Luggage Only, Every Route (2026)",
   description:
-    "Unlike some competitors, Swiss International Air Lines' Economy Light excludes checked baggage on every single route -- no regional exceptions. Here's the full breakdown by fare.",
+    "Unlike some competitors, Swiss International Air Lines' Economy Light excludes checked baggage on every route, no regional exceptions. The full breakdown.",
   alternates: {
     canonical: "/guides/swiss-baggage-allowance",
   },

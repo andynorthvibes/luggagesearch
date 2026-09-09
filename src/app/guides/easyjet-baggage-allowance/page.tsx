@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "easyJet Baggage Allowance: Under-Seat Bag vs Large Cabin Bag (2026)",
   description:
-    "easyJet's free bag is smaller than it looks, and a bag that doesn't fit at the gate costs a flat GBP 50 -- here's the difference between the free and paid cabin bag tiers.",
+    "easyJet's free bag is smaller than it looks, and one that doesn't fit at the gate costs a flat GBP 50 -- the difference between the free and paid tiers.",
   alternates: {
     canonical: "/guides/easyjet-baggage-allowance",
   },

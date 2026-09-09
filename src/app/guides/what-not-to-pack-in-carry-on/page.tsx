@@ -5,7 +5,7 @@ import GuideArticle from "@/components/GuideArticle";
 export const metadata: Metadata = {
   title: "What Not to Pack in Your Carry-On (2026 Security Rules)",
   description:
-    "The TSA and airport-security rules that actually get bags pulled aside — liquids, sharp objects, batteries, and the surprising everyday items that get confiscated.",
+    "The TSA and airport-security rules that actually get bags pulled aside -- liquids, sharp objects, batteries, and surprising everyday items that get confiscated.",
   alternates: {
     canonical: "/guides/what-not-to-pack-in-carry-on",
   },

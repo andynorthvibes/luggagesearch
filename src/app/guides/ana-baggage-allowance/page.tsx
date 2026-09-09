@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "ANA Baggage Allowance: Domestic Japan Switches Systems in 2026",
   description:
-    "ANA's domestic Japan flights move from a weight-based to a piece-based checked baggage system on May 19, 2026 -- and ANA only ever charges the higher of an overweight or oversize fee, never both.",
+    "ANA's domestic Japan flights switch from weight-based to piece-based checked baggage on May 19, 2026 -- and only ever charges the higher of two possible fees.",
   alternates: {
     canonical: "/guides/ana-baggage-allowance",
   },

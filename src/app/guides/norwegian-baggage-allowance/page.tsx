@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Norwegian Baggage Allowance: Personal-Item-Only, Even on Long-Haul (2026)",
   description:
-    "Norwegian's cheapest LowFare ticket includes only a small personal item -- no overhead cabin bag at all -- a budget-carrier restriction that also applies on its longer routes.",
+    "Norwegian's cheapest LowFare ticket includes only a small personal item -- no overhead cabin bag -- a budget restriction that also applies on longer routes.",
   alternates: {
     canonical: "/guides/norwegian-baggage-allowance",
   },

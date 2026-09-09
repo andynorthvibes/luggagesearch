@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "United Airlines Baggage Allowance: Fare Class vs Elite Status (2026)",
   description:
-    "United's checked bag fee depends on fare class first, but MileagePlus elite status and some credit cards can waive it entirely -- here's how the pieces fit together.",
+    "United's checked bag fee depends on fare class first, but MileagePlus elite status and some credit cards can waive it entirely -- how it all fits together.",
   alternates: {
     canonical: "/guides/united-airlines-baggage-allowance",
   },

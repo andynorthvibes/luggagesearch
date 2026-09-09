@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Cathay Pacific Baggage Allowance: Cabin Weight Scales With Your Cabin (2026)",
   description:
-    "Cathay Pacific is one of the few airlines where your cabin bag weight limit rises with your cabin class -- 7 kg in Economy, 10 kg in Business, 15 kg in First -- plus a separate personal item at every tier.",
+    "Cathay Pacific is one of the few airlines where cabin bag weight rises with cabin class -- 7kg Economy, 10kg Business, 15kg First -- plus a personal item.",
   alternates: {
     canonical: "/guides/cathay-pacific-baggage-allowance",
   },

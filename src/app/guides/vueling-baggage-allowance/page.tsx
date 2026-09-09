@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Vueling Baggage Allowance: Even the Cheapest Fare Includes an Underseat Bag",
   description:
-    "Vueling's cheapest Fly Light fare still includes a free underseat cabin bag -- but the standard overhead roller bag is a paid add-on, and gate sizers enforce it strictly.",
+    "Vueling's cheapest Fly Light fare still includes a free underseat bag -- but the standard overhead roller bag is paid, and gate sizers enforce it strictly.",
   alternates: {
     canonical: "/guides/vueling-baggage-allowance",
   },

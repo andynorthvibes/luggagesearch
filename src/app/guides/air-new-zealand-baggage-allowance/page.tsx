@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Air New Zealand Baggage Allowance: The Domestic Connection Trap (2026)",
   description:
-    "Air New Zealand's domestic Seat fare is carry-on only, with zero checked baggage included -- a trap for travelers connecting off a long-haul international flight that included a checked bag.",
+    "Air New Zealand's domestic Seat fare is carry-on only, with zero checked baggage -- a trap for travelers connecting off a long-haul flight that included one.",
   alternates: {
     canonical: "/guides/air-new-zealand-baggage-allowance",
   },

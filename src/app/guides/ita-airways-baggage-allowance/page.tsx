@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "ITA Airways Baggage Allowance: Cabin Bags Stay at 8kg in Every Class",
   description:
-    "ITA Airways doesn't scale cabin bag weight up by cabin class -- every hand luggage piece is capped at 8kg, even in Business. What changes is how many pieces you're allowed.",
+    "ITA Airways doesn't scale cabin bag weight by cabin class -- every hand luggage piece is capped at 8kg, even in Business. What changes is piece count.",
   alternates: {
     canonical: "/guides/ita-airways-baggage-allowance",
   },

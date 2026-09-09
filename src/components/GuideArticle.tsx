@@ -28,7 +28,7 @@ export default function GuideArticle({
 
       {meta && (
         <div className="relative mt-12 aspect-[16/7] overflow-hidden rounded-[32px] border-3 border-ink shadow-hard">
-          <Image src={meta.img} alt="" fill priority sizes="(min-width: 1280px) 1216px, 100vw" className="object-cover" />
+          <Image src={meta.img} alt={title} fill priority sizes="(min-width: 1280px) 1216px, 100vw" className="object-cover" />
         </div>
       )}
 

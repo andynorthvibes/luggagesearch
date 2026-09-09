@@ -6,7 +6,7 @@ import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 export const metadata: Metadata = {
   title: "Jet2 Baggage Allowance: No Under-Seat-Only Option Like Ryanair or easyJet (2026)",
   description:
-    "Jet2, the UK package-holiday carrier, doesn't sell a personal-item-only fare -- every ticket includes a 10kg cabin bag, and hold bags left unbooked cost more regardless of when you arrive.",
+    "Jet2, the UK package-holiday carrier, doesn't sell a personal-item-only fare -- every ticket includes a 10kg cabin bag, and unbooked hold bags cost more.",
   alternates: {
     canonical: "/guides/jet2-baggage-allowance",
   },
