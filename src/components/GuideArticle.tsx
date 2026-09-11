@@ -6,6 +6,8 @@ import PageIntro from "./PageIntro";
 import GuideCard from "./GuideCard";
 import { ArrowIcon } from "./icons";
 import AmazonPicks, { type AmazonPick } from "./AmazonPicks";
+import { getAirlineDatasetJsonLd } from "@/lib/airlines";
+import { AIRLINE_GUIDE_MAP } from "@/lib/airlineGuideMap";
 
 // Wrapper for long-form guides: intro, photo, body, tool call-to-action, related guides, disclosure.
 export default function GuideArticle({
@@ -22,8 +24,18 @@ export default function GuideArticle({
   const meta = GUIDES.find((g) => g.href === href);
   const related = GUIDES.filter((g) => g.href !== href).slice(0, 3);
 
+  // Airline guides get auto-attached Dataset structured data (baggage limit +
+  // source + last-verified date) from the shared AIRLINES dataset -- see
+  // lib/airlineGuideMap.ts and getAirlineDatasetJsonLd in lib/airlines.ts.
+  // No per-guide wiring needed; guides not in the map (topic guides) get null.
+  const airlineSlug = AIRLINE_GUIDE_MAP[href.replace("/guides/", "")];
+  const airlineJsonLd = airlineSlug ? getAirlineDatasetJsonLd(airlineSlug, `${SITE.url}${href}`) : null;
+
   return (
     <article className="mx-auto max-w-[80rem] px-5 sm:px-6 py-16 lg:py-20">
+      {airlineJsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(airlineJsonLd) }} />
+      )}
       <PageIntro chip="Guide" chipColor={meta?.chipColor ?? "sun"} title={title} meta={meta ? `Updated ${meta.updated}` : undefined} />
 
       {meta?.quickAnswer && (

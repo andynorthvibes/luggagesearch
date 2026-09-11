@@ -5,6 +5,8 @@
 // kilograms. Always verify against the airline's own site before flying — policies change and can
 // vary by fare class or route.
 
+import { SITE } from "./site";
+
 export type AirlineLimit = {
   slug: string;
   name: string;
@@ -563,4 +565,71 @@ export function checkBag(
 
     return { airline, dimensionsOk, weightOk };
   }).sort((a, b) => a.airline.name.localeCompare(b.airline.name));
+}
+
+// Shared "last verified" date for the airline dataset -- used both in the
+// human-readable "Last verified: ..." text on each guide page and as the
+// dateModified field of the structured data below. Update this when the
+// underlying AIRLINES data is re-checked against the airlines' own sites.
+export const AIRLINES_LAST_VERIFIED = "2026-09-09";
+
+// Builds schema.org Dataset structured data (JSON-LD) for one airline's cabin
+// baggage limit, so the "airline -> rule -> source -> last verified" pattern
+// already visible as text on every airline guide (see AIRLINES_LAST_VERIFIED
+// and each airline's `source`) is also machine-readable. Returns null if the
+// slug isn't found. Consumed automatically by GuideArticle via
+// AIRLINE_GUIDE_MAP -- see lib/airlineGuideMap.ts -- so no per-guide wiring is
+// needed.
+export function getAirlineDatasetJsonLd(slug: string, pageUrl: string) {
+  const airline = AIRLINES.find((a) => a.slug === slug);
+  if (!airline) return null;
+
+  const variableMeasured: Array<{ "@type": string; name: string; value: number; unitCode: string }> = [];
+
+  if (airline.measurement === "dimensions" && airline.maxCm) {
+    const [length, width, height] = airline.maxCm;
+    variableMeasured.push(
+      { "@type": "PropertyValue", name: "Maximum cabin bag length", value: length, unitCode: "CMT" },
+      { "@type": "PropertyValue", name: "Maximum cabin bag width", value: width, unitCode: "CMT" },
+      { "@type": "PropertyValue", name: "Maximum cabin bag height", value: height, unitCode: "CMT" }
+    );
+  } else if (airline.measurement === "linear" && airline.maxLinearCm) {
+    variableMeasured.push({
+      "@type": "PropertyValue",
+      name: "Maximum cabin bag linear dimensions (length + width + height)",
+      value: airline.maxLinearCm,
+      unitCode: "CMT",
+    });
+  }
+
+  if (airline.maxWeightKg !== null) {
+    variableMeasured.push({
+      "@type": "PropertyValue",
+      name: "Maximum cabin bag weight",
+      value: airline.maxWeightKg,
+      unitCode: "KGM",
+    });
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: `${airline.name} cabin baggage size and weight limit`,
+    description: `Maximum cabin/carry-on bag size${
+      airline.maxWeightKg !== null ? " and weight" : ""
+    } allowed by ${airline.name}, as published on the airline's own site. Always confirm current rules before flying -- policies can change.`,
+    url: pageUrl,
+    dateModified: AIRLINES_LAST_VERIFIED,
+    variableMeasured,
+    citation: {
+      "@type": "CreativeWork",
+      name: `${airline.name} official baggage policy`,
+      url: `https://${airline.source}`,
+    },
+    creator: {
+      "@type": "Organization",
+      name: SITE.name,
+      url: SITE.url,
+    },
+  };
 }
