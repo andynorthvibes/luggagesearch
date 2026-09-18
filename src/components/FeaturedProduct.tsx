@@ -35,7 +35,7 @@ export default function FeaturedProduct({
     >
       <div
         className={`relative border-b-3 border-ink sm:border-b-0 sm:border-r-3 ${
-          compact ? "aspect-[4/3] sm:aspect-auto" : "aspect-[4/3] lg:aspect-auto lg:min-h-[320px]"
+          compact ? "aspect-[4/3] sm:aspect-auto sm:min-h-[240px]" : "aspect-[4/3] lg:aspect-auto lg:min-h-[440px]"
         }`}
       >
         <Image
@@ -43,7 +43,7 @@ export default function FeaturedProduct({
           alt={name}
           fill
           sizes={compact ? "(min-width: 640px) 220px, 100vw" : "(min-width: 1024px) 50vw, 100vw"}
-          className="object-cover"
+          className={`object-contain ${compact ? "p-4" : "p-6 sm:p-8"}`}
         />
         <span className="font-display absolute top-4 left-4 rounded-full border-3 border-ink bg-sun px-3 py-1 text-[12px] font-bold">
           Featured partner
