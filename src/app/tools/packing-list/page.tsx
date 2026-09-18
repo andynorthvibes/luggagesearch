@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import PackingListClient from "@/components/PackingListClient";
 import PageIntro from "@/components/PageIntro";
+import FeaturedProduct from "@/components/FeaturedProduct";
+import { EKSTER_TRAVELPACK } from "@/lib/eksterFeature";
 
 export const metadata: Metadata = {
   title: "Packing List Generator — Free & Customizable",
@@ -22,6 +24,18 @@ export default function PackingListPage() {
       />
       <div className="mt-12">
         <PackingListClient />
+      </div>
+      <div className="mt-4 max-w-[52rem]">
+        <FeaturedProduct
+          compact
+          tagline="Pack more without a bigger bag"
+          name={EKSTER_TRAVELPACK.name}
+          badges={EKSTER_TRAVELPACK.badges}
+          bullets={EKSTER_TRAVELPACK.bullets}
+          image={EKSTER_TRAVELPACK.image}
+          href={EKSTER_TRAVELPACK.url}
+          ctaLabel="See it on Ekster"
+        />
       </div>
     </div>
   );

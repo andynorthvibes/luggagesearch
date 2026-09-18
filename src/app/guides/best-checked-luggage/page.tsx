@@ -84,6 +84,14 @@ export default function BestCheckedLuggage() {
         ]}
       />
 
+
+      <p>
+        Compression works in a checked bag too — not to fit more into a fixed weight limit (it doesn&apos;t
+        reduce weight), but to fit more clothing into the same volume, which matters most if you&apos;re packing for
+        a long trip. See our{" "}
+        <Link href="/guides/ekster-travelpack-vacuum-kit-pro-review">TravelPack Vacuum Kit Pro review</Link>.
+      </p>
+
       <h2>The bottom line</h2>
       <p>
         For checked luggage, prioritize empty weight and hardware durability over styling — the bag will be handled

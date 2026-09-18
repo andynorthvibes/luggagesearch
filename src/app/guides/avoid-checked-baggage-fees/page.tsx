@@ -29,6 +29,15 @@ export default function AvoidCheckedBaggageFees() {
         maximizes usable space within airline size limits.
       </p>
 
+
+      <p>
+        A compression kit stretches this further — the more of your clothing you can compress, the more likely
+        a bag you&apos;d otherwise have to check actually stays carry-on-sized. Worth a look if you&apos;re on the
+        edge: our{" "}
+        <Link href="/guides/ekster-travelpack-vacuum-kit-pro-review">TravelPack Vacuum Kit Pro review</Link> covers
+        what the compression claim actually means.
+      </p>
+
       <h2>2. An airline credit card</h2>
       <p>
         Co-branded airline cards are the most direct route to a free bag: the United Explorer Card includes a free

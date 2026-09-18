@@ -4,6 +4,8 @@ import { GUIDES } from "@/lib/guides";
 import GuideCard from "@/components/GuideCard";
 import HeroSizer from "@/components/HeroSizer";
 import { ArrowIcon, PlaneIcon } from "@/components/icons";
+import FeaturedProduct from "@/components/FeaturedProduct";
+import { EKSTER_TRAVELPACK } from "@/lib/eksterFeature";
 
 const tools = [
   {
@@ -136,6 +138,30 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Featured partner */}
+      <section className="mx-auto max-w-[80rem] px-5 sm:px-6 pb-20 lg:pb-24">
+        <h2 className="font-display text-[36px] sm:text-[56px] font-extrabold tracking-[-0.03em] leading-none">Gear we actually recommend.</h2>
+        <p className="mt-4 max-w-[38rem] text-[17px] leading-[1.55] font-medium text-ink/75">
+          We only feature products we would put next to our own tools. Right now that is one: a compression kit that
+          does what most vacuum bags only claim to.
+        </p>
+        <FeaturedProduct
+          tagline={EKSTER_TRAVELPACK.tagline}
+          name={EKSTER_TRAVELPACK.name}
+          badges={EKSTER_TRAVELPACK.badges}
+          bullets={EKSTER_TRAVELPACK.bullets}
+          image={EKSTER_TRAVELPACK.image}
+          href={EKSTER_TRAVELPACK.url}
+          ctaLabel="See the TravelPack Vacuum Kit Pro"
+        />
+        <Link
+          href="/guides/ekster-travelpack-vacuum-kit-pro-review"
+          className="font-display inline-flex items-center gap-2 text-[16px] font-bold underline decoration-2 underline-offset-4 hover:text-sky"
+        >
+          Read the full review <ArrowIcon className="h-4 w-4" />
+        </Link>
       </section>
 
       {/* Guides */}

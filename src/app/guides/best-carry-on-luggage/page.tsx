@@ -120,6 +120,14 @@ export default function BestCarryOnLuggage() {
         ]}
       />
 
+
+      <p>
+        If most of what you pack is clothing rather than rigid gear, a compression kit can also buy you real extra
+        room without a bigger bag — see our{" "}
+        <Link href="/guides/ekster-travelpack-vacuum-kit-pro-review">TravelPack Vacuum Kit Pro review</Link> for
+        where that actually helps and where it doesn&apos;t.
+      </p>
+
       <h2>The bottom line</h2>
       <p>
         Pick your size and weight ceiling based on the strictest airline you actually fly, not the most generous

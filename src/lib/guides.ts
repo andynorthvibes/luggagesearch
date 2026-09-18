@@ -20,6 +20,17 @@ export type GuideMeta = {
 
 export const GUIDES: GuideMeta[] = [
   {
+    href: "/guides/ekster-travelpack-vacuum-kit-pro-review",
+    title: "Ekster TravelPack Vacuum Kit Pro review",
+    blurb: "A Red Dot Award-winning compression kit — what its 70%-more-space claim actually means for a carry-on.",
+    chip: "Gear review",
+    chipColor: "coral",
+    img: "/images/guides/ekster-travelpack-vacuum-kit-pro-review.png",
+    updated: "September 2026",
+    quickAnswer:
+      "The Ekster TravelPack Vacuum Kit Pro is a USB-C-pump compression system that claims up to 70% more packing space — a Red Dot and iF Design Award winner. Here is what that claim actually means in practice.",
+  },
+  {
     href: "/guides/best-carry-on-luggage",
     title: "Best carry-on luggage",
     blurb: "Size, weight, shell, wheels — the four decisions that matter, in order.",
