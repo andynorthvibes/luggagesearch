@@ -1,12 +1,13 @@
 import Image from "next/image";
-import Link from "next/link";
 import { ArrowIcon } from "./icons";
 
 // "Featured partner" product spotlight -- used for the Ekster TravelPack
 // partnership (see lib/eksterFeature.ts). Distinct from AmazonPicks: this is
 // a single, paid brand-direct placement with a photo, not a list of
-// search/verified Amazon links, so it gets its own disclosure copy and a
-// visible "Featured partner" tag rather than blending in as a regular pick.
+// search/verified Amazon links, so it gets its own visible "Featured partner"
+// tag rather than blending in as a regular pick. Relies on the site-wide
+// affiliate disclosure in the footer (see Footer.tsx) rather than repeating
+// its own disclosure copy inline.
 export default function FeaturedProduct({
   name,
   tagline,
@@ -85,13 +86,6 @@ export default function FeaturedProduct({
         >
           {ctaLabel} <ArrowIcon className="h-4 w-4" />
         </a>
-        <p className="mt-4 text-[12px] leading-relaxed text-ink/50">
-          Sponsored placement — we earn a commission if you buy through this link, at no extra cost to you. See our{" "}
-          <Link href="/affiliate-disclosure" className="underline underline-offset-2 hover:text-ink">
-            affiliate disclosure
-          </Link>{" "}
-          for details.
-        </p>
       </div>
     </div>
   );

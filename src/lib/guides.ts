@@ -10,6 +10,10 @@ export type GuideMeta = {
   chip: string;
   chipColor: GuideChip;
   img: string;
+  // "contain" for images with text baked into the graphic (e.g. an infographic)
+  // that must never be cropped by the usual 16:7 / 4:3 object-cover crop.
+  // Defaults to "cover" when omitted.
+  imgFit?: "cover" | "contain";
   updated: string;
   // A single-paragraph direct answer (~110-160 chars), meant to be read on its
   // own -- shown as a callout right under the H1 on the guide page, and reused
@@ -26,6 +30,7 @@ export const GUIDES: GuideMeta[] = [
     chip: "Gear review",
     chipColor: "coral",
     img: "/images/guides/ekster-travelpack-vacuum-kit-pro-compression.jpg",
+    imgFit: "contain",
     updated: "September 2026",
     quickAnswer:
       "The Ekster TravelPack Vacuum Kit Pro is a USB-C-pump compression system that claims up to 70% more packing space — a Red Dot and iF Design Award winner. Here is what that claim actually means in practice.",

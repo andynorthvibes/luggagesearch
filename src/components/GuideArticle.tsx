@@ -46,8 +46,19 @@ export default function GuideArticle({
       )}
 
       {meta && (
-        <div className="relative mt-12 aspect-[16/7] overflow-hidden rounded-[32px] border-3 border-ink shadow-hard">
-          <Image src={meta.img} alt={title} fill priority sizes="(min-width: 1280px) 1216px, 100vw" className="object-cover" />
+        <div
+          className={`relative mt-12 aspect-[16/7] overflow-hidden rounded-[32px] border-3 border-ink shadow-hard ${
+            meta.imgFit === "contain" ? "bg-ink" : ""
+          }`}
+        >
+          <Image
+            src={meta.img}
+            alt={title}
+            fill
+            priority
+            sizes="(min-width: 1280px) 1216px, 100vw"
+            className={meta.imgFit === "contain" ? "object-contain" : "object-cover"}
+          />
         </div>
       )}
 

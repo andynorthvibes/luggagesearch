@@ -8,14 +8,18 @@ export default function GuideCard({ guide, priority = false }: { guide: GuideMet
       href={guide.href}
       className="group block rounded-[28px] border-3 border-ink bg-cream overflow-hidden shadow-hard transition-transform hover:-translate-y-1.5"
     >
-      <div className="relative aspect-[4/3] border-b-3 border-ink">
+      <div
+        className={`relative aspect-[4/3] border-b-3 border-ink ${guide.imgFit === "contain" ? "bg-ink" : ""}`}
+      >
         <Image
           src={guide.img}
           alt=""
           fill
           priority={priority}
           sizes="(min-width: 640px) 33vw, 100vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+          className={`transition-transform duration-500 group-hover:scale-[1.04] ${
+            guide.imgFit === "contain" ? "object-contain" : "object-cover"
+          }`}
         />
         <span className={`font-display absolute top-4 left-4 rounded-full border-3 border-ink px-3 py-1 text-[13px] font-bold ${CHIP_BG[guide.chipColor]}`}>
           {guide.chip}
