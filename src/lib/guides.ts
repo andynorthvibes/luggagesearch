@@ -131,18 +131,29 @@ export const GUIDES: GuideMeta[] = [
     img: "/images/guides/emirates-baggage-rules.jpg",
     updated: "September 2026",
     quickAnswer:
-      "Emirates runs two different checked-baggage systems depending on your route — here's which one applies to you.",
+      "Emirates Economy allows one 7 kg cabin bag (55 x 38 x 22 cm). Checked baggage is 20-35 kg depending on fare on most routes, or one or two 23 kg bags on flights to the Americas and from Africa.",
   },
   {
     href: "/guides/carry-on-vs-personal-item",
     title: "Carry-on vs personal item, what's the difference",
-    blurb: "We compared the free personal-item size across our own dataset — it varies by over 50%.",
+    blurb: "The free personal-item size is not standard — the largest holds about 80% more than the smallest.",
     chip: "Explainer",
     chipColor: "sun",
     img: "/images/guides/carry-on-vs-personal-item.jpg",
     updated: "September 2026",
     quickAnswer:
-      "A personal item is not one standard size — we compared it across our own 53-airline dataset and found it varies by over 50% in volume.",
+      "A personal item is not one standard size. Checked on the airlines' own sites, the free under-seat bag ranges from 40 x 30 x 15 cm to 45 x 36 x 20 cm — about 80% more volume.",
+  },
+  {
+    href: "/guides/personal-item-size-by-airline",
+    title: "Personal item size by airline",
+    blurb: "Free under-seat bag limits for 17 European airlines, from 40 x 30 x 15 cm to easyJet's 45 x 36 x 20 cm.",
+    chip: "Explainer",
+    chipColor: "sun",
+    img: "/images/guides/personal-item-size-by-airline.jpg",
+    updated: "September 2026",
+    quickAnswer:
+      "There is no standard personal item size. The free under-seat bag ranges from 40 x 30 x 15 cm (Lufthansa, SAS, KLM, Air France) to 45 x 36 x 20 cm on easyJet. A 40 x 30 x 15 cm bag fits all 17 airlines we checked.",
   },
   {
     href: "/guides/best-luggage-for-business-travel",
@@ -384,7 +395,7 @@ export const GUIDES: GuideMeta[] = [
     img: "/images/guides/qatar-airways-baggage-allowance.jpg",
     updated: "September 2026",
     quickAnswer:
-      "Qatar Airways caps cabin bags at 50 x 37 x 25 cm -- smaller than most airlines -- and splits checked baggage between a weight and a piece system by route.",
+      "Qatar Airways allows one 7 kg cabin bag up to 50 x 37 x 25 cm in Economy -- shorter than most airlines. Checked baggage is 20-35 kg in Economy depending on fare, or one or two 23 kg bags on flights to Africa and the Americas.",
   },
   {
     href: "/guides/etihad-airways-baggage-allowance",
@@ -521,13 +532,13 @@ export const GUIDES: GuideMeta[] = [
   {
     href: "/guides/air-india-baggage-allowance",
     title: "Air India baggage allowance",
-    blurb: "An 8kg Economy cabin bag limit -- tighter than most -- and two totally different systems by route.",
+    blurb: "A 7 kg Economy cabin bag limit -- tighter than most -- and two totally different systems by route.",
     chip: "Airline guide",
     chipColor: "sky",
     img: "/images/guides/air-india-baggage-allowance.jpg",
     updated: "September 2026",
     quickAnswer:
-      "Air India's Economy cabin bag caps out at just 8kg -- tighter than most full-service carriers -- and domestic vs international run different baggage systems.",
+      "Air India allows one 7 kg cabin bag (55 x 40 x 20 cm) in Economy and Premium Economy, 10 kg in Business and First. Checked bags are weight-based in India (15-40 kg by fare) and piece-based to Europe and North America.",
   },
   {
     href: "/guides/air-new-zealand-baggage-allowance",
@@ -626,7 +637,7 @@ export const GUIDES: GuideMeta[] = [
     img: "/images/guides/eurowings-baggage-allowance.jpg",
     updated: "September 2026",
     quickAnswer:
-      "Eurowings' three-tier fare ladder decides everything about your bags -- BASIC charges extra for a full cabin bag, SMART includes one, BIZclass doubles both.",
+      "Eurowings' cabin bag limit is 55 x 40 x 23 cm and 8 kg, plus a free 40 x 30 x 25 cm small bag on every fare. BASIC charges extra for the larger bag; SMART includes one plus a 23 kg checked bag; BIZclass includes two.",
   },
   {
     href: "/guides/eva-air-baggage-allowance",

@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Air France: What Economy Light Actually Includes",
+  title: "Air France Baggage Allowance: What Each Fare Includes",
   description:
     "Air France's Economy Light includes cabin baggage on long-haul routes but zero checked bags at any price on the cheapest fare -- the full breakdown.",
   alternates: {

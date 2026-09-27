@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import GuideArticle from "@/components/GuideArticle";
 
 export const metadata: Metadata = {
-  title: "Qatar Airways: Our Tightest Carry-On Limit",
+  title: "Qatar Airways Baggage Allowance: 7 kg Cabin, 20-50 kg Checked",
   description:
-    "Qatar Airways caps cabin bags at 50 x 37 x 25 cm -- smaller than most airlines -- and splits checked baggage between a weight and a piece system by route.",
+    "Qatar Airways allows one 7 kg cabin bag at 50 x 37 x 25 cm. Checked: 20-35 kg in Economy by fare, 40 kg Business, or 1-2 x 23 kg to the Americas and Africa.",
   alternates: {
     canonical: "/guides/qatar-airways-baggage-allowance",
   },
@@ -14,7 +14,10 @@ export const metadata: Metadata = {
 const fareRows: { fare: string; checkedBags: string }[] = [
   { fare: "Economy Lite (piece-concept routes)", checkedBags: "1 bag, 23 kg" },
   { fare: "Economy Classic and above (piece-concept routes)", checkedBags: "2 bags, 23 kg each" },
-  { fare: "Economy (weight-concept routes)", checkedBags: "20-35 kg total, shared across bags" },
+  { fare: "Economy Lite (weight-concept routes)", checkedBags: "20 kg total" },
+  { fare: "Economy Classic (weight-concept routes)", checkedBags: "25 kg total" },
+  { fare: "Economy Convenience (weight-concept routes)", checkedBags: "30 kg total" },
+  { fare: "Economy Comfort (weight-concept routes)", checkedBags: "35 kg total" },
   { fare: "Business Class", checkedBags: "40 kg total, or 2 bags at 32 kg each on piece routes" },
   { fare: "First Class", checkedBags: "50 kg total, or 2 bags at 32 kg each on piece routes" },
 ];
@@ -63,8 +66,9 @@ export default function QatarAirwaysBaggageAllowance() {
       </table>
       <p>
         No single checked bag may exceed 32 kg on either system -- heavier items need repacking or Qatar&apos;s
-        cargo service. Overweight fees between 23-32 kg run around $75, and an extra bag typically costs
-        $130-$330 depending on the route.
+        cargo service. Each bag can be up to 158 cm (length + width + height) on piece-concept routes and up to
+        300 cm on weight-concept routes. Extra and overweight bags are priced by route, so check the fee for your
+        itinerary before you fly.
       </p>
 
       <h2>Mixed-cabin bookings and infants</h2>
@@ -86,14 +90,14 @@ export default function QatarAirwaysBaggageAllowance() {
       <h2>Sources</h2>
       <ul className="text-sm">
         <li>
-          <a href="https://thetraveltinker.com/transport/qatar-airways-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
-            The Travel Tinker — Qatar Airways Baggage Allowance 2026
+          <a href="https://www.qatarairways.com/en/baggage/allowance.html" target="_blank" rel="noopener noreferrer nofollow">
+            Qatar Airways — Baggage allowance
           </a>
         </li>
         <li>
           Official baggage policy — check current rules directly on 
           <a href="https://www.qatarairways.com" target="_blank" rel="noopener noreferrer nofollow">qatarairways.com</a> 
-          before flying, since fares and allowances change. Last verified: 9 September 2026.
+          before flying, since fares and allowances change. Last verified: 27 September 2026.
         </li>
       </ul>
     </GuideArticle>

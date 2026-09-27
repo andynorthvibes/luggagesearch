@@ -19,6 +19,9 @@ export type AirlineLimit = {
   maxWeightKg: number | null; // null = no published cabin-bag weight limit
   weightNote?: string;
   source: string;
+  // ISO date this airline's row was last re-checked against the airline's own
+  // site. Falls back to AIRLINES_LAST_VERIFIED when absent.
+  verifiedOn?: string;
 };
 
 export const AIRLINES: AirlineLimit[] = [
@@ -115,6 +118,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 8,
     weightNote: "Economy Basic on short/medium-haul includes only a 40x30x15cm personal item.",
     source: "lufthansa.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "air-france",
@@ -125,6 +129,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 12,
     weightNote: "Basic Economy includes only a personal item; a full cabin bag must be added separately.",
     source: "airfrance.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "klm",
@@ -135,6 +140,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 12,
     weightNote: "12 kg is the combined limit for cabin bag + personal item, shared policy with Air France.",
     source: "klm.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "ryanair",
@@ -145,6 +151,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 10,
     weightNote: "10 kg bag requires the paid Priority option; free bag is smaller (40x30x20cm).",
     source: "ryanair.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "easyjet",
@@ -155,6 +162,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 15,
     weightNote: "Free \"under-seat\" bag is smaller; this size requires a cabin bag fare/add-on.",
     source: "easyjet.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "norwegian",
@@ -165,6 +173,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 10,
     weightNote: "LowFare includes only a small 40x30x20cm under-seat bag; this size needs LowFare+ or Flex.",
     source: "norwegian.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "sas",
@@ -173,8 +182,9 @@ export const AIRLINES: AirlineLimit[] = [
     measurement: "dimensions",
     maxCm: [55, 40, 23],
     maxWeightKg: 8,
-    weightNote: "Economy Light includes only a 40x30x15cm personal item; the cabin bag must be bought separately.",
+    weightNote: "Economy Light within Europe includes only a 40x30x15cm personal item; the cabin bag must be bought separately.",
     source: "flysas.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "swiss",
@@ -211,6 +221,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxCm: [55, 40, 25],
     maxWeightKg: 10,
     source: "flytap.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "iberia",
@@ -259,6 +270,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 8,
     weightNote: "Economy Light fares must choose either the cabin bag or the personal item, not both.",
     source: "aegeanair.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "aer-lingus",
@@ -278,6 +290,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 10,
     weightNote: "10 kg bag requires a paid fare upgrade; the free allowance is a smaller 40x30x20cm bag.",
     source: "wizzair.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "vueling",
@@ -288,6 +301,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 10,
     weightNote: "Basic fares include only a small personal item; this size and weight is a paid add-on.",
     source: "vueling.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "eurowings",
@@ -298,6 +312,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 8,
     weightNote: "BASIC fares include only the free personal item (40x30x25cm); this size is a paid add-on.",
     source: "eurowings.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "transavia",
@@ -308,6 +323,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 10,
     weightNote: "Free fares include only a personal item (40x30x20cm); this size is a paid cabin-bag option.",
     source: "transavia.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "jet2",
@@ -318,6 +334,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 10,
     weightNote: "Free on every fare, alongside a separate personal item.",
     source: "jet2.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "airbaltic",
@@ -328,6 +345,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 8,
     weightNote: "8 kg is the combined weight of the cabin bag and personal item together.",
     source: "airbaltic.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "pegasus-airlines",
@@ -348,6 +366,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 8,
     weightNote: "8 kg is the combined weight of the cabin bag and personal item together.",
     source: "wideroe.no",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "norse-atlantic",
@@ -368,6 +387,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 8,
     weightNote: "Economy Superlight fares don't include a cabin bag at all, only a personal item.",
     source: "finnair.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "icelandair",
@@ -388,6 +408,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 7,
     weightNote: "Business/First may add a second 7 kg piece (briefcase or garment bag) — check your fare class.",
     source: "emirates.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "qatar-airways",
@@ -397,6 +418,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxCm: [50, 37, 25],
     maxWeightKg: 7,
     source: "qatarairways.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "etihad",
@@ -492,6 +514,7 @@ export const AIRLINES: AirlineLimit[] = [
     maxWeightKg: 7,
     weightNote: "Business/First gets 10 kg.",
     source: "airindia.com",
+    verifiedOn: "2026-09-27",
   },
   {
     slug: "qantas",
@@ -622,7 +645,7 @@ export function getAirlineDatasetJsonLd(slug: string, pageUrl: string) {
       airline.maxWeightKg !== null ? " and weight" : ""
     } allowed by ${airline.name}, as published on the airline's own site. Always confirm current rules before flying -- policies can change.`,
     url: pageUrl,
-    dateModified: AIRLINES_LAST_VERIFIED,
+    dateModified: airline.verifiedOn ?? AIRLINES_LAST_VERIFIED,
     variableMeasured,
     citation: {
       "@type": "CreativeWork",

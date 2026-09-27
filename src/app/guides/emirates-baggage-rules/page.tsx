@@ -4,9 +4,9 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Emirates: Cabin & Checked Allowance Explained",
+  title: "Emirates Baggage Allowance: Cabin 7 kg, Checked by Fare",
   description:
-    "Emirates runs two different checked-baggage systems depending on your route — here's which one applies to you.",
+    "Emirates Economy allows a 7 kg cabin bag (55 x 38 x 22 cm) and 20-35 kg checked depending on fare, or 1-2 x 23 kg on Americas routes.",
   alternates: {
     canonical: "/guides/emirates-baggage-rules",
   },
@@ -28,17 +28,39 @@ export default function EmiratesBaggageRules() {
         <Link href="/tools/carry-on-checker">carry-on checker</Link>.
       </p>
 
-      <h2>Checked bag: piece-based or weight-based, depending on route</h2>
+      <h2>Checked bag: weight-based or piece-based, depending on route</h2>
       <p>
-        On routes to the Americas and Africa, Emirates uses a <strong>piece-based</strong> system: one free checked
-        bag up to 23 kg, regardless of fare. On most other routes, it switches to a <strong>weight-based</strong>{" "}
-        system: your total checked allowance (25–30 kg depending on fare) can be split across bags, with a per-bag
-        cap of 32 kg. All checked bags must stay under 150 cm total (length + width + height).
+        Most Emirates routes use a <strong>weight concept</strong>: your fare comes with a total kilogram budget
+        that you can split across as many bags as you like, as long as no single bag is over 32 kg or 203 cm
+        (length + width + height). Flights to and from the Americas, and flights starting in Africa, use a{" "}
+        <strong>piece concept</strong> instead: a set number of bags, each capped at 23 kg in Economy and Premium
+        Economy (32 kg in Business and First) and 150 cm.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Fare / cabin</th>
+            <th>Weight concept</th>
+            <th>Piece concept (Americas, from Africa)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td className="font-semibold">Economy Special</td><td>20 kg</td><td>1 x 23 kg</td></tr>
+          <tr><td className="font-semibold">Economy Saver</td><td>25 kg</td><td>2 x 23 kg*</td></tr>
+          <tr><td className="font-semibold">Economy Flex</td><td>30 kg</td><td>2 x 23 kg</td></tr>
+          <tr><td className="font-semibold">Economy Flex Plus</td><td>35 kg</td><td>2 x 23 kg</td></tr>
+          <tr><td className="font-semibold">Premium Economy</td><td>35 kg</td><td>2 x 23 kg</td></tr>
+          <tr><td className="font-semibold">Business</td><td>40 kg</td><td>2 x 32 kg</td></tr>
+          <tr><td className="font-semibold">First</td><td>50 kg</td><td>2 x 32 kg</td></tr>
+        </tbody>
+      </table>
+      <p className="text-sm">
+        *On intra-Americas and US-Europe flights, Economy Saver gets one 23 kg bag instead of two.
       </p>
       <p>
-        The catch on either system: Emirates&apos; cheapest fares — Special/Saver-type fares — often drop the free
-        checked bag entirely, even though the airline has a reputation for generous baggage. Don&apos;t assume;
-        check the fare rules for your specific booking.
+        The gap between the cheapest and most expensive Economy fares is 15 kg on weight-concept routes, so the
+        fare you pick matters as much as the airline&apos;s generous reputation. Anything over 203 cm has to go as
+        cargo.
       </p>
 
       <h2>Bottom line</h2>
@@ -52,14 +74,19 @@ export default function EmiratesBaggageRules() {
       <h2>Sources</h2>
       <ul className="text-sm">
         <li>
-          <a href="https://travellote.com/baggage/emirates/" target="_blank" rel="noopener noreferrer nofollow">
-            Travel Lote — Emirates Baggage Allowance 2026
+          <a href="https://www.emirates.com/us/english/before-you-fly/baggage/checked-baggage/" target="_blank" rel="noopener noreferrer nofollow">
+            Emirates — Checked baggage
+          </a>
+        </li>
+        <li>
+          <a href="https://www.emirates.com/us/english/before-you-fly/baggage/cabin-baggage-rules/" target="_blank" rel="noopener noreferrer nofollow">
+            Emirates — Cabin baggage rules
           </a>
         </li>
         <li>
           Emirates&apos; own published baggage terms — allowances vary by route and fare and change over time, so
           confirm on{" "}
-          <a href="https://www.emirates.com" target="_blank" rel="noopener noreferrer nofollow">emirates.com</a> before flying. Last verified: 9 September 2026.
+          <a href="https://www.emirates.com" target="_blank" rel="noopener noreferrer nofollow">emirates.com</a> before flying. Last verified: 27 September 2026.
         </li>
       </ul>
     </GuideArticle>

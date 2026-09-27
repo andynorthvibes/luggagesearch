@@ -4,9 +4,9 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Eurowings: BASIC, SMART and BIZclass Compared",
+  title: "Eurowings Cabin Bag Size & Baggage Allowance by Fare",
   description:
-    "Eurowings' three-tier fare ladder decides everything about your bags -- BASIC charges extra for a full cabin bag, SMART includes one, BIZclass doubles both.",
+    "Eurowings cabin bag size: 55 x 40 x 23 cm and 8 kg, plus a free 40 x 30 x 25 cm small bag. BASIC charges for the big bag; SMART and BIZclass include it.",
   alternates: {
     canonical: "/guides/eurowings-baggage-allowance",
   },
@@ -22,6 +22,13 @@ export default function EurowingsBaggageAllowance() {
         once on SMART, and included twice on BIZclass.
       </p>
 
+      <h2>Eurowings cabin bag size</h2>
+      <p>
+        Every Eurowings passenger can bring one small item up to 40 x 30 x 25 cm that fits under the seat. The
+        larger cabin bag (trolley) can be up to 55 x 40 x 23 cm and 8 kg and goes in the overhead locker. Whether
+        the trolley is included depends on your fare.
+      </p>
+
       <h2>Cabin and checked baggage by fare</h2>
       <table>
         <thead>
@@ -34,8 +41,8 @@ export default function EurowingsBaggageAllowance() {
         <tbody>
           <tr>
             <td>BASIC</td>
-            <td>Paid add-on, from ~€21</td>
-            <td>Bookable separately: 12, 23 or 32 kg</td>
+            <td>Paid add-on, from €18</td>
+            <td>Bookable: 12 kg from €17, 23 kg from €75</td>
           </tr>
           <tr>
             <td>SMART</td>
@@ -50,16 +57,18 @@ export default function EurowingsBaggageAllowance() {
         </tbody>
       </table>
       <p>
-        On fully booked flights, Eurowings may ask to gate-check hand baggage that meets the size and weight
-        limits at no charge, with collection waiting at arrival -- a common fallback rather than a penalty. Check
+        On fully booked flights, Eurowings may ask SMART and BASIC passengers to check in their hand baggage. It is
+        free as long as the bag meets the size and weight limits, so it&apos;s a fallback rather than a penalty.
+        BIZclass passengers are exempt. Check
         your bag against Eurowings and 52 other airlines with our{" "}
         <Link href="/tools/carry-on-checker">carry-on checker</Link>.
       </p>
 
       <h2>Bottom line</h2>
       <p>
-        Adding baggage online -- up to two hours before departure -- costs up to 50% less than paying at the
-        airport, and a second checked bag can be added as an add-on across all three fares from roughly €70.
+        On Eurowings, the fare decides your bags. If you only need the small 40 x 30 x 25 cm bag, BASIC works. If
+        you need a trolley in the cabin, compare the BASIC add-on price with SMART, which also includes a 23 kg
+        checked bag. Book extras online rather than at the airport.
       </p>
 
       <h2>Sources</h2>
@@ -67,7 +76,12 @@ export default function EurowingsBaggageAllowance() {
         <li>
           <a href="https://www.eurowings.com/en/information/baggage.html" target="_blank" rel="noopener noreferrer nofollow">
             Eurowings — Baggage regulations
-          </a> Last verified: 9 September 2026.
+          </a>
+        </li>
+        <li>
+          <a href="https://www.eurowings.com/en/information/baggage/hand-baggage-policy.html" target="_blank" rel="noopener noreferrer nofollow">
+            Eurowings — Hand baggage
+          </a> Last verified: 27 September 2026.
         </li>
       </ul>
     </GuideArticle>

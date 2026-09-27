@@ -5,7 +5,7 @@ import GuideArticle from "@/components/GuideArticle";
 export const metadata: Metadata = {
   title: "Carry-On vs Personal Item: The Actual Difference",
   description:
-    "A personal item is not one standard size — we compared it across our own 53-airline dataset and found it varies by over 50% in volume.",
+    "A personal item is not one standard size. Checked on the airlines' own sites, the free under-seat bag ranges from 40 x 30 x 15 cm to 45 x 36 x 20 cm — about 80% more volume.",
   alternates: {
     canonical: "/guides/carry-on-vs-personal-item",
   },
@@ -13,10 +13,10 @@ export const metadata: Metadata = {
 
 export default function CarryOnVsPersonalItem() {
   const rows: { airline: string; size: string }[] = [
-    { airline: "airBaltic / Widerøe", size: "40 × 30 × 15 cm" },
-    { airline: "Ryanair / Jet2 / TAP Air Portugal", size: "40 × 30 × 20 cm" },
+    { airline: "Lufthansa / SAS / KLM / airBaltic / Widerøe", size: "40 × 30 × 15 cm" },
+    { airline: "Ryanair / Wizz Air / Jet2 / Vueling", size: "40 × 30 × 20 cm" },
     { airline: "Eurowings", size: "40 × 30 × 25 cm" },
-    { airline: "Aegean Airlines", size: "45 × 35 × 20 cm" },
+    { airline: "easyJet", size: "45 × 36 × 20 cm" },
   ];
 
   return (
@@ -26,8 +26,8 @@ export default function CarryOnVsPersonalItem() {
     >
       <p>
         Most articles on this give you one generic size for &quot;the personal item&quot; as if every airline
-        agrees. They don&apos;t. We pulled the free personal-item dimensions from our own 53-airline dataset, and
-        the smallest is barely 60% the volume of the largest.
+        agrees. They don&apos;t. We checked the free personal-item dimensions on the airlines&apos; own sites, and
+        the smallest is just over half the volume of the largest.
       </p>
 
       <h2>The basic distinction</h2>
@@ -58,8 +58,9 @@ export default function CarryOnVsPersonalItem() {
         </tbody>
       </table>
       <p>
-        airBaltic and Widerøe&apos;s free personal item is the slimmest; Aegean&apos;s is wider and deeper — about 75%
-        more volume for the same &quot;free&quot; category. A bag that&apos;s a comfortable personal item on one airline
+        The 40 x 30 x 15 cm limit used by Lufthansa, SAS, KLM and others is the slimmest; easyJet&apos;s is wider,
+        longer and deeper — about 80% more volume for the same &quot;free&quot; category. See the full list in{" "}
+        <Link href="/guides/personal-item-size-by-airline">personal item size by airline</Link>. A bag that&apos;s a comfortable personal item on one airline
         can get flagged as an oversized bag on another. Check the exact number for your airline with our{" "}
         <Link href="/tools/carry-on-checker">carry-on checker</Link> rather than assuming a bag that worked
         last time will work again.
@@ -92,7 +93,7 @@ export default function CarryOnVsPersonalItem() {
 
       <h2>Sources</h2>
       <ul className="text-sm">
-        <li>Personal-item dimensions per-airline as documented in this site&apos;s own carry-on checker dataset (<Link href="/tools/carry-on-checker">see the tool</Link>), sourced from each airline&apos;s published baggage policy.</li>
+        <li>Personal-item dimensions from each airline&apos;s own published baggage policy, last verified 27 September 2026 (full list: <Link href="/guides/personal-item-size-by-airline">personal item size by airline</Link>).</li>
         <li>
           <a href="https://www.carlfriedrik.com/magazine/carry-on-vs-personal-item" target="_blank" rel="noopener noreferrer nofollow">
             Carl Friedrik — Carry-on vs. Personal Items: Understanding the Essentials

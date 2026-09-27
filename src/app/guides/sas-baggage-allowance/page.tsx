@@ -4,7 +4,7 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "SAS: Economy Light Depends on Where You're Flying",
+  title: "SAS Baggage Allowance: Cabin, Checked & Economy Light",
   description:
     "SAS's cheapest fare gets you a full carry-on to the US or Asia, but only a personal item within Europe -- the same fare name means different things by region.",
   alternates: {
