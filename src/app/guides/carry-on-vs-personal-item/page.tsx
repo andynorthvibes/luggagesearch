@@ -13,9 +13,8 @@ export const metadata: Metadata = {
 
 export default function CarryOnVsPersonalItem() {
   const rows: { airline: string; size: string }[] = [
-    { airline: "Ryanair", size: "40 × 20 × 25 cm" },
     { airline: "airBaltic / Widerøe", size: "40 × 30 × 15 cm" },
-    { airline: "Jet2 / TAP Air Portugal", size: "40 × 30 × 20 cm" },
+    { airline: "Ryanair / Jet2 / TAP Air Portugal", size: "40 × 30 × 20 cm" },
     { airline: "Eurowings", size: "40 × 30 × 25 cm" },
     { airline: "Aegean Airlines", size: "45 × 35 × 20 cm" },
   ];
@@ -59,8 +58,8 @@ export default function CarryOnVsPersonalItem() {
         </tbody>
       </table>
       <p>
-        Ryanair&apos;s free personal item is tall and narrow; Aegean&apos;s is wider and deeper — nearly 60% more
-        volume for the same &quot;free&quot; category. A bag that&apos;s a comfortable personal item on one airline
+        airBaltic and Widerøe&apos;s free personal item is the slimmest; Aegean&apos;s is wider and deeper — about 75%
+        more volume for the same &quot;free&quot; category. A bag that&apos;s a comfortable personal item on one airline
         can get flagged as an oversized bag on another. Check the exact number for your airline with our{" "}
         <Link href="/tools/carry-on-checker">carry-on checker</Link> rather than assuming a bag that worked
         last time will work again.

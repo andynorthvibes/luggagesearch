@@ -23,7 +23,7 @@ export default function EmiratesBaggageRules() {
       <h2>Cabin bag: 7 kg, business gets more</h2>
       <p>
         Economy cabin bags are capped at 55 x 38 x 22 cm and 7 kg — one of the stricter weight limits among major
-        airlines. Business and First get a higher 9 kg allowance. Check your bag against this and 52 other airlines
+        airlines. Business and First can bring a second 7 kg piece — a briefcase (up to 45 x 35 x 20 cm) or a garment bag. Check your bag against this and 52 other airlines
         with our{" "}
         <Link href="/tools/carry-on-checker">carry-on checker</Link>.
       </p>

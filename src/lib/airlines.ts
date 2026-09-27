@@ -113,6 +113,7 @@ export const AIRLINES: AirlineLimit[] = [
     measurement: "dimensions",
     maxCm: [55, 40, 23],
     maxWeightKg: 8,
+    weightNote: "Economy Basic on short/medium-haul includes only a 40x30x15cm personal item.",
     source: "lufthansa.com",
   },
   {
@@ -142,7 +143,7 @@ export const AIRLINES: AirlineLimit[] = [
     measurement: "dimensions",
     maxCm: [55, 40, 20],
     maxWeightKg: 10,
-    weightNote: "10 kg bag requires the paid Priority option; free bag is smaller (40x20x25cm).",
+    weightNote: "10 kg bag requires the paid Priority option; free bag is smaller (40x30x20cm).",
     source: "ryanair.com",
   },
   {
@@ -162,6 +163,7 @@ export const AIRLINES: AirlineLimit[] = [
     measurement: "dimensions",
     maxCm: [55, 40, 23],
     maxWeightKg: 10,
+    weightNote: "LowFare includes only a small 40x30x20cm under-seat bag; this size needs LowFare+ or Flex.",
     source: "norwegian.com",
   },
   {
@@ -171,6 +173,7 @@ export const AIRLINES: AirlineLimit[] = [
     measurement: "dimensions",
     maxCm: [55, 40, 23],
     maxWeightKg: 8,
+    weightNote: "Economy Light includes only a 40x30x15cm personal item; the cabin bag must be bought separately.",
     source: "flysas.com",
   },
   {
@@ -383,7 +386,7 @@ export const AIRLINES: AirlineLimit[] = [
     measurement: "dimensions",
     maxCm: [55, 38, 22],
     maxWeightKg: 7,
-    weightNote: "Business/First allowance is higher (9 kg) — check your fare class.",
+    weightNote: "Business/First may add a second 7 kg piece (briefcase or garment bag) — check your fare class.",
     source: "emirates.com",
   },
   {

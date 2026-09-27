@@ -46,8 +46,8 @@ export default function RyanairBaggageRules() {
 
       <h2>What&apos;s actually free</h2>
       <p>
-        Every fare includes one small personal item that fits under the seat in front of you — currently sized at
-        roughly 40 x 20 x 25 cm. That&apos;s it. No wheeled bag, no overhead-locker space, is included in the base
+        Every fare includes one small personal item that fits under the seat in front of you — currently 40 x 30 x 20 cm
+        (Ryanair raised it from 40 x 20 x 25 cm in 2025). That&apos;s it. No wheeled bag, no overhead-locker space, is included in the base
         fare. If you&apos;ve booked the cheapest Ryanair ticket and packed a normal-sized wheeled carry-on, it is
         not covered — you&apos;ll be asked to pay at the gate, and gate pricing is Ryanair&apos;s most expensive
         tier.
@@ -102,13 +102,18 @@ export default function RyanairBaggageRules() {
       <h2>Sources</h2>
       <ul className="text-sm">
         <li>
+          <a href="https://help.ryanair.com/hc/en-us/articles/12888036565521-Ryanair-s-Bag-Policy" target="_blank" rel="noopener noreferrer nofollow">
+            Ryanair Help Centre — Ryanair&apos;s Bag Policy
+          </a>
+        </li>
+        <li>
           <a href="https://www.mybaggage.com/shipping/airlines/ryanair-baggage-allowance/" target="_blank" rel="noopener noreferrer nofollow">
             My Baggage — Ryanair 2026 Baggage Allowance Guide
           </a>
         </li>
         <li>
           Ryanair&apos;s own published cabin and checked-baggage terms — sizes, tiers and fees change, so confirm on{" "}
-          <a href="https://www.ryanair.com" target="_blank" rel="noopener noreferrer nofollow">ryanair.com</a> before flying. Last verified: 9 September 2026.
+          <a href="https://www.ryanair.com" target="_blank" rel="noopener noreferrer nofollow">ryanair.com</a> before flying. Last verified: 27 September 2026.
         </li>
       </ul>
     </GuideArticle>
