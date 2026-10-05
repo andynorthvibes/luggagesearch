@@ -64,11 +64,15 @@ export default function PrivacyPolicyPage() {
 
         <h2>Affiliate links</h2>
         <p>
-          This site includes affiliate links, including through the Amazon Associates program. If you click one
-          and make a purchase, we may earn a commission at no additional cost to you — see our{" "}
-          <a href="/affiliate-disclosure">affiliate disclosure</a> for details. Clicking an affiliate link may set a
-          cookie on the destination site (e.g. Amazon) to track the referral; this site does not control those
-          cookies.
+          This site includes affiliate links, including through the Amazon Associates program and the Rakuten
+          Advertising network (for example our Ekster links). If you click one and make a purchase, we may earn a
+          commission at no additional cost to you — see our{" "}
+          <a href="/affiliate-disclosure">affiliate disclosure</a> for details. Clicking an affiliate link sends you
+          via the network&apos;s tracking domain (for Rakuten: click.linksynergy.com), which may set a cookie or
+          similar identifier on your device to record the referral and attribute any purchase to this site. This
+          site does not set or read those cookies itself; they are controlled by the network and the retailer, and
+          you can block or delete them in your browser settings or decline them in the retailer&apos;s own cookie
+          banner.
         </p>
 
         <h2>Third-party images</h2>

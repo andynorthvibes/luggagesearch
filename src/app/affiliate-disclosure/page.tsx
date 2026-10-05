@@ -22,8 +22,9 @@ export default function AffiliateDisclosurePage() {
       </p>
       <p>
         {SITE.name} is a participant in the Amazon Associates program, an affiliate advertising program designed to
-        provide a means for sites to earn advertising fees by linking to Amazon.com. We may also participate in
-        affiliate programs run directly by luggage and travel-gear brands.
+        provide a means for sites to earn advertising fees by linking to Amazon.com. We also work with travel-gear
+        brands through the Rakuten Advertising network — currently including Ekster — and may join other brand
+        affiliate programs. Social media posts that promote an affiliate partner are labelled #ad.
       </p>
       <p>
         This site is also designed to display advertising through Google AdSense, which uses cookies to serve ads

@@ -13,7 +13,7 @@ export const EKSTER_TRAVELPACK = {
   url: "https://click.linksynergy.com/link?id=J7Bzx12xvHY&offerid=2041640.5424713762316119513946938&type=2&murl=https%3a%2f%2fwww.ekster.com%2fen-eu%2fproducts%2ftravelpack-vacuum-kit-pro%3fvariant%3d43820928073791",
   badges: ["Red Dot Award", "iF Design Award"],
   bullets: [
-    "USB-C rechargeable pump compresses clothes into a roughly 27-litre bag — Ekster lists up to 70% more packing space and 15+ days of clothing per kit.",
+    "USB-C rechargeable pump compresses clothes into a roughly 27-litre bag — Ekster lists up to 70% more packing space and 10–15 days of clothing per kit.",
     "Half-clamshell opening and a transparent window, so you can see and reach contents without unpacking the whole bag.",
     "Waterproof, anti-rip nylon shell with reinforced seams for stronger air retention over repeated use.",
   ],

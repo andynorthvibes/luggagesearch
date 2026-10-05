@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 };
 
 const specs: { label: string; value: string }[] = [
-  { label: "Capacity", value: "~27 litres, listed for 15+ days of clothing" },
+  { label: "Capacity", value: "~27 litres, listed for 10–15 days of clothing" },
   { label: "Bag dimensions", value: "48 x 30 x 11 cm (18.9 x 11.8 x 4.3 in)" },
   { label: "Pump", value: "USB-C rechargeable, roughly 45 uses per charge" },
   { label: "Opening", value: "Half-clamshell, with a transparent viewing window" },
