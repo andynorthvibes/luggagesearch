@@ -4,6 +4,7 @@ import MobileNav from "./MobileNav";
 
 export const NAV = [
   { href: "/tools/carry-on-checker", label: "Carry-on checker" },
+  { href: "/tools/ar-bag-sizer", label: "AR sizer" },
   { href: "/tools/packing-list", label: "Packing list" },
   { href: "/guides", label: "Guides" },
   { href: "/glossary", label: "Glossary" },

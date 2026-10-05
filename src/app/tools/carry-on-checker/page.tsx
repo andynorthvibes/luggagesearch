@@ -41,6 +41,10 @@ export default function CarryOnCheckerPage() {
         <Link href="/tools/compare-airlines" className="font-bold underline underline-offset-2 hover:text-ink">
           Compare their carry-on rules side by side
         </Link>
+        . On your phone?{" "}
+        <Link href="/tools/ar-bag-sizer" className="font-bold underline underline-offset-2 hover:text-ink">
+          Put the airline&apos;s bag sizer in your room with AR
+        </Link>
         .
       </p>
     </div>

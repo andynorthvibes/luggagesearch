@@ -10,6 +10,7 @@ const staticRoutes = [
   "/guides",
   "/tools/carry-on-checker",
   "/tools/compare-airlines",
+  "/tools/ar-bag-sizer",
   "/tools/packing-list",
   "/glossary",
   "/about",

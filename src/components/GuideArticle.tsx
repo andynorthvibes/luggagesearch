@@ -6,7 +6,7 @@ import PageIntro from "./PageIntro";
 import GuideCard from "./GuideCard";
 import { ArrowIcon } from "./icons";
 import AmazonPicks, { type AmazonPick } from "./AmazonPicks";
-import { getAirlineDatasetJsonLd } from "@/lib/airlines";
+import { AIRLINES, getAirlineDatasetJsonLd } from "@/lib/airlines";
 import { AIRLINE_GUIDE_MAP } from "@/lib/airlineGuideMap";
 
 // Wrapper for long-form guides: intro, photo, body, tool call-to-action, related guides, disclosure.
@@ -30,6 +30,8 @@ export default function GuideArticle({
   // No per-guide wiring needed; guides not in the map (topic guides) get null.
   const airlineSlug = AIRLINE_GUIDE_MAP[href.replace("/guides/", "")];
   const airlineJsonLd = airlineSlug ? getAirlineDatasetJsonLd(airlineSlug, `${SITE.url}${href}`) : null;
+  // Box-shaped limits get a true-to-scale AR sizer (linear L+W+H limits do not).
+  const arAirline = AIRLINES.find((x) => x.slug === airlineSlug && x.measurement === "dimensions" && x.maxCm);
 
   return (
     <article className="mx-auto max-w-[80rem] px-5 sm:px-6 py-16 lg:py-20">
@@ -79,6 +81,14 @@ export default function GuideArticle({
             >
               Open the checker <ArrowIcon className="h-4 w-4" />
             </Link>
+            {arAirline && (
+              <Link
+                href={`/tools/ar-bag-sizer?airline=${arAirline.slug}`}
+                className="font-display mt-3 flex items-center gap-2 text-[15px] font-bold underline underline-offset-2 hover:no-underline"
+              >
+                See {arAirline.name}&apos;s sizer in your room (AR) <ArrowIcon className="h-4 w-4" />
+              </Link>
+            )}
           </div>
         </aside>
       </div>

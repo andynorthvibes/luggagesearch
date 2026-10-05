@@ -7,6 +7,7 @@ const columns = [
     title: "Tools",
     links: [
       { href: "/tools/carry-on-checker", label: "Carry-on size checker" },
+      { href: "/tools/ar-bag-sizer", label: "AR bag sizer" },
       { href: "/tools/packing-list", label: "Packing list generator" },
     ],
   },
