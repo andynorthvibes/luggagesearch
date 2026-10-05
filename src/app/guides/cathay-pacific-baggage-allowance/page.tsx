@@ -4,9 +4,9 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Cathay Pacific: Cabin Weight Scales With Class",
+  title: "Cathay Pacific Baggage Allowance: 7, 10 or 15 kg Cabin",
   description:
-    "Cathay Pacific is one of the few airlines where cabin bag weight rises with cabin class -- 7kg Economy, 10kg Business, 15kg First -- plus a personal item.",
+    "Cathay Pacific carry-on 56 x 36 x 23 cm plus a personal item: 7 kg Economy, 10 kg Business, 15 kg First. Checked: 2 x 23 kg Economy, 2 x 32 kg Business, 3 x 32 kg First.",
   alternates: {
     canonical: "/guides/cathay-pacific-baggage-allowance",
   },

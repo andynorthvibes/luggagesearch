@@ -4,9 +4,9 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "TAP Portugal: How Status Rescues a Cheap Fare",
+  title: "TAP Air Portugal Baggage Allowance: 10 kg Cabin by Fare",
   description:
-    "TAP's cheapest Discount fare includes zero checked bags -- but Star Alliance Gold, Miles&Go Gold, Navigator status, or the TAP Platinum Visa add one back.",
+    "TAP cabin bag 55 x 40 x 25 cm and 10 kg on every fare, plus a 40 x 30 x 15 cm personal item. Discount includes no checked bag; Basic, Classic and Plus get 1 x 23 kg.",
   alternates: {
     canonical: "/guides/tap-air-portugal-baggage-allowance",
   },
@@ -31,8 +31,8 @@ export default function TapAirPortugalBaggageAllowance() {
 
       <h2>Cabin bag and personal item</h2>
       <p>
-        Every economy fare, Discount included, gets one cabin bag at 55 x 40 x 20 cm up to 10 kg, plus a personal
-        item under 2 kg that fits under the seat. Business gets two cabin bags on most routes, but only one on
+        Every economy fare, Discount included, gets one cabin bag at 55 x 40 x 25 cm up to 10 kg, plus a personal
+        item up to 40 x 30 x 15 cm and 2 kg that fits under the seat. Business gets two cabin bags on most routes, but only one on
         flights to North America. Check your bag against TAP and 52 other airlines with our{" "}
         <Link href="/tools/carry-on-checker">carry-on checker</Link>.
       </p>
@@ -86,7 +86,8 @@ export default function TapAirPortugalBaggageAllowance() {
         <li>
           Official baggage policy — check current rules directly on 
           <a href="https://www.flytap.com" target="_blank" rel="noopener noreferrer nofollow">flytap.com</a> 
-          before flying, since fares and allowances change. Last verified: 9 September 2026.
+          before flying, since fares and allowances change. Last verified: 9 September 2026 (cabin bag and
+          personal item sizes re-checked on flytap.com on 5 October 2026).
         </li>
       </ul>
     </GuideArticle>

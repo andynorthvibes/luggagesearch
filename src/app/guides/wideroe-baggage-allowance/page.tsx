@@ -4,9 +4,9 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Wideroe: Over 23kg Flies Standby, Not Guaranteed",
+  title: "Wideroe Baggage Allowance: 8 kg Cabin, 23 kg Checked",
   description:
-    "Wideroe's small regional aircraft have limited cargo capacity -- checked baggage over 23kg is only accepted on a standby basis and can end up on a later flight.",
+    "Wideroe cabin bag 55 x 40 x 20 cm plus a small bag, 8 kg combined. Checked: none on Mini, 1 x 23 kg on Smart, up to 2 x 23 kg on Flex. Over 23 kg flies standby.",
   alternates: {
     canonical: "/guides/wideroe-baggage-allowance",
   },
@@ -31,7 +31,7 @@ export default function WideroeBaggageAllowance() {
       <h2>Cabin baggage</h2>
       <p>
         Mini includes one small bag only, up to 40 x 30 x 15 cm. Smart, Flex and Full Flex all include one piece
-        of hand luggage up to 55 x 40 x 20 cm plus the same small bag. Check your bag against Wideroe and 52
+        of hand luggage up to 55 x 40 x 20 cm plus the same small bag. The 8 kg weight limit covers the cabin bag and small bag together. Check your bag against Wideroe and 52
         other airlines with our <Link href="/tools/carry-on-checker">carry-on checker</Link>.
       </p>
 

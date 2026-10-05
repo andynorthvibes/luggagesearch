@@ -4,9 +4,9 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Delta: Basic Economy vs Main Cabin Fees",
+  title: "Delta Baggage Allowance: Carry-On Size & 2026 Bag Fees",
   description:
-    "Delta doesn't weigh cabin bags, but checked-bag fees depend heavily on fare class and route -- here's what Basic Economy actually costs versus standard fares.",
+    "Delta carry-on 56 x 35 x 23 cm with no weight limit, plus a free personal item. Checked bags: $45 first / $55 second domestic; Basic Economy to Europe $60 / $100.",
   alternates: {
     canonical: "/guides/delta-baggage-allowance",
   },

@@ -4,9 +4,9 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "EVA Air: A Different Rule on the US-Taiwan Route",
+  title: "EVA Air Baggage Allowance: 7 kg Cabin, 23 kg Checked",
   description:
-    "EVA Air's checked baggage switches from weight-based to two-piece on US-Taiwan routes specifically, while the 7kg cabin bag limit applies everywhere.",
+    "EVA Air cabin bag 56 x 36 x 23 cm and 7 kg - weighed at the gate - plus a personal item. Checked: 1 x 23 kg on most routes, 2 x 23 kg between the US and Taiwan.",
   alternates: {
     canonical: "/guides/eva-air-baggage-allowance",
   },

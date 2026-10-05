@@ -4,9 +4,9 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Korean Air: A 2025 Change Cut the Free Bag Count",
+  title: "Korean Air Baggage Allowance: 10 kg Cabin, Checked Bags",
   description:
-    "Tickets issued after June 2025 get only one free checked bag on Korean Air's Economy Saver fare, even to the US -- down from two -- gates weigh bags strictly.",
+    "Korean Air cabin: 55 x 40 x 20 cm bag + 40 x 30 x 15 cm personal item, 10 kg combined and strictly weighed. Economy Saver tickets since June 2025 get one free checked bag.",
   alternates: {
     canonical: "/guides/korean-air-baggage-allowance",
   },

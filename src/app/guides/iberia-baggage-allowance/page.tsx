@@ -4,9 +4,9 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Iberia: Economy Basic Skips the Checked Bag",
+  title: "Iberia Baggage Allowance: 10 kg Cabin, Checked by Fare",
   description:
-    "Iberia's Economy Basic fare includes no checked bag -- add one from around EUR 13 online -- while cabin bag weight scales from 10kg to 14kg in Business.",
+    "Iberia cabin bag 56 x 40 x 25 cm, 10 kg in Economy (14 kg Business), plus a free 40 x 30 x 15 cm personal item. Economy Basic has no checked bag - add one from ~EUR 13.",
   alternates: {
     canonical: "/guides/iberia-baggage-allowance",
   },

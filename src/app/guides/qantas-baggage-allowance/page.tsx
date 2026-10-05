@@ -4,9 +4,9 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Qantas: Weight-Based vs Piece-Based, by Route",
+  title: "Qantas Baggage Allowance: 7 kg Cabin, Checked by Route",
   description:
-    "Qantas switches between a weight-based and a piece-based checked baggage system depending on your route -- which one applies, and what it means for you.",
+    "Qantas Economy carry-on: 7 kg (115 cm max) plus a personal item; Business and First get 14 kg. Checked bags are counted by weight or by piece depending on your route.",
   alternates: {
     canonical: "/guides/qantas-baggage-allowance",
   },

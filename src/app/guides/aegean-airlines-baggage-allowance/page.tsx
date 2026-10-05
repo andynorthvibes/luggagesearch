@@ -4,9 +4,9 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Aegean Airlines: Cabin Size Depends on the Plane",
+  title: "Aegean Baggage Allowance: Cabin Size Depends on the Plane",
   description:
-    "Aegean Airlines sets cabin bag dimensions by aircraft type, not fare class -- Airbus jets allow a larger bag than the turboprops on regional routes.",
+    "Aegean cabin bags can be 56 x 45 x 25 cm on Airbus jets but 55 x 40 x 23 cm on turboprops. Personal item rules, Economy Light gate-checks and checked bags up to 32 kg.",
   alternates: {
     canonical: "/guides/aegean-airlines-baggage-allowance",
   },

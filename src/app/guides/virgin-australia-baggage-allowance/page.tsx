@@ -4,9 +4,9 @@ import GuideArticle from "@/components/GuideArticle";
 import { CARRY_ON_PICKS } from "@/lib/amazonPicks";
 
 export const metadata: Metadata = {
-  title: "Virgin Australia: Economy X Matches Business Cabin",
+  title: "Virgin Australia Baggage Allowance: 8 kg & 14 kg Cabin",
   description:
-    "Since February 2026, Virgin Australia's Economy carry-on rose from 7kg to 8kg, and Economy X now gets two cabin bags at 14kg -- the same as Business, for less.",
+    "Virgin Australia Economy: one 8 kg carry-on (56 x 36 x 23 cm) plus a personal item. Economy X and Business: up to 14 kg combined. Velocity status bag bonuses inside.",
   alternates: {
     canonical: "/guides/virgin-australia-baggage-allowance",
   },
